@@ -1,4 +1,4 @@
-# Skull-HEad-Game
+# Skull-Head-Game
 A game about a Forgor lost in Hell.
 
 
