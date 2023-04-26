@@ -18,4 +18,10 @@ public class LevelLoader : MonoBehaviour
     {
         SceneManager.LoadScene(SceneName);
     }
+
+    public void GoToMenu()
+    {
+        SceneManager.LoadScene("Scenes/Menu/Menu", LoadSceneMode.Single);
+        Coin.totalCoins = 0;
+    }
 }

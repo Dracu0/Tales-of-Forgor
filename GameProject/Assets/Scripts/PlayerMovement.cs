@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask whatIsGround;
     private bool viradoDireita;
     private bool crouch;
+    private bool running;
     public float JumpHeight;
     private int previousSceneIndex;
     private float dirX;
@@ -70,9 +71,11 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
             
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) && grounded)
         {
-            rb.velocity = new Vector2((dirX * runspeed), rb.velocity.y);
+            rb.AddForce(new Vector2(rb.velocity.x * runspeed, 0f), ForceMode2D.Force);
+            running = true;
+            //Debug.Log(running);
         }
         
         if (Input.GetKey(KeyCode.LeftControl))
@@ -98,7 +101,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(Input.GetKeyUp(KeyCode.Escape))
         {
-            SceneManager.LoadScene("Scenes/Menu/Menu");
+            SceneManager.LoadScene("Scenes/Menu/Menu", LoadSceneMode.Single);
             Coin.totalCoins = 0;
         }
 
@@ -152,7 +155,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("open"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
             Coin.totalCoins = 0;
         }
 
@@ -163,7 +166,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("GoToMain"))
         {
-            SceneManager.LoadScene("Scenes/Menu/Menu");
+            SceneManager.LoadScene("Scenes/Menu/Menu", LoadSceneMode.Single);
             Coin.totalCoins = 0;
         }
 
@@ -175,7 +178,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("MiniGame"))
         {
-            SceneManager.LoadScene("Scenes/Levels/Level_MiniGame");
+            SceneManager.LoadScene("Scenes/Levels/Level_MiniGame", LoadSceneMode.Single);
             Coin.totalCoins = 0;
         }
     }

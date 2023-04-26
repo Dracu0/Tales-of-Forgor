@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\UI_Appear.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\TextNcoins.cs" />
+    <Compile Include="Assets\Scripts\LevelSelection.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

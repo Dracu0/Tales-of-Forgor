@@ -26,6 +26,5 @@ public class DeathScreen : MonoBehaviour
         SceneManager.LoadScene("Scenes/Menu/Menu");
 
         Coin.totalCoins = 0;
-
     }
 }
