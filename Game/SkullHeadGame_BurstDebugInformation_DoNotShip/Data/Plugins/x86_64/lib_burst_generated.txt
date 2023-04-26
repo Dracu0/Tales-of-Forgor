@@ -1,4 +1,4 @@
-Library: F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+Library: C:\Users\david\Skull-Head-Game\GameProject\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --platform=Windows
 --backend=burst-llvm-14
 --target=X64_SSE2
@@ -131,8 +131,8 @@ Library: F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Temp\StagingAre
 --compilation-defines=ENABLE_URP
 --linker-options=PdbAltPath="SkullHeadGame_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Temp\Burst
---output=F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--temp-folder=C:\Users\david\Skull-Head-Game\GameProject\Temp\Burst
+--output=C:\Users\david\Skull-Head-Game\GameProject\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 --pdb-search-paths=Temp/ManagedSymbols/
 
@@ -283,8 +283,8 @@ Library: F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Temp\StagingAre
 --compilation-defines=ENABLE_URP
 --linker-options=PdbAltPath="SkullHeadGame_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
---temp-folder=F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Temp\Burst
---output=F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--temp-folder=C:\Users\david\Skull-Head-Game\GameProject\Temp\Burst
+--output=C:\Users\david\Skull-Head-Game\GameProject\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 --pdb-search-paths=Temp/ManagedSymbols/
 
