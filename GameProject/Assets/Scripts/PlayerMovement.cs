@@ -10,7 +10,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] 
     public float walkspeed;
     public float runspeed;
-    public float jumpspeed;
     public float friction;
     private bool doubleJump;
     public float groundRadius;
@@ -23,12 +22,12 @@ public class PlayerMovement : MonoBehaviour
     public int ncoins;
     public LayerMask whatIsGround;
     private bool viradoDireita;
-    public bool crouch;
-    public int JumpHeight;
-    private int jumpCounter;
+    private bool crouch;
+    public float JumpHeight;
     private int previousSceneIndex;
+    private float dirX;
+    public float doubleJumpHeight;
 
-    // Start is called before the first frame update
     private void Start()
     {
         open.SetActive(false);
@@ -42,29 +41,35 @@ public class PlayerMovement : MonoBehaviour
         previousSceneIndex = PlayerPrefs.GetInt("previousSceneIndex");
     }
 
-    // Update is called once per frame
     private void Update()
     {
-        float dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * walkspeed, rb.velocity.y);
+        dirX = Input.GetAxisRaw("Horizontal");
+        
+        float forceOfAcceleration = Mathf.Abs(rb.mass*Physics.gravity.y);
 
-        if (Input.GetKeyDown(KeyCode.Space) && (!crouch || grounded || doubleJump))
+        if (grounded && !Input.GetKey(KeyCode.Space))
         {
-            /*if (jumpCounter == 0)
+            doubleJump = false;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if(grounded || doubleJump)
             {
-                return;
-            }*/
+                rb.velocity = new Vector2(rb.velocity.x, doubleJump ? doubleJumpHeight : JumpHeight);
 
-            anim.Play("Jump");
-            anim.SetBool("Grounded", true);
-            if (grounded) doubleJump = true;
-            //if (grounded && !doubleJump) jumpCounter = 0;
-            //rb.AddForce(Vector2.up * jumpspeed, ForceMode2D.Impulse);
-            rb.AddForce(Vector2.up * Mathf.Sqrt(JumpHeight * -2f * Physics.gravity.y), ForceMode2D.Impulse);
-            //jumpCounter--;
-            
+                doubleJump = !doubleJump;
+
+                anim.Play("Jump");
+                anim.SetBool("Grounded", true);
+            }
         }
 
+        if(Input.GetKeyUp(KeyCode.Space) && rb.velocity.y > 0f)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+        }
+            
         if (Input.GetKey(KeyCode.LeftShift))
         {
             rb.velocity = new Vector2((dirX * runspeed), rb.velocity.y);
@@ -73,7 +78,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftControl))
         {
             crouch = true;
-            //Debug.Log("Is crouched");
         }
 
         if (Input.GetKeyDown(KeyCode.LeftControl))
@@ -92,6 +96,12 @@ public class PlayerMovement : MonoBehaviour
             bc.offset = new Vector2(0.0f, 0.0f);
         }
 
+        if(Input.GetKeyUp(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Scenes/Menu/Menu");
+            Coin.totalCoins = 0;
+        }
+
         RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up);
 
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
@@ -104,6 +114,11 @@ public class PlayerMovement : MonoBehaviour
                 closed.SetActive(false);
                 open.SetActive(true);
             }
+    }
+
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector2(dirX * walkspeed, rb.velocity.y);
     }
 
     void Flip()
@@ -168,7 +183,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (tag == "Player")
         {
-            // Store the current scene index in PlayerPrefs when transitioning to the death screen
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             PlayerPrefs.SetInt("previousSceneIndex", currentSceneIndex);
             PlayerPrefs.Save();
