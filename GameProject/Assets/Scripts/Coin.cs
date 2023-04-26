@@ -30,7 +30,6 @@ public class Coin : MonoBehaviour
             Debug.Log("You currently have " + Coin.totalCoins + " Coins.");
             //Destroy coin
             Destroy(gameObject);
-
         }
     }
 }

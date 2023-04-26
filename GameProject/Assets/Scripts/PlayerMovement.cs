@@ -105,12 +105,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void SceneNCoins()
     {
-        /*Scene = SceneUtility.GetBuildIndexByScenePath("Scenes/Levels");
-
-        if (scene.name == "Level_1")
-        {
-
-        }*/
+        int sceneNcoins = ncoins;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -137,6 +132,11 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("tutorial"))
         {
             SceneManager.LoadScene(sceneName:"Level_Tutorial",LoadSceneMode.Single);
+        }
+
+        if (collision.gameObject.CompareTag("open"))
+        {
+            Coin.totalCoins = 0;
         }
     }
     private void OnDisable()
