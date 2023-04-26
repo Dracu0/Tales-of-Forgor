@@ -10,6 +10,7 @@ TagManager:
   - Spike
   - ReplayButton
   - QuitButton
+  - tutorial
   layers:
   - Default
   - TransparentFX

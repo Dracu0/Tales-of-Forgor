@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftControl))
         {
             crouch = true;
-            Debug.Log("Is crouched");
+            //Debug.Log("Is crouched");
         }
 
         if (Input.GetKeyDown(KeyCode.LeftControl))
@@ -118,8 +118,7 @@ public class PlayerMovement : MonoBehaviour
         /*if(collision.gameObject.CompareTag("Coin"))
         {
             /*Destroy(collision.gameObject);
-            ncoins--;
-            
+            ncoins--; 
         }*/
 
         if (collision.gameObject.name == ("Spikes"))
@@ -133,6 +132,11 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("open"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+
+        if (collision.gameObject.CompareTag("tutorial"))
+        {
+            SceneManager.LoadScene(sceneName:"Level_Tutorial",LoadSceneMode.Single);
         }
     }
     private void OnDisable()
