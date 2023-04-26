@@ -150,6 +150,7 @@ public class PlayerMovement : MonoBehaviour
             Destroy(player.gameObject);
             player.gameObject.GetComponent<PlayerMovement>().enabled = false;
             SceneManager.LoadScene(sceneName:"DeathScreen", LoadSceneMode.Single);
+            Debug.Log(collision);
 
         }
 
