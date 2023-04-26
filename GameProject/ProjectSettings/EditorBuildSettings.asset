@@ -19,6 +19,9 @@ EditorBuildSettings:
     guid: c4fab965c36f163479266a9b654d5653
   - enabled: 1
     path: Assets/Scenes/Levels/Level_Tutorial.unity
+    guid: 6ca8a6bdfebe9384e835ccec2edd509d
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_MiniGame.unity
     guid: 904130fcb1a7cb749bc1165827318b4f
   - enabled: 1
     path: Assets/Scenes/Menu/DeathScreen.unity

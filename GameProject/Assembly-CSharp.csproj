@@ -59,13 +59,16 @@
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\LevelChanger.cs" />
     <Compile Include="Assets\Scripts\WinScreen.cs" />
+    <Compile Include="Assets\Scripts\PlayerMiniGame.cs" />
     <Compile Include="Assets\Scripts\DeathScreen.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\CoinCounter.cs" />
     <Compile Include="Assets\Scripts\Coin.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\MiniGame.cs" />
     <Compile Include="Assets\Scripts\UI_Appear.cs" />
     <Compile Include="Assets\Scripts\TextNcoins.cs" />
+    <Compile Include="Assets\Scripts\LevelLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

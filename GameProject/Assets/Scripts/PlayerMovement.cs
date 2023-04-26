@@ -25,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
     private bool viradoDireita;
     public bool crouch;
     public int JumpHeight;
+    private int jumpCounter;
+    private int previousSceneIndex;
 
     // Start is called before the first frame update
     private void Start()
@@ -37,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
         viradoDireita = true;
         groundRadius = 0.2f;
         crouch = Input.GetKey(KeyCode.LeftControl);
+        previousSceneIndex = PlayerPrefs.GetInt("previousSceneIndex");
     }
 
     // Update is called once per frame
@@ -44,15 +47,22 @@ public class PlayerMovement : MonoBehaviour
     {
         float dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * walkspeed, rb.velocity.y);
-        
 
         if (Input.GetKeyDown(KeyCode.Space) && (!crouch || grounded || doubleJump))
         {
+            /*if (jumpCounter == 0)
+            {
+                return;
+            }*/
+
             anim.Play("Jump");
             anim.SetBool("Grounded", true);
             if (grounded) doubleJump = true;
+            //if (grounded && !doubleJump) jumpCounter = 0;
             //rb.AddForce(Vector2.up * jumpspeed, ForceMode2D.Impulse);
             rb.AddForce(Vector2.up * Mathf.Sqrt(JumpHeight * -2f * Physics.gravity.y), ForceMode2D.Impulse);
+            //jumpCounter--;
+            
         }
 
         if (Input.GetKey(KeyCode.LeftShift))
@@ -95,6 +105,7 @@ public class PlayerMovement : MonoBehaviour
                 open.SetActive(true);
             }
     }
+
     void Flip()
     {
         viradoDireita = !viradoDireita;
@@ -127,6 +138,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("open"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Coin.totalCoins = 0;
         }
 
         if (collision.gameObject.CompareTag("tutorial"))
@@ -134,8 +146,21 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene(sceneName:"Level_Tutorial",LoadSceneMode.Single);
         }
 
-        if (collision.gameObject.CompareTag("open"))
+        if (collision.gameObject.CompareTag("GoToMain"))
         {
+            SceneManager.LoadScene("Scenes/Menu/Menu");
+            Coin.totalCoins = 0;
+        }
+
+        if (collision.gameObject.CompareTag("BackToPreviousLevel"))
+        {
+            SceneManager.LoadScene(previousSceneIndex);
+            Coin.totalCoins = 0;
+        }
+
+        if (collision.gameObject.CompareTag("MiniGame"))
+        {
+            SceneManager.LoadScene("Scenes/Levels/Level_MiniGame");
             Coin.totalCoins = 0;
         }
     }

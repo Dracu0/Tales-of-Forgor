@@ -11,6 +11,10 @@ TagManager:
   - ReplayButton
   - QuitButton
   - tutorial
+  - GoToMain
+  - MiniGame
+  - BackToPreviousLevel
+  - GoToLevel
   layers:
   - Default
   - TransparentFX
