@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask whatIsGround;
     private bool viradoDireita;
     public bool crouch;
+    public int JumpHeight;
 
     // Start is called before the first frame update
     private void Start()
@@ -43,30 +44,40 @@ public class PlayerMovement : MonoBehaviour
     {
         float dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * walkspeed, rb.velocity.y);
+        
 
-        if (Input.GetKeyDown(KeyCode.Space) && (crouch || grounded || doubleJump))
+        if (Input.GetKeyDown(KeyCode.Space) && (!crouch || grounded || doubleJump))
         {
             anim.Play("Jump");
             anim.SetBool("Grounded", true);
-            if (grounded) doubleJump = false;
-            rb.AddForce(Vector2.up * jumpspeed, ForceMode2D.Impulse);
+            if (grounded) doubleJump = true;
+            //rb.AddForce(Vector2.up * jumpspeed, ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up * Mathf.Sqrt(JumpHeight * -2f * Physics.gravity.y), ForceMode2D.Impulse);
         }
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
             rb.velocity = new Vector2((dirX * runspeed), rb.velocity.y);
         }
+        
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            crouch = true;
+            Debug.Log("Is crouched");
+        }
 
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             anim.SetBool("Crouch", true);
-            bc.size = new Vector2(0.15f, 0.15f);
+            crouch = true;
+            bc.size = new Vector2(0.15f, 0.10f);
             bc.offset = new Vector2(0.0f, -0.05f);
         }
 
         if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             anim.SetBool("Crouch", false);
+            crouch = false;
             bc.size = new Vector2(0.2f, 0.3f);
             bc.offset = new Vector2(0.0f, 0.0f);
         }
