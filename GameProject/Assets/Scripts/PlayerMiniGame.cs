@@ -40,8 +40,6 @@ public class PlayerMiniGame : MonoBehaviour
 
         if ((dirX < 0 && viradoDireita) || (dirX > 0 && !viradoDireita)) Flip();
 
-
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

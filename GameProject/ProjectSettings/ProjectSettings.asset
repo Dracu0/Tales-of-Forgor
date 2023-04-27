@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: SkullHeadGame
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: b1851ad9aae119d4ebe86c7ef8e7ffa4, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1

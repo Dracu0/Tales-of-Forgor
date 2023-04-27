@@ -12,6 +12,7 @@ TagManager:
   - tutorial
   - GoToLevel
   - BackToPreviousLevel
+  - GoToMain
   layers:
   - Default
   - TransparentFX

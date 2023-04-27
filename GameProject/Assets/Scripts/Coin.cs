@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
 public class Coin : MonoBehaviour
 {
@@ -9,7 +6,7 @@ public class Coin : MonoBehaviour
     public static int totalCoins = 0;
     
 
-    void Awake()
+    private void Start()
     {
         //Make Collider2D as trigger 
         GetComponent<Collider2D>().isTrigger = true;
@@ -19,7 +16,7 @@ public class Coin : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         //Destroy the coin if Object tagged Player comes in contact with it
         if (collision.CompareTag("Player"))

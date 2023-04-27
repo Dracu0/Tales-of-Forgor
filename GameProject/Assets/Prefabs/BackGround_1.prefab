@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2594922619611213142}
   - component: {fileID: 4307226159957560423}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: BG1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5048465507475056123}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: BackGround_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,5 +114,5 @@ Transform:
   m_Children:
   - {fileID: 2594922619611213142}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
