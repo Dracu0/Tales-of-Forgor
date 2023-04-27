@@ -4,25 +4,21 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Coin
+  - Spike
   - closed
   - open
-  - Spike
-  - ReplayButton
-  - QuitButton
-  - tutorial
-  - GoToMain
   - MiniGame
-  - BackToPreviousLevel
+  - Coin
+  - tutorial
   - GoToLevel
+  - BackToPreviousLevel
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - whatIsGround
   - Water
   - UI
-  - whatIsGround
   - 
   - 
   - 
@@ -47,7 +43,8 @@ TagManager:
   - 
   - 
   - 
-  - BackGround
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
