@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2023.1/staging' branch; Version is '2023.1.0b13 (1ded5e7d1e7e) revision 1961310'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'pt' Physical Memory: 65459 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2023.1.0b13\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ F:/Downloads/Unity Projects/Skull-Head-Game/GameProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58686
+56960
 Successfully changed project path to: F:/Downloads/Unity Projects/Skull-Head-Game/GameProject
 F:/Downloads/Unity Projects/Skull-Head-Game/GameProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,14 +47,14 @@ F:/Downloads/Unity Projects/Skull-Head-Game/GameProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34240] Host "[IP] 192.168.0.134 [Port] 0 [Flags] 2 [Guid] 981737057 [EditorId] 981737057 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DAVID) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5788] Host "[IP] 192.168.0.134 [Port] 0 [Flags] 2 [Guid] 2165766408 [EditorId] 2165766408 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DAVID) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [34240] Host "[IP] 192.168.0.134 [Port] 0 [Flags] 2 [Guid] 981737057 [EditorId] 981737057 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DAVID) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5788] Host "[IP] 192.168.0.134 [Port] 0 [Flags] 2 [Guid] 2165766408 [EditorId] 2165766408 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DAVID) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 89.28 ms, found 4 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 8.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.21f1 (1b156197d683)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2023.1.0b13 (1ded5e7d1e7e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.0b13/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/Downloads/Unity Projects/Skull-Head-Game/GameProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -64,1664 +64,491 @@ Direct3D:
     VRAM:     12107 MB
     Driver:   31.0.15.3168
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.0b13/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.0b13/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.0b13/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
 Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004069 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.0b13/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002356 seconds.
+- Loaded All Assemblies, in  0.264 seconds
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 86.78 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.519 seconds
-Domain Reload Profiling:
-	ReloadAssembly (520ms)
-		BeginReloadAssembly (65ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (382ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (242ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (110ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.004899 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 96.05 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.131 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1132ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (912ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
-			ReleaseScriptCaches (7ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (506ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (96ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (80ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.218 seconds
+Domain Reload Profiling: 481ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (91ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (219ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.721 seconds
+Refreshing native plugins compatible for Editor in 4.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.566 seconds
+Domain Reload Profiling: 1285ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (206ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (566ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (344ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.09 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (0.8 MB). Loaded Objects now: 5677.
-Memory consumption went from 207.1 MB to 206.2 MB.
-Total: 6.862200 ms (FindLiveObjects: 0.738000 ms CreateObjectMapping: 0.413900 ms MarkObjects: 5.340600 ms  DeleteObjects: 0.368900 ms)
+Unloading 5761 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (1.5 MB). Loaded Objects now: 6302.
+Memory consumption went from 228.8 MB to 227.3 MB.
+Total: 4.688800 ms (FindLiveObjects: 0.358900 ms CreateObjectMapping: 0.165200 ms MarkObjects: 3.855200 ms  DeleteObjects: 0.308800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EditorAssembliesProxy.cs: 23426c61d1cfec53ec65b1ed2f77c773 -> ef0f2d44f3e723650bf58ba30866667b
+  custom:scripting/monoscript/fileName/OuterUnityTestActionCommand.cs: eacf156fb6f74d2f6b697bf47e9a72eb -> 36c13d7d2a2c5c2f372e7b1c0cc06d4d
+  custom:scripting/monoscript/fileName/EnterPlayMode.cs: 3cb26e64a9bc927aa1556d517c8e8a78 -> c730bf9ff77514bb260ba9933378e49c
+  custom:scripting/monoscript/fileName/NavMeshModifierVolumeEditor.cs: 5dc38ce975f8531f0c32b6103abe4b3a -> 262a50135a116189426aa01c964a744c
+  custom:scripting/monoscript/fileName/IPlatformSetup.cs: 9a0668684da27d1ddefa88d99d869448 -> 6f20476898784a15f8b8eb28653a67fd
+  custom:scripting/monoscript/fileName/AnalyticsTestCallback.cs: 86b513e5c36f0343183de924372e6da6 -> 70c2658c96c40ebe349fda85c81dae6e
+  custom:scripting/monoscript/fileName/TestResultRendererCallback.cs: 11a504294abe84b81ed7535d2d6b52d7 -> 215106b260625bb3e26681b849d9307d
+  custom:scripting/monoscript/fileName/EditModePCHelper.cs: fed3c3b34697ace66d06f26c80e9297a -> e16a214ddb2d161f4792170cb0c8e6aa
+  custom:scripting/monoscript/fileName/TestListCache.cs: 8e95164bb40beaf2361efc98dc17a66b -> ff7c7e6ac29ad86c5fe33a64ed0d2f4f
+  custom:scripting/monoscript/fileName/TestResultAdaptor.cs: 39fb6e85727c0d47ffa8785f61586e3d -> fb4db3971d5379750cda884e7e44e3e4
+  custom:scripting/monoscript/fileName/NavMeshUpdaterEditor.cs: 50121c23ec79e7ac6c70dd99f719297f -> 169704080eda430978bba61ddedeb304
+  custom:scripting/monoscript/fileName/VSCodeDiscovery.cs: d83b4aff57b85f583bfc60cfbb7e527e -> 
+  custom:scripting/monoscript/fileName/RemoteTestResultDataWithTestData.cs: 21f6a5ed6216bf99941b16dfe0613ec5 -> bcf701fb298ed6f8cab894b203300c37
+  custom:scripting/monoscript/fileName/TaskList.cs: c6d4796281979c919e90fe6b89658a6f -> e954332f41a275349f70e730619a6eef
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AssetsDatabaseHelper.cs: 3deb384d73768aa5a87c1835c3d7553a -> e690d63c7b932a5efaeaf8c476198e75
+  custom:scripting/monoscript/fileName/HelpUrls.cs: 2ab62bc7616e1f75bb9eaa819a355c35 -> c1a90585e3e9c9d25f58f9141655f24f
+  custom:scripting/monoscript/fileName/IOuterUnityTestAction.cs: 1f62717facda0b560b4af9da3d21fc98 -> 58e7f8b884a5d88e319b8f448f29bfdb
+  custom:scripting/monoscript/fileName/TaskInfo.cs: 65883b140d79a9ed520e1cc62cbeca06 -> 434f2b2462f8fd1cbbc653b845cb8740
+  custom:scripting/monoscript/fileName/TestListProvider.cs: 58a05dfe9100cc52adea57fc4a0b6c62 -> f8235933605b6a025c9638df0194bf97
+  custom:scripting/monoscript/fileName/UnitySetUpAttribute.cs: 4ed69b5a4764c67bceaa6f04d0d8776f -> 78bcd37bf54751e70200df4ae24f405b
+  custom:scripting/monoscript/fileName/PlayModeRunnerCallback.cs: 10f699e46ae6f3eea3e1c18bf2bc25ed -> 6cd874bc3032a6eaf4228f5877b27ba0
+  custom:scripting/monoscript/fileName/TestAdaptor.cs: 8d757a7cd1f19e6976312b3b884a590f -> 486cec8559bad7c56adc699f165feb67
+  custom:scripting/monoscript/fileName/NavMeshSceneConverter.cs: 6496c5f8eec789f0b87d8b24a60b77ce -> baf486a1c1cdf03a3111dd113d13c2f4
+  custom:scripting/monoscript/fileName/TestListTreeViewGUI.cs: 5d4e7ac9fc0c5382f19d49599ef6cbd8 -> bf873c97e960a33b0be65a5b638e7ff5
+  custom:scripting/monoscript/fileName/TestRunnerApi.cs: 408850af0335590a81157f3e3ba8cf44 -> b5c17af6fa247dfc791b512a209021d3
+  custom:scripting/monoscript/fileName/ApplePlatformSetup.cs: 4b442da1fea709240aeaf74bde720d3c -> 0ceeffeb4378c50fe08ff9b5d16a73f3
+  custom:scripting/monoscript/fileName/LogAssert.cs: 8c30e2367a22f747fb9a538551ddb198 -> 195ab501c85f741ece9ac8b49385dcce
+  custom:scripting/monoscript/fileName/ITestListProvider.cs: 4f1a13a1dbecabb9f7515cef8fe120ff -> 0169c532d74787e64cd4163cd55d4572
+  custom:scripting/monoscript/fileName/InitializeConverterContext.cs: 50a04ff198dcd709e5450f3b9d7061b1 -> a45c5db80ce634a6cb9d0945b8b3954d
+  custom:scripting/monoscript/fileName/ColorEqualityComparer.cs: 9c477fa3f8fc3439b732377dad0e7a34 -> 9ae684bc4a6b608abc9f7f131bd7cb1d
+  custom:scripting/monoscript/fileName/IRemoteTestResultDataFactory.cs: c24506e6d6305475bf6a430f77ac582f -> 75d430448dca0118dc834f9aa964be1e
+  custom:scripting/monoscript/fileName/LogSavingCallbacks.cs: 273a5ca581d39891e634ebf18363d22c -> 8eb93b3e2c76ea1a8acb6e2d0b5c5f91
+  custom:scripting/monoscript/fileName/ExecutionSettings.cs: 3e46076abe70bbfac850fc39d98561b1 -> bbd5f229f5dcda0d2d7d6fe8eb266a59
+  custom:scripting/monoscript/fileName/CoroutineTestWorkItem.cs: 8fab9934b84f896f44392a777ae472de -> 8a69ee5c1adc29acc0a66cb7df14cbcf
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CreateNewSceneTask.cs: 75aa358640b17b115b5230a8874db8a1 -> 59e4c021d917d2583d46bbf336f676cf
+  custom:scripting/monoscript/fileName/ConstructDelegator.cs: 7526886647893577a45527c0f6393600 -> c271ca33e5434ac87e82546dd149c303
+  custom:scripting/monoscript/fileName/ConstraintsExtensions.cs: 19d048a2938a4b2b178e7e91279126b7 -> 89e01f1f8de15d891db3bad70117d924
+  custom:scripting/monoscript/fileName/EditModeRunner.cs: 0c2c70d0e910f1733ef8492efbf3dda1 -> f1ceb581ae48e42ca32e80f796ce45bc
+  custom:scripting/monoscript/fileName/Filter.cs: 18ef22850e69a0e3e97548ae5b255f92 -> 935824dbebf762a19f2d4c4751625fe2
+  custom:scripting/monoscript/fileName/WorkItemFactory.cs: 9cd58300f748e3250316447e9d2a8d06 -> d8b2e380888ccc980a475a01f04d7a45
+  custom:scripting/monoscript/fileName/RunSettings.cs: c8ba576640d505c59ca4d995eb1b55e6 -> 6770f3fdaf287e73ff6c63f28a5a7e92
+  custom:scripting/monoscript/fileName/EnumerableApplyChangesToContextCommand.cs: 7e82e96f40f2bf4118aab6f6aef1d287 -> c2aa6cedc66892dd581c50a4d9b6a147
+  custom:scripting/monoscript/fileName/DefaultTestWorkItem.cs: df6f5a85dcc29cabfe426927cfff8766 -> f906b4fb5b78cb9d23a07212620919d9
+  custom:scripting/monoscript/fileName/BuiltInToNavMeshSurfaceConverterContainer.cs: c211ada32dadd57d744f821bc5284c6c -> c40a906f9f99ea8a6c5aaa215767017f
+  custom:scripting/monoscript/fileName/PlayModeTestListGUI.cs: 06fa04893405baa089efbd0d5d9148f5 -> 9528035223f9376ea8c5bf32da2d30c1
+  custom:scripting/monoscript/fileName/PlayerQuitHandler.cs: b367910cee7b2e682885ab95e27ec0ea -> b4085dee8fd70ae04ac96945fafed489
+  custom:scripting/monoscript/fileName/PrebuildSetupAttributeFinder.cs: 2bad1feb91972325181c65f0d7b65426 -> 1f975f3a70c8f9747da919735d84e6c3
+  custom:scripting/monoscript/fileName/NavigationWindow.cs: 1279a85ab048fbed97c5121b62728812 -> 7884404b71178f59d8819c380b951d7c
+  custom:scripting/monoscript/fileName/TestExtensions.cs: 06f4dc0f3112fa2e5582ace2497b1b80 -> 8e47deac44d7b87eaa5df5d00556dc15
+  custom:scripting/monoscript/fileName/LogWriter.cs: a4f5ec34386b4e23f87b43dd16f6db46 -> 89105d9cfbe59e79a996dde998b3e7ff
+  custom:scripting/monoscript/fileName/ISettingsBuilder.cs: 519472d4601ec620807556de1c3db699 -> af84c62ea6a033820a24a2d04c70d5c3
+  custom:scripting/monoscript/fileName/EditModeTestListGUI.cs: a98030493fb98a8b991f604a2765c4e5 -> 8831f0ca2dcd13614282b516af72c688
+  custom:scripting/monoscript/fileName/NavMeshComponentsGUIUtility.cs: 031a331373bebd0dbd0914421ec4dc78 -> 08c52049b94db52661003d42fda4ecff
+  custom:scripting/monoscript/fileName/AssemblyNameFilter.cs: 6517804d9019b844c3f33c3b43a18f84 -> ce7ef29746fb23841833950bb87cfa6a
+  custom:scripting/monoscript/fileName/EnumerableTestState.cs: 074d7b301977647491f399c62e52cbc1 -> 30e3efb82d3f99d65cdecdd2f0bc0194
+  custom:scripting/monoscript/fileName/ITestPlayerBuildModifier.cs: 144d61bec4e604c687a559324e865570 -> fe113c86bde5fdad424c8cc5e51fe0a4
+  custom:scripting/monoscript/fileName/CleanupVerificationTask.cs: 66002b5b43bdce8f787c2d84fc03dc42 -> 12e81b196e7eac521f1ae8e0411b3d28
+  custom:scripting/monoscript/fileName/GUIDGenerator.cs: 6dd6e35608006bcfade7642e5de04c6b -> 
+  custom:scripting/monoscript/fileName/ScriptingRuntimeProxy.cs: e5e5d36b9b276c8f6937a94b5dfabde5 -> 19d9ac4d844404a0464698120ed39275
+  custom:scripting/monoscript/fileName/TestTreeData.cs: 0f4cb01478895c7c3d9e4409dc682c1d -> 1859d24be324d8fb87ab0c693d76d928
+  custom:scripting/monoscript/fileName/IgnoreTestCommand.cs: dade1d8be5243d46e95db389c6688e44 -> 461884bfd932dd101ee16260e2717bf9
+  custom:scripting/monoscript/fileName/TestResultExtensions.cs: f40703becc02ea8bc3b6c19d19f9d745 -> 1c512e213c49ce6d72b9d37b957b9372
+  custom:scripting/monoscript/fileName/TestEnumerator.cs: bf6d1620a5c6bd3f28c72bbfed80e429 -> 26328e1622cb69ba0b1e01e906e7f65f
+  custom:scripting/monoscript/fileName/QuaternionEqualityComparer.cs: 1bf489e3042604f863689ba3c73f9e1b -> 0787e0a336d915c2829c2f55fd970a0d
+  custom:scripting/monoscript/fileName/ITestAdaptor.cs: 2a73ddc53f1c7b5bf11396536f687ca4 -> 1f6228260995615097fc339d08bee2f4
+  custom:scripting/monoscript/fileName/ExitPlayMode.cs: 64d4ea6d596aecaf913f45e499564e88 -> f2eb63cb1a92bddb334eb5c2d75abc43
+  custom:scripting/monoscript/fileName/BuildActionTaskBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/UnityPlatformAttribute.cs: 05ff6a4a5828d32604e864a3b44f3fb8 -> e79555e200698f1b55c6c54851cd369e
+  custom:scripting/monoscript/fileName/TestPlayerBuildModifierAttribute.cs: e033609ef117a17dda08e3556f30bfa5 -> d4ffc53911ef24dec9dc901e0444a77b
+  custom:scripting/monoscript/fileName/RegisterCallbackDelegatorEventsTask.cs: 5233a28b4518708c4bff6be87396daf5 -> e732b6d8b80294b007627164340f940d
+  custom:scripting/monoscript/fileName/Is.cs: 0371baf7f4d4fda1df93e36baa3a7f7c -> 6922f89182cd28e32ba48e34cda7947d
+  custom:scripting/monoscript/fileName/SwitchPlatformSetup.cs: 86e207190212b6666c14096ec0beb845 -> 576de741bbd585688af4b8aaf70f0708
+  custom:scripting/monoscript/fileName/BaseDelegator.cs: 39f1c059498e3e1e37d5e631bbc24cc7 -> d270baecbc007d1328bc5c9991d1dea9
+  custom:scripting/monoscript/fileName/TestRunCallbackListener.cs: 6d0e8c714fa72bff0fe809d3fbb8d587 -> 15fa13086a2949901b1e4a3584b83cd8
+  custom:scripting/monoscript/fileName/SynchronousFilter.cs: fb46e705a687283ca79c6357a2f78760 -> b84da53d6d10348793b3683f19a6d4b3
+  custom:scripting/monoscript/fileName/ICallbacks.cs: e6fb4966887be0b97bef44d92d561a69 -> a9c5fd289272fce7e09c7f3e5f11b8a0
+  custom:scripting/monoscript/fileName/SystemConverterContainer.cs: bdec785a88883dec09abdd8ddca1fdd8 -> eb4026ea01a117ce0888f693e9eed2cd
+  custom:scripting/monoscript/fileName/IScriptingRuntimeProxy.cs: 207c12828ef43f5ca31b3bcec485e9f7 -> c75af2a6ef439df9f19f151aeb5749ea
+  custom:scripting/monoscript/fileName/AllocatingGCMemoryConstraint.cs: 2542b507c3de77a99c0db5c1357ffb65 -> 8b2ed7fbfb529ba318fb8425f7a81278
+  custom:scripting/monoscript/fileName/ResultsSavingCallbacks.cs: aaf02a1e7a92c3896802c1deb489aa0f -> 96b4b28711ac58ce3dc199f3f7371922
+  custom:scripting/monoscript/fileName/RegisterTestRunCallbackEventsTask.cs: 8cc91010ecbadd8f6ac07ad712429dee -> fce6715c28912d0c4337bfa003c5f777
+  custom:scripting/monoscript/fileName/ITestJobRunner.cs: e878b9cb52bccd02cffbab2318c96972 -> 6f72bf13bf7ec895f50e07b175c4c2a3
+  custom:scripting/monoscript/fileName/FullNameFilter.cs: 03e8efaa11fd7332f02cf89719dd5868 -> 7c49c279cb0d631ca64d8b7d70065d9c
+  custom:scripting/monoscript/fileName/Message.cs: 6525f110369b368a724db9468ed4c271 -> 671a789acb2c7a93d0b620fe02979957
+  custom:scripting/monoscript/fileName/IMonoBehaviourTest.cs: 272926e14fa72b11b0070eae8b5853ef -> 93dca3fac2d68012529173d3e7bc10a2
+  custom:scripting/monoscript/fileName/UnityWorkItemDataHolder.cs: 5e123fac5cc49e9acfe91048eee308ae -> 94e44d74f673f889418b2b9926b6615c
+  custom:scripting/monoscript/fileName/IAssetsDatabaseHelper.cs: 8bbb0e39e3cfde6c5b6c11074d90971a -> 4f8027cddf715e38f75ab454f20fe051
+  custom:scripting/monoscript/fileName/SystemConvertersEditor.cs: b157cb077fe6af3401a860fcac0dab41 -> c127c1335f24b77ca70195bf2136c6a2
+  custom:scripting/monoscript/fileName/LogScope.cs: 51679d4f7708329af3d47e56656f8988 -> a032a8edefa3a04276b9f24e5047f2ac
+  custom:scripting/monoscript/fileName/NavMeshSurface.cs: 6ef652ad69ea88173bf35c557b9dddbd -> 34aebd278d8d3d5db6b23265b9c700f9
+  custom:scripting/monoscript/fileName/EnumerableRepeatedTestCommand.cs: 229b55de651d474bc2ca3733382eef36 -> dbdc4517e80e66a31f48ce40e06931f2
+  custom:scripting/monoscript/fileName/LegacyPlayerRunTask.cs: 328c044124055242f6ddb7aa596ab1d3 -> 148e0500b0761261bc418d25c26e82b1
+  custom:scripting/monoscript/fileName/TestTreeViewItem.cs: 3239fe248332ddd6a904d9cb0680e538 -> aae3d62f4daf680133c1c18c7814d15e
+  custom:scripting/monoscript/fileName/ConverterItemDescriptor.cs: 994a2a840cbf21580524a5ee48ba943a -> ce581e054faf450c31196535a41f95f6
+  custom:scripting/monoscript/fileName/SaveUndoIndexTask.cs: ab03f94eed1b9c2e86cabe91ffdb6ab8 -> 6e0bcd5f418cf8184993174ac732fff4
+  custom:scripting/monoscript/fileName/WaitForDomainReload.cs: ec74674e8cae527fdeb410a81a4658a3 -> b6033700f0adcf3b23782f04c42e269c
+  custom:scripting/monoscript/fileName/TestLauncherBase.cs: 55b4d99610fbeb9ecb7ee6ead3251104 -> c78237b225a855d3af10df4cd8d6a1b2
+  custom:scripting/monoscript/fileName/PlatformSpecificSetup.cs: c7583018fa54cbb13353f07300f73380 -> 0a7f9c0b27ae370d8bd5d3df4916ae28
+  custom:scripting/monoscript/fileName/EditModeLauncherContextSettings.cs: 716154923321c522b7f6492b24dc4629 -> d1e413330d98a9101237ccbe91f95dea
+  custom:scripting/monoscript/fileName/VSCodeScriptEditor.cs: 976f19e81f1a1748ecd5ce0eeab6e373 -> 
+  custom:scripting/monoscript/fileName/TestRunCanceledException.cs: 95340416bb18b4fa3930cdab2cc1fc66 -> ff7dc6bce365deb50fafe94b823009cb
+  custom:scripting/monoscript/fileName/Vector4ComparerWithEqualsOperator.cs: 3cde4a46f80e6bcedaef4297c8060490 -> 982db4358832ddfb456522b96543f1da
+  custom:scripting/monoscript/fileName/TestSettingsDeserializer.cs: a44271a81256da8d6d9195e1628af709 -> 2daa2d89ea5f024d33cb1e72a3d35d63
+  custom:scripting/monoscript/fileName/BeforeAfterTestCommandState.cs: 0fda72d32e32e4823dd4f519fc71c673 -> 590f9af42d8f6706b758d6c33b25bf7d
+  custom:scripting/monoscript/fileName/TaskTestMethodCommand.cs: b8f408cdb9cc17fe195f9c2788196829 -> ba8014b9e4f48c5f98d69c6174855a49
+  custom:scripting/monoscript/fileName/PrebuildSetupTask.cs: c7a55bff004702e0146f0b7de9de0c32 -> a4e888a510b1441a257b12183e59237b
+  custom:scripting/monoscript/fileName/PostBuildCleanupAttribute.cs: 31fa08dd08b1105fe7a49dcbe5b1ac85 -> 71391ff444f943d9ad8dd0d42b7ac81f
+  custom:scripting/monoscript/fileName/EditorAssemblyWrapper.cs: 1da4fb3eb1b01bdabc7899984e06e2b2 -> 8682dbb48030d53c622cd194bfa9e87d
+  custom:scripting/monoscript/fileName/RemoveAdditionalUntitledSceneTask.cs: acfdcc4ddb16879f2bc3308098b3f27d -> a2c81d2d6fda96b342bb272922eff723
+  custom:scripting/monoscript/fileName/BuildTestTreeTask.cs: 96cb982a37fe5925168754787bdebc15 -> ca4a5380bc07f43d0ad6bc5c2ca39b4b
+  custom:scripting/monoscript/fileName/NavMeshModifierVolume.cs: 6bd7a278588de5bdfc0e671df1a878df -> 8dc531216c72b86c60b86e16ff3da10b
+  custom:scripting/monoscript/fileName/NavigationPreferences.cs: 0363b64d3a7a7e0cf24ac21ff2a55693 -> ada9399a4f085d4c824cc06527e7fcae
+  custom:scripting/monoscript/fileName/UnityTestProtocolStarter.cs: d1e78341b65caa27eeb465ea61128aba -> e4b107bc354fd6dcbd62420da6500b7c
+  custom:scripting/monoscript/fileName/IExecuter.cs: 4fc4d3ccf6146ab05e5520151737be89 -> 63f22ac304fa0a92152f64dbc6300a10
+  custom:scripting/monoscript/fileName/TestListGUIBase.cs: 3bdfe7bd156ca5d5ce7d327e313da70a -> 24d4809a020104916f1cbf5b523f10ca
+  custom:scripting/monoscript/fileName/TestJobData.cs: dd8022c251f18f66be1e9ea8898c1c1c -> 194f4626c5a4649f7b9d85aa9d59e59a
+  custom:scripting/monoscript/fileName/PerformUndoTask.cs: a88080dc60788c59917e5a5da2beea27 -> f38e53873dc9c7e638622dda18102b41
+  custom:scripting/monoscript/fileName/NavMeshLinkEditor.cs: db5b506298670e15595eb17639342f60 -> aed8ae070d922149bb2ba3de06889ff6
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ITestRunnerApiMapper.cs: 864c8f6cc3985f3365e8b5f02afeb230 -> 337d02b691c8103d2eedc6b52f4f76ab
+  custom:scripting/monoscript/fileName/ISceneWrapper.cs: 3f9f0fc9a09654af9c28abdbbe14e41e -> c4d1ad6a835965e5e06f18696c05c0af
+  custom:scripting/monoscript/fileName/PlayerLauncherBuildOptions.cs: 1155187d1390024c0e84b222b67c4059 -> 39352f62028667e3cc8d13371f828f55
+  custom:scripting/monoscript/fileName/LogEvent.cs: a1178cf4bd49345a2f924044f341effd -> 9bf386b9808c16608387e196f7a5e9d6
+  custom:scripting/monoscript/fileName/FailCommand.cs: fba5f7b9c1e8d00f41e9076aac4a1d8d -> e0622be95cb9f4c04ff53066589d6d7e
+  custom:scripting/monoscript/fileName/ImmediateEnumerableCommand.cs: e79fd27a9b7f6505ae6a4aa7c72274db -> 89dd27d23dccf969b99d79611e8fed9a
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/IgnoreTest.cs: 39aef019f4d64ca702df17fd7bf7b5fe -> 1a1c26824b30dd2912d5df0497a53b9e
+  custom:scripting/monoscript/fileName/TestTreeViewBuilder.cs: 2d150efabc530464f6f95abcead6b791 -> 6ec2bdd7d75f4f5e0b3318e1489ac19d
+  custom:scripting/monoscript/fileName/PostbuildCleanupTask.cs: 1b9b7ef2c17388e144827471679ccca0 -> fe67e4411ea718f6ea7a0de9af59b240
+  custom:scripting/monoscript/fileName/CategoryFilterExtended.cs: 4662b13a61207dc88937c796423baa70 -> fc9bf6f795e045112c18a4c1343c1ae1
+  custom:scripting/monoscript/fileName/CoroutineRunner.cs: bb2107d11619bb60075736a2632662be -> 06bef19f6905915189ed09a2db9f2885
+  custom:scripting/monoscript/fileName/UnityLogCheckDelegatingCommand.cs: 109adc74b3ab14d952109f6ed35bdacf -> 410acedf83a5c4e9d5a212b5635d0c88
+  custom:scripting/monoscript/fileName/UnityWorkItem.cs: 03c602cd83845fe6265dc83816099666 -> ce02ef2c77c866afeb6c04a89a364a8a
+  custom:scripting/monoscript/fileName/TestPlanMessage.cs: 15cf5225dc1e7b1718be35fb09144b5b -> 6199b0505360321c39d00a607adaaf8d
+  custom:scripting/monoscript/fileName/ConditionalIgnoreAttribute.cs: 507a506f130880469465e0381c429447 -> 9f2f3d4c6b56d5f470ccdd0e1820d51b
+  custom:scripting/monoscript/fileName/RecompileScripts.cs: 33cdfe80e47d8b05e5ee4c6c33b4993e -> 73e345449efb1420f34aad9debcdf2bd
+  custom:scripting/monoscript/fileName/OrderedTestSuiteModifier.cs: ddbca70bf46f5e4ca706b058ef23253f -> 6a8006d91a7636d39c6731494060c3c2
+  custom:scripting/monoscript/fileName/DelayedCallback.cs: 4d96f98a05296a6e495fa9916bc0a91b -> e88c5396d33adcd6404b4cb8a051b2b1
+  custom:scripting/monoscript/fileName/IGuiHelper.cs: c60290192a780a358cb4d2eed657f7f8 -> da57d3fb0f8ace42d5b01eed25e9e3d5
+  custom:scripting/monoscript/fileName/AssemblyLoadProxy.cs: c6dff8352382292b9959041d98303a41 -> 0f3a4ee005eb8f7b33161c2ba6196e00
+  custom:scripting/monoscript/fileName/FloatEqualityComparer.cs: 4dac02b3f722be0497415c960455318c -> 6ddc5d5b0944c660e6b695f37c9febc8
+  custom:scripting/monoscript/fileName/ResultSummarizer.cs: 582246d60a2f8f460d380a74acbf04e5 -> fcfdcb2adeeb82cb8f411b44b44abdb0
+  custom:scripting/monoscript/fileName/UnityTestExecutionContext.cs: eca56c04b69a8399029cc9730daae5fd -> 4c0ef8e8d96fc20b3ec58c9447d6ec92
+  custom:scripting/monoscript/fileName/UnityTestAssemblyRunner.cs: 3816e248a2cfe06e2622e0204123f53a -> 6329fd25aa4b3ce344b8f9506a5c2047
+  custom:scripting/monoscript/fileName/RemoteTestResultDataFactory.cs: 82b227499ad613fb85cbd7542a960c8c -> 875f30f4d57949231d64836d9e348a72
+  custom:scripting/monoscript/fileName/EditorLoadedTestAssemblyProvider.cs: 30976bb8f0671594f080cfda4f365c0a -> 406b39f61e53aa4b6c435e30af6b5276
+  custom:scripting/monoscript/fileName/FileIO.cs: e12d7b1846fe00e4e229609939e0062b -> 
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: 7c3150a04cd2de8ef9bdd48a0f99701a -> 9a60ae906ea060222f7967033c27f7ed
+  custom:scripting/monoscript/fileName/EditorCompilationInterfaceProxy.cs: e4c0c6a3551d03ebd5ce8bc0c8444c16 -> 12bc7b3dd0ab2ff83629d76ca37d0d4d
+  custom:scripting/monoscript/fileName/NavMeshAssetManager.cs: e08a0378c721f1f25bd22088f2f1c57f -> 79eb4858c2054289cd611249ab36b0a5
+  custom:scripting/monoscript/fileName/UITestRunnerFilter.cs: 06335d4aeb6c8af701629dcac5fd648c -> a9e31eaec62dd508fa917eadb1c52808
+  custom:scripting/monoscript/fileName/IUtpLogger.cs: ebcfd45287927053700f4f66ff35b501 -> 1b41334d9fc4fd5edb024e0bd2a6db56
+  custom:scripting/monoscript/fileName/AnalyticsReporter.cs: c71b24da736c66608a20411bc3a519d2 -> 990f0ccd7dd9ebe56483e30a572c9394
+  custom:scripting/monoscript/fileName/IEditModeTestYieldInstruction.cs: e4c6a749d843914165935ce080f657d8 -> ad49fb85f2d4ed0badb27552deac0771
+  custom:scripting/monoscript/fileName/TestStarter.cs: e2d0587cebe915ea1c55ef726c6bd082 -> d1bc3fba65bb4735afc3828355ea6c72
+  custom:scripting/monoscript/fileName/TestListCacheData.cs: 1f5a847fa8b54233f179d3f9f5a719db -> 295232838ed90f85679b2d004562d59e
+  custom:scripting/monoscript/fileName/RemoteTestResultSender.cs: 570055716108540c9c34e71343ce0f03 -> 2b6acbe484994dc310d0ac406904e742
+  custom:scripting/monoscript/fileName/RunStateCallbacks.cs: aa490e635eee803bba79ac250443b616 -> a38e040003f08a3894abb274d4db5b04
+  custom:scripting/monoscript/fileName/CallbacksDelegator.cs: c76e06d7a0a6084464f55a923795d8df -> e0dcdade48f633c0a7cebc925bd686c4
+  custom:scripting/monoscript/fileName/TestJobRunner.cs: e4deb98063838e020557c338e0bd4ebb -> 1c3d9f2bfcdac33a01c4bb25c392ab4f
+  custom:scripting/monoscript/fileName/UwpPlatformSetup.cs: c89362d564a60469ebbb75e8e12d340a -> b9f50f93de5f547a7eaf96f1bc58a80f
+  custom:scripting/monoscript/fileName/FileCleanupVerifierTaskBase.cs: 50c4fc5e4ffaa31cb467fc75616b7129 -> 8c0e90b329ac988e22429767c222f3c6
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/CleanUpContext.cs: f1fa4f7ebf7c532ffe14cf54d046ec22 -> 8778e1f6da4e8e53be359e87a6978550
+  custom:scripting/monoscript/fileName/IAssemblyLoadProxy.cs: df5d93b09382b84c770bb8c70be641c2 -> 10a2bd4f9f1d29ac107ff7e510533c16
+  custom:scripting/monoscript/fileName/Executer.cs: 115c3fa08937a7411c01dd40a690d19e -> 3f667ef14fa1c500658713b8aa31fd85
+  custom:scripting/monoscript/fileName/AssetPipelineIgnore.cs: 0d6998b45aa259f19df735cf43f30691 -> 09786e27e9aef22fa608d3ec356f88ff
+  custom:scripting/monoscript/fileName/SaveModifiedSceneTask.cs: ecf43de048f0c493b5dc6c3e340e2020 -> 9179e580f8f42f10450b3af873e22550
+  custom:scripting/monoscript/fileName/RemoteTestResultData.cs: ff93ebb056d1cf8fdc7e897597b04ef6 -> 68a2b51f8872b9ef697b2155d9835735
+  custom:scripting/monoscript/fileName/ICallbacksHolder.cs: e330f681a4da017eb82339063a410722 -> 790e89a97c8150c3044e584386d3ba9a
+  custom:scripting/monoscript/fileName/UnityTestTimeoutException.cs: 7c70971bbddd1caf6485b8c5b935d369 -> b7ec28ea102309dc20886c45fff1e1b5
+  custom:scripting/monoscript/fileName/PlaymodeWorkItemFactory.cs: a61a7bf2d749182a50c049a0ad4afb89 -> 8bb2d7c0ad22b08cf17b1748007ae8c3
+  custom:scripting/monoscript/fileName/IPostBuildCleanup.cs: 7bc004ae26b110cd32d3401b0981f815 -> 8d43f6dbc44addb43106f91d15047771
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/IEditorAssembliesProxy.cs: 81289fa7514ad1168ecb67afff27720d -> 8586f95fda82b1fa948b8ac0ebb50a9d
+  custom:scripting/monoscript/fileName/AndroidPlatformSetup.cs: 56c28d48cf01b1b2c96f64a6827ffac4 -> 67d5fa212608c900d88b1544a5f49997
+  custom:scripting/monoscript/fileName/TestRunnerApiMapper.cs: 213999ba10693518027e8ab0204d1885 -> 241489454095fad1d1d89166ee62820f
+  custom:scripting/monoscript/fileName/OutOfOrderExpectedLogMessageException.cs: 22c4a953865c583fd55d80a54c5d6c18 -> 4ff78bac16cc86124e588c20ad3ddba7
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/TestResultSerializer.cs: 52a416bb91eef89cbb19dd3cf67adb65 -> b75c8de5ed0cf8b4071350488249260d
+  custom:scripting/monoscript/fileName/ICommandLineOption.cs: 147751a92efc4c8cac91a9a528c2fb1c -> 58da599070a3bdab08afc8355de79ed5
+  custom:scripting/monoscript/fileName/UnityTestMethodCommand.cs: adc652ef2db502396e2bc23b9d9a66f3 -> ccfa8ff8b49ded2664d646e8ee3d5ff4
+  custom:scripting/monoscript/fileName/ITestRunnerApi.cs: 7ab503b15e3438e134c0702f000eb0a9 -> a476c74c9cbf5732bdfc8c88b9702476
+  custom:scripting/monoscript/fileName/Vector4EqualityComparer.cs: 2b4abe9ea592b7513d6aeaf121d66f76 -> 998bf018f3e79a3b4501bebf13133ef3
+  custom:scripting/monoscript/fileName/UnityTestAttribute.cs: f0f5f36d5b331df20c3357ff1637e397 -> a53f050fb661d50bb6c962963a554f8e
+  custom:scripting/monoscript/fileName/RequireApiProfileAttribute.cs: 519035bad40b0361872a678d221fcd1e -> 4cce4894a0d08ef40fd237b8e50d1caa
+  custom:scripting/monoscript/fileName/ConverterItemInfo.cs: ac42f0e17844a33779eab11e15959d0e -> f61437cbb7953fbfeff62301ac8e3fd0
+  custom:scripting/monoscript/fileName/TestRunData.cs: 26bd53617ca71f68bb68bc231d710d9e -> 2ca27d5d484a6770ca9442f2697492e3
+  custom:scripting/monoscript/fileName/Icons.cs: fab81a9d523e5a61e28f0f54bbcc88b3 -> abf089f96620a0dfa1fac77a06c6c48e
+  custom:scripting/monoscript/fileName/NavMeshSurfaceEditor.cs: facd6a0c9776c7d71689d1aab9819f46 -> adb1294e971eab992abc2e3e7e051565
+  custom:scripting/monoscript/fileName/LogMatch.cs: 3705a2877c87af4c4355c7933d389895 -> fed715ef044674dde53628d58d931b50
+  custom:scripting/monoscript/fileName/TestCommandPcHelper.cs: acbadd8ac17c9074f1c7f1b037d57596 -> f958b2880473418011bc0cda18245d1e
+  custom:scripting/monoscript/fileName/UpdateTestProgressTask.cs: 89337444af78aaf5045c6ff08ebb8278 -> 3a35bdfacbd0b7035a9462f38f58aa2c
+  custom:scripting/monoscript/fileName/StringUtils.cs: e49393bed9b27f8092372b1c93fd8ad8 -> 2be5fb51e6f0660c955416f4d8f6f7ad
+  custom:scripting/monoscript/fileName/IStateSerializer.cs: c5a3e7fac8482b2fe72d059b34fdea4b -> 2c22f7cb714163eee04bfe4b72ec4957
+  custom:scripting/monoscript/fileName/SetupConstructDelegatorTask.cs: b272535fb6ce7ac0ec6423e2381a3baa -> 2951d41f25176cfa61eaf3d73d1cb6da
+  custom:scripting/monoscript/fileName/RunFinishedInvocationEvent.cs: aca80ae22f453c973a1d85fc83197afa -> 1eb1851e48cb850f1473d92b297178e6
+  custom:scripting/monoscript/fileName/ITestSettings.cs: 608b72c12786bbdd128c096353cc10e2 -> 7d6676128f469c2eefb2813ec592ab4f
+  custom:scripting/monoscript/fileName/IEnumerableTestMethodCommand.cs: e89b2da6fd5c9e148c3a0687c618f62e -> 81260787415c187c9e413e476b816cd2
+  custom:scripting/monoscript/fileName/EditorStyles.cs: 11ab1db9e92fdf6f91f7e4f8529bd1fd -> 86b9f4d8fe570a8d8295bfc466c975cf
+  custom:scripting/monoscript/fileName/PlayerLauncherTestRunSettings.cs: 5d2b9db2556b475d527662dfc40538f1 -> ac04d6a6a9c6380f318071a2f4da8a2f
+  custom:scripting/monoscript/fileName/InvalidSignatureException.cs: 293ad969d76fdecf7dc5f86949047e54 -> f250eccc836ee674127ecdee41f7a4ea
+  custom:scripting/monoscript/fileName/TestSummaryMessage.cs: 459343576b9d9d03de95c35eb5695d57 -> 
+  custom:scripting/monoscript/fileName/SceneWrapper.cs: 135bb30432d84947ced79325ca92d519 -> 96b6f98c2bf1677e56c2f675ba59e377
+  custom:scripting/monoscript/fileName/PostbuildCleanupAttributeFinder.cs: 23c3a89f1d3b5b5defeaa7555afa30b6 -> a060814a414a9bab17671800d815861d
+  custom:scripting/monoscript/fileName/TestProgress.cs: 7e1cacce3b00fdfa34c22c50ec18990b -> 572d24be0bd80d0caafc0ff94e881947
+  custom:scripting/monoscript/fileName/SetupException.cs: fa81854dd78d6f47fd79d813aacdb097 -> 38724dd55c58f65b09d9fda4b6161021
+  custom:scripting/monoscript/fileName/PlayerTestAssemblyProvider.cs: 4e1569ec89688dc213248db31fc5f2f8 -> cbdd04f669e4e0054bad4f9d3133a10c
+  custom:scripting/monoscript/fileName/EditmodeWorkItemFactory.cs: 59e0f470d3c4d6fcf2997a182c89bbcb -> e9c8ba8d2a4b7d9a886e64626b2e6205
+  custom:scripting/monoscript/fileName/InitializeTestProgressTask.cs: 908f710efc0d014c4a6f3b8509fdbe84 -> 171f0368bcd7b4da20c9fe8cf70d31e3
+  custom:scripting/monoscript/fileName/UnityCombinatorialStrategy.cs: bd44b85caa82e1f08c977cc9d9157c40 -> e857e6faada8b59173cb249a8a6be6fa
+  custom:scripting/monoscript/fileName/TestRunnerResult.cs: 2b3fdbda67626b6faa7139ccea15b17a -> 613fb3e1dfef14aa9d5aea2cd635ffff
+  custom:scripting/monoscript/fileName/UtpMessageReporter.cs: 6f35c7d2ea8786c1fd8fe557180d6c38 -> 1ce82c57220e51532d6b3e5da0cecc24
+  custom:scripting/monoscript/fileName/ITestRunSettings.cs: 7462715f6a540bde0acfd50948410d32 -> a5342276210c7f86635118880184dc77
+  custom:scripting/monoscript/fileName/EditorEnumeratorTestWorkItem.cs: 7bf37d3cd666bc3e840f63f05aae4d05 -> b8f886476b7c18f3c1cdeae30ec0c8ea
+  custom:scripting/monoscript/fileName/RemotePlayerTestController.cs: 2ba7d68f51ca062740e8fcc743c04734 -> e65e7856c7b5238a13243fffbf64f7eb
+  custom:scripting/monoscript/fileName/IEditorCompilationInterfaceProxy.cs: e8a39ed00046a7b93647d4de1a3e0e00 -> b1e49de3ac2ed1feea91c5f6846d6e49
+  custom:scripting/monoscript/fileName/RenderingOptions.cs: 00a614b6ec7a1eaa81faf5ebc88cd41a -> a84cebfad0b53e3dbf0202be3cc1d6d3
+  custom:scripting/monoscript/fileName/UnhandledLogMessageException.cs: d6d6ca25090fc3eec22959040bde30f3 -> fa6ee6fe2a221a71f213304ae56898c7
+  custom:scripting/monoscript/fileName/EditModeRunTask.cs: f058cff5ffadb556cf378e6a63d1a33a -> bb4319cee0d48b529bec5b6d2861232c
+  custom:scripting/monoscript/fileName/ITestSettingsDeserializer.cs: e43933e90cb98a9555f922952cdb833f -> 22e37de7af2cea07971d0ba87110dad7
+  custom:scripting/monoscript/fileName/RunFinishedData.cs: 35b8f95dad4fefe115ad61c2c01125ab -> a22f15c3a79d1f15ccc31ec29ab37874
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/TestEnumeratorWrapper.cs: 3f82598f123760f637b0f70a1f287d77 -> 3e969f8448dc5644f60fbcb6f1badbcb
+  custom:scripting/monoscript/fileName/AttributeHelper.cs: 9458f4b34c0ac14db5c169abc8e43f94 -> dcab3630cb119e1a5f7f9c7b24677e49
+  custom:scripting/monoscript/fileName/Utils.cs: ec85545b69de0c6ab326957d9b045d1a -> 40c528c300bfc0733192292a788cb076
+  custom:scripting/monoscript/fileName/EnumerableSetUpTearDownCommand.cs: 6c84bee1095d71c3f496285ac7de29fb -> 16b603dbb9724508977696171a42991f
+  custom:scripting/monoscript/fileName/RestoreTestContextAfterDomainReload.cs: f915dc737a51db5619c0ddbc3d7e4801 -> 3f8ddcbc7c316ccf5012287995780eb2
+  custom:scripting/monoscript/fileName/CallbacksDelegatorListener.cs: b898e1166febac1e64adb534000c61f7 -> f80c4f45fed6816f24285f468af00026
+  custom:scripting/monoscript/fileName/ITestListCacheData.cs: 1c95486e8d67b5eedd3530759306c580 -> 09682e3e03141d9f43100cdaff3665eb
+  custom:scripting/monoscript/fileName/RuntimeTestRunnerFilter.cs: 230571a0569274dbd5e47e4595a3be33 -> 526247a6af82c71973a55c9c5be36280
+  custom:scripting/monoscript/fileName/PlaymodeLauncher.cs: a8de3b5051116e1769b8336e5ae33f81 -> 7559db6722a49842c0446e2fd98b6c97
+  custom:scripting/monoscript/fileName/TestSettings.cs: df291dfe8fbaf1e1f1d4ae4925c14a92 -> d583ccee803a035f2d53ba29374aac19
+  custom:scripting/monoscript/fileName/RegisterFilesForCleanupVerificationTask.cs: 89d04f0389116a1354de9cde88045aa7 -> f18fd2d946c9ea52b8232f47d6d70221
+  custom:scripting/monoscript/fileName/TestRunnerStateSerializer.cs: 68058e60ab6d5d33b7935f4205c97bb2 -> 7206f4f1eb4c5991ea76b5c39830dba4
+  custom:scripting/monoscript/fileName/TestRunnerCallback.cs: 3f7ae5a8df9bcb46078b38e8c1f1247f -> 61231fce5590e38bfc5e9165e9803d8b
+  custom:scripting/monoscript/fileName/IUtpMessageReporter.cs: 02b26b8c414970dd7d96e6dcfbe9a861 -> e8e6a62b6032a5642706a62156dd8314
+  custom:scripting/monoscript/fileName/IErrorCallbacks.cs: 525b2a3e515b976057d42e4abfcec602 -> fd7a49712e8a919d38dd0fddef8872df
+  custom:scripting/monoscript/fileName/ITestResultAdaptor.cs: 8d865eb70a8464f5288b9274d9abc979 -> bb9e1bbb2ff45e5a5f11e877a24721d7
+  custom:scripting/monoscript/fileName/TestFinishedMessage.cs: 90745d8bb0dd1bfeebb724d118b2d483 -> ccd3538dc4059cd71acd9bfea48dbc80
+  custom:scripting/monoscript/fileName/TestTaskWrapper.cs: a0e6587cc333a6cf5a0ac2dd63923d90 -> e4b181478f54071b53df8d33cbe60919
+  custom:scripting/monoscript/fileName/RunData.cs: 91eb6697698b63fe6764d1aca25f1f65 -> 772bee3d6504258eed6027a2ae076850
+  custom:scripting/monoscript/fileName/PlaymodeTestsControllerSettings.cs: e4d6c3f42e8f4d17c80242b34c68fd06 -> 90cec9ec9d50d9e797d7b80fa88b49ed
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 170b0fd934f78f2e6a09342014bfa1fc -> 5210529ddc67cdb852122f447527c528
+  custom:scripting/monoscript/fileName/TestListJob.cs: 12fc4e0dee9c9032467b6469e3bed3a6 -> 3a58b9c1d09f7f4ecb41254c8497b5c7
+  custom:scripting/monoscript/fileName/TestListenerWrapper.cs: d3b4dda00570273ec0c1794249fac5d6 -> 9bd83ba3a6a675f3c605795064caa62b
+  custom:scripting/monoscript/fileName/CallbacksHolder.cs: 064e7d359062664728ef608c9f03a07c -> 8b4255bb9b31589c4c3dd9303007381d
+  custom:scripting/monoscript/fileName/PlayerLauncher.cs: 7004f613ecfe1e179e7b362c88c3ddb7 -> c1129f48ad00377c128c470482bb7e8e
+  custom:scripting/monoscript/fileName/SaveSceneSetupTask.cs: bc16cd134370d510260307878a5b4f42 -> a5774e81022225ab885b6d5c56afe06e
+  custom:scripting/monoscript/fileName/EnumeratorStepHelper.cs: a2fa98a2f974f377b9c2905ce60dea0f -> 05022a723dcf173476ccb43403871168
+  custom:scripting/monoscript/fileName/RemoteTestData.cs: 5baf4798e5344c86aa4ccafb41b2624c -> 51ba1ddd57fb71948e60067806b9cfcd
+  custom:scripting/monoscript/fileName/RequiredTestRunDataMissingException.cs: 8a0cc531acf5369bd28cf9af7750810a -> eadbe774272ad9d6ed5e46085e6d9e55
+  custom:scripting/monoscript/fileName/IPrebuildSceneSetup.cs: 086a540b86c9ccf5ce0a23935a64c98d -> c89711320cb5af11897ec50fd61d4419
+  custom:scripting/monoscript/fileName/UnityTearDownAttribute.cs: 4a3d30720366843ca221fd554845c187 -> d90d4ba0821a80f48bd6cec8eab8964f
+  custom:scripting/monoscript/fileName/ITestRunnerListener.cs: 07f2f49d67775d1bad20bc1589a5769d -> d52675266925b8e603f210be3981d59b
+  custom:scripting/monoscript/fileName/CommandLineOption.cs: f2f0dbe72e14e05a5259c3e6cb3ececc -> 211f73ad4421274a5a418608b74cc839
+  custom:scripting/monoscript/fileName/TestListTreeViewDataSource.cs: 8b5a59ec2d06d36e63ce53a34e1d591e -> 153f0d5d9a6099f80f6d26e9c0ad6b7d
+  custom:scripting/monoscript/fileName/ITestRunCallback.cs: 0ac8617cc2dc9780c575b6eb03f6d505 -> 7d90e4d27cccfe89ef24a93578e15a74
+  custom:scripting/monoscript/fileName/NavigationOverlay.cs: c5a44226873678a0cb60da52538c2f49 -> 2744f4e7946ebbb71339c9b1ce538d00
+  custom:scripting/monoscript/fileName/TestResultRenderer.cs: 9bb52db8cdd7fbc7b27d62af73d00df8 -> 2e8123de6d2eea4d42efb7a87e150b27
+  custom:scripting/monoscript/fileName/UnityTestAssemblyBuilder.cs: 31ba4a3e8e59a00929481bc92cded780 -> 5e02e71819f544263f933dbf6516d49f
+  custom:scripting/monoscript/fileName/RunStartedInvocationEvent.cs: 4e8d2a8029ed139ec922dd4c9ea61cde -> 97d3096b5d3bd208fd5f26363f08d153
+  custom:scripting/monoscript/fileName/CompositeWorkItem.cs: 77037823112276c67676f1e42edf1cd2 -> bc884a89fde61fa75209209a03bbd836
+  custom:scripting/monoscript/fileName/UnityTestProtocolListener.cs: 031f67bcc950e88772c7e00661691db9 -> 0d4d2ab58d3a081f00c0f200ee8696be
+  custom:scripting/monoscript/fileName/TestRunCallbackAttribute.cs: 0f465317bd2bfaae92f90a6ee84c0d18 -> c61459d4a70eab5bd767d5a1f82f55d8
+  custom:scripting/monoscript/fileName/ReloadModifiedScenesTask.cs: 8ad9faf0b995327f27a0c10ff6be34c0 -> 9ac5418ec46bbcf72456b6aa49b9113e
+  custom:scripting/monoscript/fileName/EnableTestOutLoggerTask.cs: 543fb57d4408ba1521cdce8814c7a251 -> 45dd02b3b08951f0e182e034e78567ec
+  custom:scripting/monoscript/fileName/LuminPlatformSetup.cs: a7bbd552cf00b6b349997b7d2e68359d -> e65a295a4e58fc042cc74afa9243a080
+  custom:scripting/monoscript/fileName/ResultsWriter.cs: 894aad14112682a79dfd6249bc05191f -> 746214782064f32efde31c48d7caa76f
+  custom:scripting/monoscript/fileName/TesRunDataHolder.cs: 4eff84aa0c481fe012781408affdc64f -> 5f6359a68b8306999d0c2d749c614598
+  custom:scripting/monoscript/fileName/IAssemblyWrapper.cs: c5aecaa35bc67342edbe5a12fdcda610 -> 993dbd556e2f14ec6d4f6bce6cb00191
+  custom:scripting/monoscript/fileName/NavMeshUpdaterUtility.cs: 8ab501a5bf03f031c19b40f7668c1641 -> 5eb03802e6dba19b3e13aaf384805cac
+  custom:scripting/monoscript/fileName/ITestSuiteModifier.cs: 2c6fc66f35fdd1866881280ae909eaa5 -> 4374b14ce25f3e6c8b983b3d579e38b4
+  custom:scripting/monoscript/fileName/GenerateContextTask.cs: 3fef196db995cf35ee1721de031e9d30 -> 696f54f056d43d45f4343ca77dc071d3
+  custom:scripting/monoscript/fileName/WindowResultUpdaterDataHolder.cs: e4b0333fa05c0f3ef2128a54294a2588 -> 2de8ba1615f5d28c30d54411d42e2524
+  custom:scripting/monoscript/fileName/PlayerConnectionMessageIds.cs: a896cc1ebb022b48f652641f623e4c5c -> 2e4b7265f0eeb40e1260d00fe6e4614e
+  custom:scripting/monoscript/fileName/NavMeshModifierEditor.cs: 64d96048d1ecb52c13f79fe460520c53 -> b8675d28116f43f78881455a7301fe8c
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/AttributeFinderBase.cs: b09010f5776af2a4f3460127027ca105 -> 7e104530f871143fdb60a169114dd663
+  custom:scripting/monoscript/fileName/TestActionCommand.cs: 9d9a215c413c4354b3d31801a3312f5a -> 753f99c04dd69dc2a43030237870dd1f
+  custom:scripting/monoscript/fileName/ActionDelegator.cs: 0b37ded58104f18659a880de95881951 -> f2eb6c2fd33630cfdd6d3183b4a2ca3f
+  custom:scripting/monoscript/fileName/IEditorLoadedTestAssemblyProvider.cs: 0be7fc5fa38a5453fe58cce555760ed4 -> cbb3f715010afa8cd4f0f40294bb78ba
+  custom:scripting/monoscript/fileName/TestStartedMessage.cs: d7701e2ff178c1edd69506316a39e99f -> 2e20a681c83fd9e8634c9b938205f951
+  custom:scripting/monoscript/fileName/PlaymodeTestsController.cs: 7726dd936e1c608c494987ba2754eb47 -> 59c9d4597d46ecf4c6fbc8f49c64d0b9
+  custom:scripting/monoscript/fileName/ITestJobDataHolder.cs: 02ae0413c0c8cea00addc044d8784b6c -> af10ac973b0ed623170bc9da9642cb67
+  custom:scripting/monoscript/fileName/NavMeshLink.cs: d553acf56818ed54adbed2f21967e3cd -> 0b3d0eeb07ab57d259e8f9365538df09
+  custom:scripting/monoscript/fileName/RunProgress.cs: f1d0818f1de654cccf8f9b73ee305f2d -> 149c109910aa92e934e580910d01fe61
+  custom:scripting/monoscript/fileName/TestCommandBuilder.cs: 7c013615052dfed5e39b8bb914f01cb8 -> bf61faf29c0aea0c4e5d4ac76abaee13
+  custom:scripting/monoscript/fileName/BeforeAfterTestCommandBase.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ITestTreeRebuildCallbacks.cs: c7090567546723c1f0a184a18f5ac1fe -> f952713f83d574a58f719696be7e52a3
+  custom:scripting/monoscript/fileName/TestRunnerWindow.cs: beab6dc6591535c1b37ec310f1e15af0 -> 156fc89bab7bdd82ca70e07c9aa9ebbd
+  custom:scripting/monoscript/fileName/IAsyncTestAssemblyBuilder.cs: f88864ba85e2ec28df36a1a7af1974da -> d4bd9849c11964145b1082a4b1d477fa
+  custom:scripting/monoscript/fileName/GuiHelper.cs: ce709a7d3615bce262722b2ac52d710b -> 7bbb51d455f8994ae6185c7dee04068a
+  custom:scripting/monoscript/fileName/TestFilterSettings.cs: 4aca8235ec4f29821599af582aad0439 -> 5275be823d4854688aedadf9bf48dfa8
+  custom:scripting/monoscript/fileName/StacktraceFilter.cs: 0a3b08d5dc42e75c1d72e2851ec00d95 -> 2f4728b5b8f653bd2197ec8c4b722e7d
+  custom:scripting/monoscript/fileName/AssemblyWrapper.cs: 27441573157e5964a8aeb7d356d13908 -> 888ba979193ec837feef9add74101219
+  custom:scripting/monoscript/fileName/PrebuildSceneSetupAttribute.cs: ab58680b1420f8e2f2a2597e848d8216 -> 7863da9f66129a3cef8eac0a1f19b990
+  custom:scripting/monoscript/fileName/RunItemContext.cs: efefd8ae99d1ef552ffd46e4466293bd -> bb4ef75ce860de201ddb04b582034b5c
+  custom:scripting/monoscript/fileName/TestPlatform.cs: 1e3283087fad58204285b5e9c2e16b4e -> 63c69f9b78d9a1c2cdf167569fd572b6
+  custom:scripting/monoscript/fileName/CreateEventsTask.cs: 4c0eae2a162c63fda5bd2da74dbea92e -> 634a395c5365e361ce6da8cf067321b3
+  custom:scripting/monoscript/fileName/StadiaPlatformSetup.cs: 589eaf4f5c2f63a79deb4c2735e3b746 -> 27e00e91e04b4888c1d6354fa4baa6a5
+  custom:scripting/monoscript/fileName/IRunData.cs: bc6cc6875a598b51be952843f32e4527 -> 5b8f28fd59d24696a855c7a28574c1cb
+  custom:scripting/monoscript/fileName/TestJobDataHolder.cs: 1e3b4dec54d5610ff8a852c0a9fccf2b -> 2c9edeeac80ff44e86cac8087411d260
+  custom:scripting/monoscript/fileName/TestMustExpectAllLogsAttribute.cs: f1224ac9ffb401dcd2c905e6a783da06 -> cdf1c75549affd080e0ddbde5bcb7c34
+  custom:scripting/monoscript/fileName/TestBuildAssemblyFilter.cs: e3ae3b9dfa7b065b08d520845d4f070d -> 056870da734fd8ecf77d00737a22149f
+  custom:scripting/monoscript/fileName/CommandLineOptionSet.cs: 6bb45bf9141d4fec50aae5aa4651fa84 -> 57b6c3812f217f48a5cedf066a216cfd
+  custom:scripting/monoscript/fileName/PlayerLauncherContextSettings.cs: 89c041e42e3e6c336ae4ddeb40f2d12f -> 3c0a34dce28ade8f88b3e213fadb0738
+  custom:scripting/monoscript/fileName/Vector3ComparerWithEqualsOperator.cs: 6b9a33545ada02177d266ed1f5b19290 -> c497cde63ec72672e5f69e70b932688f
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/TestTaskBase.cs: 4b3bfcc0ce488c09e9c983c955b234c0 -> 162ca0c58961a22b2d7f2a866ccb62df
+  custom:scripting/monoscript/fileName/UnlockReloadAssembliesTask.cs: 6dc1d548de24012abecaabef2a4b33c4 -> ec0e517723690132a1818a3e663d67b2
+  custom:scripting/monoscript/fileName/MonoBehaviourTest.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/UnexpectedLogMessageException.cs: eb4b453bac6ce1ffa84fa1fcbecd8818 -> a7bbf32861c66018271b093fc1d1061b
+  custom:scripting/monoscript/fileName/ITestListCache.cs: 530322f74ae4ee44bba33a2f253d3260 -> 93f202374a8dd6602503d990ab2feb72
+  custom:scripting/monoscript/fileName/RemotePlayerLogController.cs: 6007c2a9667c47ca237ace4f2531438b -> 158b55f2a8781eb1cac7ac26acd42fc6
+  custom:scripting/monoscript/fileName/CleanupConstructDelegatorTask.cs: 2c614455895e1e05206d8f077e2241e8 -> 6923553afa2a741dddcddd63014ca3d7
+  custom:scripting/monoscript/fileName/RestoreSceneSetupTask.cs: 9041d8dfff954d74d7c7e6b42103ad66 -> 1b8eefd2465e5d7ccc4b7748ba7fe2d2
+  custom:scripting/monoscript/fileName/EnumerableTestMethodCommand.cs: dfec1548954add0987599d6dd0f01df0 -> 9040b48595c4d63d6c1126d81d3f1105
+  custom:scripting/monoscript/fileName/Vector3EqualityComparer.cs: b5ef1af8e8222802b1e616dabbbf7eb3 -> 1c8652cac1f220d6409ab1ba3f211615
+  custom:scripting/monoscript/fileName/WindowResultUpdater.cs: 62ee47153c9bac0200ac618954dd51d8 -> 605812b0e2a9a0174e15ed86a3d5ac57
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/TestListGuiHelper.cs: 71c740d93b67e7419d73e22d4559dd6e -> 6d40eb061ebdba07e078b90b14eadffd
+  custom:scripting/monoscript/fileName/TestRunnerWindowSettings.cs: edf34156a2b1507caf7c6651f5ea4bc3 -> fb70b758f65d0605100dbd9482b7158e
+  custom:scripting/monoscript/fileName/EnumerableRetryTestCommand.cs: 73d6d5af06eff02f63f972c0d9d4ad7c -> b281084796eb91cc19de80f3f2b73a56
+  custom:scripting/monoscript/fileName/UtpDebuglogger.cs: 06c62e7bf4b353d0d89b78258065c40a -> 2f96cd7ac1384aa23e8238df80ef8354
+  custom:scripting/monoscript/fileName/CachingTestListProvider.cs: cac67f32d723c8745a1f511390945781 -> bfcb79acce43a93633071168c814d063
+  custom:scripting/monoscript/fileName/TestAdaptorFactory.cs: ac39772b57c14123c1a057d315d0217c -> b9e4d12260befcd688940e2c80db8ee8
+  custom:scripting/monoscript/fileName/RuntimeTestLauncherBase.cs: 545e0e1c1701551e51a349e0cfbf7e09 -> 9c570bd0d91da3e5211e4436ad92314b
+  custom:scripting/monoscript/fileName/NavMeshModifier.cs: 9f2f9ac4a63518769861a9fe3fc49054 -> 99ae5ed91bb784edc4f8312d7de046da
+  custom:scripting/monoscript/fileName/ICallbacksDelegator.cs: 3824b8185f5cd32ad0de995dbcedd1e3 -> 2bfa822de05a601b9fbe2f79d4d317c0
+  custom:scripting/monoscript/fileName/TestRunProgress.cs: 6ed76f09b404c3ec981c07ce74d04b45 -> 2ccff121f3ffe214a46ca73a90ff2296
+  custom:scripting/monoscript/fileName/LegacyPlayModeRunTask.cs: 1ebf3ecf72354d225087c2e6d274bc6a -> 8a159c990fea520d0af36b86d243e79e
+  custom:scripting/monoscript/fileName/Vector2ComparerWithEqualsOperator.cs: b6f6b1f33f1b74ed974042f5e0303f0d -> 1851f392f974d4a42efb0de68a402e9b
+  custom:scripting/monoscript/fileName/Vector2EqualityComparer.cs: c680a095e66b9bf90931050b8b145b65 -> 4ac8b0db10bbdb7ea68d4be944c5b941
+  custom:scripting/monoscript/fileName/ObsoleteNavigationWindowMenuEntry.cs: 4e6e880c198acc644c2491c8b716b9b6 -> c7f73386e6473f401a8e4151cac4e1e5
+  custom:scripting/monoscript/fileName/SystemConverter.cs: 7cde37e2d29752cb5e16f9b46b9ba9df -> c748d1769fc66e95256254a1cc1497f3
+  custom:scripting/monoscript/fileName/TestRunnerUIFilter.cs: d43f81399e97649a77164015894ec5cc -> 15cddad256d0a7abe9cb58af110bbb72
+  custom:scripting/monoscript/fileName/SettingsBuilder.cs: 2166bdf8e77dc5f252cf6909a9196c25 -> 9aeeee75a181ed82e0343a1fb6b9cead
+  custom:scripting/monoscript/fileName/ITestAdaptorFactory.cs: bdc8323a65aed17f1190c56e7c6cfc5f -> 0cef1125679c38dd172e82c8aed26eb9
+  custom:scripting/monoscript/fileName/RequirePlatformSupportAttribute.cs: 7ce6733bee18de599a69cb974c92fdb6 -> 6918694e41aa1ffd5ee72bd04646d4bb
+  custom:scripting/monoscript/fileName/ILogScope.cs: dd29c4b8ed4c54280ca787c474cdd843 -> e99dd640a2ac2c8b1c0c97725f23440d
+  custom:scripting/monoscript/fileName/SetUpTearDownCommand.cs: 2a0e8cc178919ce84c52af1a4ddfce30 -> 684e5d1c75373405f8a6c9575324286f
 ========================================================================
 Received Import Request.
-  Time since last request: 1221651.058916 seconds.
-  path: Assets/Scripts/NewBehaviourScript.cs
-  artifactKey: Guid(d1e007520e30d0744a0ff518dc4d875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(d1e007520e30d0744a0ff518dc4d875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795dfb028eea24418f13928a9c3b1cf7') in 0.043466 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004850 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.859 seconds
-Domain Reload Profiling:
-	ReloadAssembly (859ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (641ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5680.
-Memory consumption went from 197.8 MB to 197.0 MB.
-Total: 3.350400 ms (FindLiveObjects: 0.301900 ms CreateObjectMapping: 0.220000 ms MarkObjects: 2.500200 ms  DeleteObjects: 0.327500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 1236332.348199 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(0a0eacaa9d04191468c2bb64ba5dd58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(0a0eacaa9d04191468c2bb64ba5dd58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb34d5947d7968fe45efff61f595b747') in 0.209119 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
 ========================================================================
 Received Import Request.
-  Time since last request: 13.007271 seconds.
-  path: Assets/Scripts/ShadowCAster2DTileMap.cs
-  artifactKey: Guid(d1e007520e30d0744a0ff518dc4d875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ShadowCAster2DTileMap.cs using Guid(d1e007520e30d0744a0ff518dc4d875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb503269d74a549e3a48f9fde6778f6') in 0.008408 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005783 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
-Domain Reload Profiling:
-	ReloadAssembly (887ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (678ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (320ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5683.
-Memory consumption went from 197.8 MB to 197.0 MB.
-Total: 3.624100 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.163000 ms MarkObjects: 2.744500 ms  DeleteObjects: 0.383500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 12.125074 seconds.
-  path: Assets/Scripts/ShadowCaster2DTileMap.cs
-  artifactKey: Guid(d1e007520e30d0744a0ff518dc4d875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ShadowCaster2DTileMap.cs using Guid(d1e007520e30d0744a0ff518dc4d875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6381c651e1103aa97b567f7e4be3647') in 0.008377 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005333 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
-Domain Reload Profiling:
-	ReloadAssembly (973ms)
-		BeginReloadAssembly (215ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (22ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (94ms)
-		EndReloadAssembly (679ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (210ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5686.
-Memory consumption went from 197.9 MB to 197.0 MB.
-Total: 7.119000 ms (FindLiveObjects: 0.572900 ms CreateObjectMapping: 0.221700 ms MarkObjects: 5.926500 ms  DeleteObjects: 0.397100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 29.606347 seconds.
-  path: Assets/Scripts/ShadowCaster2DTileMap.cs
-  artifactKey: Guid(d1e007520e30d0744a0ff518dc4d875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ShadowCaster2DTileMap.cs using Guid(d1e007520e30d0744a0ff518dc4d875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fabab4ad2e6dfa134499de72666952') in 0.009904 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004746 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.877 seconds
-Domain Reload Profiling:
-	ReloadAssembly (877ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (670ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (321ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5689.
-Memory consumption went from 197.8 MB to 197.0 MB.
-Total: 3.809200 ms (FindLiveObjects: 0.390900 ms CreateObjectMapping: 0.264500 ms MarkObjects: 2.740100 ms  DeleteObjects: 0.412800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006019 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.838 seconds
-Domain Reload Profiling:
-	ReloadAssembly (839ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (646ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (315ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5692.
-Memory consumption went from 197.9 MB to 197.0 MB.
-Total: 3.135200 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.109200 ms MarkObjects: 2.401500 ms  DeleteObjects: 0.302300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004917 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
-Domain Reload Profiling:
-	ReloadAssembly (955ms)
-		BeginReloadAssembly (192ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (82ms)
-		EndReloadAssembly (683ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (325ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5695.
-Memory consumption went from 197.9 MB to 197.0 MB.
-Total: 5.183600 ms (FindLiveObjects: 0.344700 ms CreateObjectMapping: 0.253800 ms MarkObjects: 4.179800 ms  DeleteObjects: 0.404200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004768 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
-Domain Reload Profiling:
-	ReloadAssembly (957ms)
-		BeginReloadAssembly (198ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (22ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (83ms)
-		EndReloadAssembly (682ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (328ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5698.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 6.224000 ms (FindLiveObjects: 0.499000 ms CreateObjectMapping: 0.339800 ms MarkObjects: 4.740400 ms  DeleteObjects: 0.643800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005284 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.838 seconds
-Domain Reload Profiling:
-	ReloadAssembly (838ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (657ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (184ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (318ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5701.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 3.706600 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.113600 ms MarkObjects: 2.898100 ms  DeleteObjects: 0.382600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004982 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
-Domain Reload Profiling:
-	ReloadAssembly (845ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (635ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (305ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5099 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5705.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 4.118800 ms (FindLiveObjects: 0.588200 ms CreateObjectMapping: 0.157600 ms MarkObjects: 2.972800 ms  DeleteObjects: 0.399400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004774 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.830 seconds
-Domain Reload Profiling:
-	ReloadAssembly (830ms)
-		BeginReloadAssembly (130ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (628ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (302ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5099 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5708.
-Memory consumption went from 197.8 MB to 197.0 MB.
-Total: 4.164000 ms (FindLiveObjects: 0.406300 ms CreateObjectMapping: 0.326300 ms MarkObjects: 3.044600 ms  DeleteObjects: 0.385600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004826 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
-Domain Reload Profiling:
-	ReloadAssembly (857ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (648ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (316ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5099 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5711.
-Memory consumption went from 197.9 MB to 197.0 MB.
-Total: 3.518900 ms (FindLiveObjects: 0.326800 ms CreateObjectMapping: 0.113200 ms MarkObjects: 2.731600 ms  DeleteObjects: 0.346500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005125 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.784 seconds
-Domain Reload Profiling:
-	ReloadAssembly (785ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (606ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5099 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5714.
-Memory consumption went from 197.9 MB to 197.0 MB.
-Total: 3.752800 ms (FindLiveObjects: 0.351200 ms CreateObjectMapping: 0.266600 ms MarkObjects: 2.784100 ms  DeleteObjects: 0.350200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005053 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.906 seconds
-Domain Reload Profiling:
-	ReloadAssembly (907ms)
-		BeginReloadAssembly (185ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (647ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (305ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (0.8 MB). Loaded Objects now: 5716.
-Memory consumption went from 197.9 MB to 197.0 MB.
-Total: 5.151000 ms (FindLiveObjects: 0.432600 ms CreateObjectMapping: 0.150800 ms MarkObjects: 4.001000 ms  DeleteObjects: 0.565400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005778 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.846 seconds
-Domain Reload Profiling:
-	ReloadAssembly (847ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (631ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (304ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5097 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (0.8 MB). Loaded Objects now: 5718.
-Memory consumption went from 197.8 MB to 197.0 MB.
-Total: 3.274300 ms (FindLiveObjects: 0.329400 ms CreateObjectMapping: 0.117000 ms MarkObjects: 2.483600 ms  DeleteObjects: 0.343400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004751 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.846 seconds
-Domain Reload Profiling:
-	ReloadAssembly (847ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (633ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (174ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5722.
-Memory consumption went from 197.9 MB to 197.0 MB.
-Total: 3.845200 ms (FindLiveObjects: 0.315800 ms CreateObjectMapping: 0.242600 ms MarkObjects: 2.894500 ms  DeleteObjects: 0.391400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005114 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.922 seconds
-Domain Reload Profiling:
-	ReloadAssembly (923ms)
-		BeginReloadAssembly (170ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (678ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (326ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5725.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 4.011800 ms (FindLiveObjects: 0.338100 ms CreateObjectMapping: 0.269400 ms MarkObjects: 2.998200 ms  DeleteObjects: 0.405200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004875 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
-Domain Reload Profiling:
-	ReloadAssembly (849ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (634ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (181ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (305ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5728.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 4.410100 ms (FindLiveObjects: 0.324100 ms CreateObjectMapping: 0.117600 ms MarkObjects: 3.525400 ms  DeleteObjects: 0.442400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005101 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
-Domain Reload Profiling:
-	ReloadAssembly (803ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (627ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (307ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5731.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 3.530700 ms (FindLiveObjects: 0.318400 ms CreateObjectMapping: 0.269400 ms MarkObjects: 2.590500 ms  DeleteObjects: 0.351600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004688 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.824 seconds
-Domain Reload Profiling:
-	ReloadAssembly (825ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (629ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (183ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (303ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5734.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 3.779600 ms (FindLiveObjects: 0.320000 ms CreateObjectMapping: 0.221100 ms MarkObjects: 2.797700 ms  DeleteObjects: 0.439800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004928 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
-Domain Reload Profiling:
-	ReloadAssembly (773ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (603ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (301ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5737.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 4.202500 ms (FindLiveObjects: 0.332700 ms CreateObjectMapping: 0.119500 ms MarkObjects: 3.365100 ms  DeleteObjects: 0.384400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005240 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
-Domain Reload Profiling:
-	ReloadAssembly (779ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (606ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (301ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5740.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 3.472200 ms (FindLiveObjects: 0.331400 ms CreateObjectMapping: 0.121600 ms MarkObjects: 2.652300 ms  DeleteObjects: 0.366300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004919 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
-Domain Reload Profiling:
-	ReloadAssembly (773ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (599ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (299ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5743.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 3.593100 ms (FindLiveObjects: 0.355600 ms CreateObjectMapping: 0.295600 ms MarkObjects: 2.570000 ms  DeleteObjects: 0.370900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004849 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.816 seconds
-Domain Reload Profiling:
-	ReloadAssembly (816ms)
-		BeginReloadAssembly (132ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (614ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (298ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5746.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 3.706700 ms (FindLiveObjects: 0.322600 ms CreateObjectMapping: 0.234600 ms MarkObjects: 2.777200 ms  DeleteObjects: 0.371600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004980 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.780 seconds
-Domain Reload Profiling:
-	ReloadAssembly (780ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (608ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (305ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5749.
-Memory consumption went from 197.9 MB to 197.1 MB.
-Total: 3.323000 ms (FindLiveObjects: 0.374900 ms CreateObjectMapping: 0.270500 ms MarkObjects: 2.334000 ms  DeleteObjects: 0.342800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004679 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.769 seconds
-Domain Reload Profiling:
-	ReloadAssembly (769ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (602ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (296ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5752.
-Memory consumption went from 198.0 MB to 197.1 MB.
-Total: 3.127400 ms (FindLiveObjects: 0.306400 ms CreateObjectMapping: 0.109200 ms MarkObjects: 2.386300 ms  DeleteObjects: 0.324800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005340 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.788 seconds
-Domain Reload Profiling:
-	ReloadAssembly (789ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (615ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (305ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (161ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5755.
-Memory consumption went from 198.0 MB to 197.1 MB.
-Total: 3.302400 ms (FindLiveObjects: 0.342200 ms CreateObjectMapping: 0.116100 ms MarkObjects: 2.502500 ms  DeleteObjects: 0.340800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004803 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\Downloads\Unity Projects\Skull-Head-Game\GameProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Domain Reload Profiling:
-	ReloadAssembly (811ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (608ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (296ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5098 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 5758.
-Memory consumption went from 198.0 MB to 197.1 MB.
-Total: 3.901500 ms (FindLiveObjects: 0.317700 ms CreateObjectMapping: 0.285000 ms MarkObjects: 2.910300 ms  DeleteObjects: 0.387900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 7.040892 seconds.
+  path: Assets/Characters/Player/Sprite/SkullIcon.png
+  artifactKey: Guid(263219c35c4f7be4db8ec60255deee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Player/Sprite/SkullIcon.png using Guid(263219c35c4f7be4db8ec60255deee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d15b770df2cb67dce78a61136e670f') in 0.023144 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
