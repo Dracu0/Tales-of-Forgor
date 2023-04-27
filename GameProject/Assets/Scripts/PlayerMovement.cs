@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private CapsuleCollider2D bc;
     public GameObject open;
     public GameObject closed;
+    public GameObject tutorialText;
     public int ncoins;
     public LayerMask whatIsGround;
     private bool viradoDireita;
@@ -40,6 +41,10 @@ public class PlayerMovement : MonoBehaviour
         groundRadius = 0.2f;
         crouch = Input.GetKey(KeyCode.LeftControl);
         previousSceneIndex = PlayerPrefs.GetInt("previousSceneIndex");
+        Scene currentScene = SceneManager.GetActiveScene();
+        string sceneName = currentScene.name;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
@@ -109,13 +114,6 @@ public class PlayerMovement : MonoBehaviour
             bc.offset = new Vector2(0.0f, 0.0f);
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            SceneManager.LoadScene("Scenes/Menu/Menu", LoadSceneMode.Single);
-            Coin.totalCoins = 0;
-            Cursor.visible = true;
-        }
-
         RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up);
 
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
@@ -163,7 +161,8 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene(sceneName:"DeathScreen", LoadSceneMode.Single);
             Debug.Log(collision);
             Cursor.visible = true;
-
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.lockState = CursorLockMode.None;
         }
 
         if (collision.gameObject.CompareTag("open"))
@@ -175,7 +174,6 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("tutorial"))
         {
             SceneManager.LoadScene(sceneName:"Level_Tutorial",LoadSceneMode.Single);
-            Cursor.visible = false;
         }
 
         if (collision.gameObject.CompareTag("GoToMain"))
@@ -183,21 +181,26 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene("Scenes/Menu/Menu", LoadSceneMode.Single);
             Coin.totalCoins = 0;
             Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
         }
 
         if (collision.gameObject.CompareTag("BackToPreviousLevel"))
         {
             SceneManager.LoadScene(previousSceneIndex);
             Coin.totalCoins = 0;
-            Cursor.visible = false;
         }
 
         if (collision.gameObject.CompareTag("MiniGame"))
         {
             SceneManager.LoadScene("Scenes/Levels/Level_MiniGame", LoadSceneMode.Single);
             Coin.totalCoins = 0;
-            Cursor.visible = false;
         }
+
+        if (collision.gameObject.CompareTag("TutorialTrigger"))
+        {
+            tutorialText = gameObject.GetComponent<GameObject>();
+        }
+
     }
     private void OnDisable()
     {

@@ -13,6 +13,8 @@ TagManager:
   - GoToLevel
   - BackToPreviousLevel
   - GoToMain
+  - QuitButton
+  - TutorialTrigger
   layers:
   - Default
   - TransparentFX

@@ -1,5 +1,7 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static UnityEngine.GraphicsBuffer;
 
 public class PlayerMiniGame : MonoBehaviour
 {
@@ -13,6 +15,12 @@ public class PlayerMiniGame : MonoBehaviour
     private int previousSceneIndex;
     public GameObject open;
     public GameObject closed;
+
+    public float maxMoveSpeed = 10;
+    public float smoothTime = 0.3f;
+    public float minDistance = 2;
+    Vector2 currentVelocity;
+
 
     void Start()
     {
@@ -32,6 +40,22 @@ public class PlayerMiniGame : MonoBehaviour
         MaxWidth = dim.x - GetComponent<Renderer>().bounds.extents.x;
         viradoDireita = true;
 
+        StartCoroutine(StartCursorLock());
+
+    }
+
+    IEnumerator StartCursorLock()
+    {
+        //Print the time of when the function is first called.
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(1);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.None;
+        //After we have waited 5 seconds print the time again.
+        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
     }
 
     private void Update()
@@ -40,6 +64,10 @@ public class PlayerMiniGame : MonoBehaviour
 
         if ((dirX < 0 && viradoDireita) || (dirX > 0 && !viradoDireita)) Flip();
 
+        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        // Offsets the target position so that the object keeps its distance.
+        mousePosition += ((Vector2)transform.position - mousePosition).normalized * minDistance;
+        transform.position = Vector2.SmoothDamp(transform.position, mousePosition, ref currentVelocity, smoothTime, maxMoveSpeed);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -55,7 +83,6 @@ public class PlayerMiniGame : MonoBehaviour
             Destroy(player.gameObject);
             player.gameObject.GetComponent<PlayerMovement>().enabled = false;
             SceneManager.LoadScene(sceneName: "DeathScreen", LoadSceneMode.Single);
-
         }
 
         if (collision.gameObject.CompareTag("open"))
@@ -86,6 +113,13 @@ public class PlayerMiniGame : MonoBehaviour
             SceneManager.LoadScene("Scenes/Levels/Level_MiniGame");
             Coin.totalCoins = 0;
         }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Scenes/Menu/Menu", LoadSceneMode.Single);
+            Coin.totalCoins = 0;
+            Cursor.visible = true;
+        }
     }
 
     void Flip()
@@ -98,8 +132,11 @@ public class PlayerMiniGame : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 rawpos = cam.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 targetPos = new Vector2(Mathf.Clamp(rawpos.x, -MaxWidth, MaxWidth), -7.0f);
-        rb.MovePosition(targetPos);
+            /*
+            Vector2 rawpos = cam.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 targetPos = new Vector2(Mathf.Clamp(rawpos.x, -MaxWidth, MaxWidth), rawpos.y);
+            Vector2 smoothPos = Vector2.MoveTowards(rawpos, targetPos, followSpeed * Time.fixedDeltaTime);
+            rb.MovePosition(smoothPos);    
+            */
     }
 }

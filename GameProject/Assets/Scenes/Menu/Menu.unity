@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 217171436}
   - component: {fileID: 217171435}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Load
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -454,7 +454,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &578432439
+--- !u!43 &409800941
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -752,10 +752,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 884034531}
   - {fileID: 1482986103}
-  - {fileID: 225090812}
+  - {fileID: 884034531}
   - {fileID: 217171434}
+  - {fileID: 225090812}
   m_Father: {fileID: 830399972}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -943,7 +943,7 @@ MonoBehaviour:
     rid: -2
   m_ShadowCastingSource: 1
   m_ShadowMesh:
-    m_Mesh: {fileID: 578432439}
+    m_Mesh: {fileID: 409800941}
     m_LocalBounds:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 27, y: 27, z: 0}
@@ -1323,7 +1323,7 @@ GameObject:
   - component: {fileID: 1482986105}
   - component: {fileID: 1482986104}
   m_Layer: 0
-  m_Name: YouWin
+  m_Name: MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

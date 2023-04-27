@@ -9,6 +9,9 @@ public class DeathScreen : MonoBehaviour
     private void Start()
     {
         previousSceneIndex = PlayerPrefs.GetInt("previousSceneIndex");
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.None;
     }
     public void RePlayGame ()
     {
