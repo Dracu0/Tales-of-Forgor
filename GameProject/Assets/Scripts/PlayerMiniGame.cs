@@ -28,7 +28,6 @@ public class PlayerMiniGame : MonoBehaviour
 
         previousSceneIndex = PlayerPrefs.GetInt("previousSceneIndex");
 
-
         if (cam == null)
         {
             cam = Camera.main;
@@ -72,11 +71,6 @@ public class PlayerMiniGame : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        /*if(collision.gameObject.CompareTag("Coin"))
-        {
-            /*Destroy(collision.gameObject);
-            ncoins--; 
-        }*/
 
         if (collision.gameObject.name == ("Spikes"))
         {
@@ -126,17 +120,8 @@ public class PlayerMiniGame : MonoBehaviour
     {
         viradoDireita = !viradoDireita;
         Vector3 scale = transform.localScale;
-        scale.x *= -1;       //scale.x= scale.x * (-1);
+        scale.x *= -1; //scale.x= scale.x * (-1);
         transform.localScale = scale;
     }
 
-    private void FixedUpdate()
-    {
-            /*
-            Vector2 rawpos = cam.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 targetPos = new Vector2(Mathf.Clamp(rawpos.x, -MaxWidth, MaxWidth), rawpos.y);
-            Vector2 smoothPos = Vector2.MoveTowards(rawpos, targetPos, followSpeed * Time.fixedDeltaTime);
-            rb.MovePosition(smoothPos);    
-            */
-    }
 }

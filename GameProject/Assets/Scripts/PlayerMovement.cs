@@ -180,8 +180,6 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene("Scenes/Menu/Menu", LoadSceneMode.Single);
             Coin.totalCoins = 0;
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
         }
 
         if (collision.gameObject.CompareTag("BackToPreviousLevel"))
@@ -197,7 +195,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (collision.gameObject.CompareTag("TutorialTrigger"))
-        {
+        {   
             tutorialText = gameObject.GetComponent<GameObject>();
         }
 
