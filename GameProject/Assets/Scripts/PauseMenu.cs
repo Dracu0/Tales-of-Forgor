@@ -14,6 +14,7 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenu = GetComponent<Canvas>();
         pauseMenu.enabled = false;
+        GameIsPaused = false;
     }
 
     void Update()
@@ -29,16 +30,24 @@ public class PauseMenu : MonoBehaviour
                 Pause();
             }
         }
+        //Debug.Log(GameIsPaused);
+        //Debug.Log(pauseMenu);
     }
+
     public void ResumeGame()
     {
         Resume();
     }
     public void QuitToMainMenu()
     {
-        SceneManager.LoadScene("Scenes/Menu/Menu");
+        SceneManager.LoadScene("Scenes/Menu/Menu", LoadSceneMode.Single);
 
         Coin.totalCoins = 0;
+        pauseMenu.enabled= false;   
+        GameIsPaused = false;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     void Resume()
@@ -49,6 +58,7 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
+
     void Pause()
     {
         pauseMenu.enabled = true;

@@ -8,10 +8,14 @@ public class MainMenu : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.lockState = CursorLockMode.None;
+        PauseMenu.GameIsPaused = false;
     }
     public void PlayGame ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        PauseMenu.GameIsPaused = false;
     }
 
     public void LevelSelect()

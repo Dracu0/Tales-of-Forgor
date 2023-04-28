@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private CapsuleCollider2D bc;
     public GameObject open;
     public GameObject closed;
-    public GameObject tutorialText;
+    //public GameObject tutorialText;
     public int ncoins;
     public LayerMask whatIsGround;
     private bool viradoDireita;
@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         previousSceneIndex = PlayerPrefs.GetInt("previousSceneIndex");
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
-        Cursor.visible = false;
+        Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -148,18 +148,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        /*if(collision.gameObject.CompareTag("Coin"))
-        {
-            /*Destroy(collision.gameObject);
-            ncoins--; 
-        }*/
 
         if (collision.gameObject.name == ("Spikes"))
         {
             Destroy(player.gameObject);
             player.gameObject.GetComponent<PlayerMovement>().enabled = false;
             SceneManager.LoadScene(sceneName:"DeathScreen", LoadSceneMode.Single);
-            Debug.Log(collision);
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.lockState = CursorLockMode.None;
@@ -194,11 +188,12 @@ public class PlayerMovement : MonoBehaviour
             Coin.totalCoins = 0;
         }
 
+        /*
         if (collision.gameObject.CompareTag("TutorialTrigger"))
         {   
             tutorialText = gameObject.GetComponent<GameObject>();
         }
-
+        */
     }
     private void OnDisable()
     {
