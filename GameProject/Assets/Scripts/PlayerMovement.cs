@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         previousSceneIndex = PlayerPrefs.GetInt("previousSceneIndex");
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
-        Cursor.visible = true;
+        Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -74,23 +74,6 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.Space) && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-        }
-            
-        if (Input.GetKey(KeyCode.LeftShift) /*&& grounded*/)
-        {
-            rb.AddForce(new Vector2(rb.velocity.x * runspeed, 0f), ForceMode2D.Force);
-            
-            
-            //Debug.Log(running);
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            running = true;
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            running = false;
         }
 
         if (Input.GetKey(KeyCode.LeftControl))
@@ -130,7 +113,22 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(dirX * walkspeed, rb.velocity.y);
+        rb.velocity = new Vector2(dirX * walkspeed * Time.fixedDeltaTime, rb.velocity.y);
+
+        if (Input.GetKey(KeyCode.LeftShift) /*&& grounded*/)
+        {
+            rb.AddForce(new Vector2(rb.velocity.x * runspeed * Time.fixedDeltaTime, 0f), ForceMode2D.Force);
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            running = true;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            running = false;
+        }
+
     }
 
     void Flip()
@@ -148,7 +146,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
         if (collision.gameObject.name == ("Spikes"))
         {
             Destroy(player.gameObject);
@@ -187,13 +184,6 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene("Scenes/Levels/Level_MiniGame", LoadSceneMode.Single);
             Coin.totalCoins = 0;
         }
-
-        /*
-        if (collision.gameObject.CompareTag("TutorialTrigger"))
-        {   
-            tutorialText = gameObject.GetComponent<GameObject>();
-        }
-        */
     }
     private void OnDisable()
     {

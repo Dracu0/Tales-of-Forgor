@@ -143,7 +143,7 @@ MonoBehaviour:
   m_AlphaBlendOnOverlap: 0
   m_OverlapOperation: 0
   m_NormalMapDistance: 3
-  m_NormalMapQuality: 2
+  m_NormalMapQuality: 0
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
   m_ShadowIntensity: 1
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_AlphaBlendOnOverlap: 0
   m_OverlapOperation: 0
   m_NormalMapDistance: 3
-  m_NormalMapQuality: 2
+  m_NormalMapQuality: 0
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
   m_ShadowIntensity: 0.75
@@ -441,7 +441,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 7.5
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a6bfba3481be5d74fa531fe21c3e5290, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -502,15 +502,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2903663233267821890}
-  walkspeed: 8
-  runspeed: 5
+  walkspeed: 350
+  runspeed: 1500
   friction: 0
   groundRadius: 0.2
   grounded: 0
   groundCheck: {fileID: 7605789023229316976}
   open: {fileID: 0}
   closed: {fileID: 0}
-  ncoins: 4
+  ncoins: 9
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8

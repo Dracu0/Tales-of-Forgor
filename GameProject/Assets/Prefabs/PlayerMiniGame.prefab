@@ -48,8 +48,8 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.708
-  m_Color: {r: 0.909804, g: 0.23137257, b: 0.23137257, a: 1}
-  m_Intensity: 7.5
+  m_Color: {r: 0.6784314, g: 0.4280993, b: 0.27450982, a: 1}
+  m_Intensity: 2
   m_LightVolumeIntensity: 0.1
   m_LightVolumeEnabled: 1
   m_ApplyToSortingLayers: 00000000
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_AlphaBlendOnOverlap: 0
   m_OverlapOperation: 0
   m_NormalMapDistance: 3
-  m_NormalMapQuality: 2
+  m_NormalMapQuality: 0
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
   m_ShadowIntensity: 0.75
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 1
+  m_PointLightOuterRadius: 2
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -152,7 +152,7 @@ Transform:
   - {fileID: 8280209990173589833}
   - {fileID: 5957587643483340932}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3584756521312209857
 SpriteRenderer:
@@ -243,8 +243,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 7.5
-  m_Material: {fileID: 0}
+  m_GravityScale: 9.8
+  m_Material: {fileID: 6200000, guid: 0489887eecdef774cbaefc11fc415c19, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -307,10 +307,7 @@ MonoBehaviour:
   player: {fileID: 7204694186325598517}
   rb: {fileID: 4288599947565020188}
   cam: {fileID: 0}
-  open: {fileID: 0}
-  closed: {fileID: 0}
-  maxMoveSpeed: 35
-  smoothTime: 0.15
+  maxMoveSpeed: 500
 --- !u!1 &3527624756651557144
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,7 +356,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.6
-  m_Color: {r: 0.8207547, g: 0.60223496, b: 0.3148807, a: 1}
+  m_Color: {r: 0.7924528, g: 0.5439987, b: 0.2890708, a: 1}
   m_Intensity: 1.25
   m_LightVolumeIntensity: 0.2
   m_LightVolumeEnabled: 1
@@ -370,7 +367,7 @@ MonoBehaviour:
   m_AlphaBlendOnOverlap: 0
   m_OverlapOperation: 0
   m_NormalMapDistance: 3
-  m_NormalMapQuality: 2
+  m_NormalMapQuality: 0
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
   m_ShadowIntensity: 1

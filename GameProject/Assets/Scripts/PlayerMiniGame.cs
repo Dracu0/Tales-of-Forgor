@@ -1,26 +1,19 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEngine.GraphicsBuffer;
 
-public class PlayerMiniGame : MonoBehaviour
+public class PlayerMiniGameTest : MonoBehaviour
 {
     public Transform player;
 
     public Rigidbody2D rb;
 
     public Camera cam;
-    private float MaxWidth;
     private bool viradoDireita;
     private int previousSceneIndex;
-    public GameObject open;
-    public GameObject closed;
+    public float maxMoveSpeed = 10f;
 
-    public float maxMoveSpeed = 10;
-    public float smoothTime = 0.3f;
-    public float minDistance = 2;
     Vector2 currentVelocity;
-
 
     void Start()
     {
@@ -28,19 +21,12 @@ public class PlayerMiniGame : MonoBehaviour
 
         previousSceneIndex = PlayerPrefs.GetInt("previousSceneIndex");
 
-        if (cam == null)
-        {
-            cam = Camera.main;
-        }
-
-        rb = GetComponent<Rigidbody2D>();
-        Vector3 UpperC = new Vector3(Screen.width, Screen.height);
-        Vector3 dim = cam.ScreenToWorldPoint(UpperC);
-        MaxWidth = dim.x - GetComponent<Renderer>().bounds.extents.x;
         viradoDireita = true;
 
         StartCoroutine(StartCursorLock());
 
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     IEnumerator StartCursorLock()
@@ -57,16 +43,18 @@ public class PlayerMiniGame : MonoBehaviour
         Debug.Log("Finished Coroutine at timestamp : " + Time.time);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         float dirX = Input.GetAxisRaw("Mouse X");
 
         if ((dirX < 0 && viradoDireita) || (dirX > 0 && !viradoDireita)) Flip();
 
-        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        // Offsets the target position so that the object keeps its distance.
-        mousePosition += ((Vector2)transform.position - mousePosition).normalized * minDistance;
-        transform.position = Vector2.SmoothDamp(transform.position, mousePosition, ref currentVelocity, smoothTime, maxMoveSpeed);
+        
+         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+         float currentY = transform.position.y; // get the current y-axis position
+         mousePosition.y = currentY; // set the y-axis value to the current y-axis position
+         rb.velocity = new Vector2(dirX * maxMoveSpeed * Time.fixedDeltaTime, currentY);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -120,7 +108,7 @@ public class PlayerMiniGame : MonoBehaviour
     {
         viradoDireita = !viradoDireita;
         Vector3 scale = transform.localScale;
-        scale.x *= -1; //scale.x= scale.x * (-1);
+        scale.x *= -1;//scale.x= scale.x * (-1);
         transform.localScale = scale;
     }
 

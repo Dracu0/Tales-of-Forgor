@@ -4,17 +4,6 @@ public class Coin : MonoBehaviour
 {
     //Keep track of total picked coins (Since the value is static, it can be accessed at "Coin.totalCoins" from any script)
     public static int totalCoins = 0;
-    
-
-    private void Start()
-    {
-        //Make Collider2D as trigger 
-        GetComponent<Collider2D>().isTrigger = true;
-        if (tag == "ReplayButton")
-        {
-            Coin.totalCoins = 0;
-        }
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,7 +15,13 @@ public class Coin : MonoBehaviour
             //Test: Print total number of coins
             Debug.Log("You currently have " + Coin.totalCoins + " Coins.");
             //Destroy coin
-            Destroy(gameObject);
+            Destroy(this.gameObject);
+        }
+
+        if (collision.CompareTag("CoinDestroyer"))
+        {
+            Destroy(this.gameObject);
         }
     }
+
 }

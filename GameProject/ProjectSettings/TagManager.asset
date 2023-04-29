@@ -15,6 +15,7 @@ TagManager:
   - GoToMain
   - QuitButton
   - TutorialTrigger
+  - CoinDestroyer
   layers:
   - Default
   - TransparentFX
