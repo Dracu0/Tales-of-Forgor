@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 2172575556850341955}
   - component: {fileID: 8113257829203604186}
   - component: {fileID: 2788375096284452130}
-  - component: {fileID: 516232497234634315}
   - component: {fileID: 929423107057579111}
+  - component: {fileID: 6167099808084809701}
+  - component: {fileID: 7731805528340754304}
+  - component: {fileID: 7132135622226639699}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -70,7 +72,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 8.4375
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -129,7 +131,44 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
---- !u!114 &516232497234634315
+--- !u!114 &929423107057579111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550758136973148999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ffe7ac8e2ddbf7438ec333f21dff413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFrameRate: 72
+--- !u!114 &6167099808084809701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550758136973148999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ComponentVersion: 1
+  m_AssetsPPU: 64
+  m_RefResolutionX: 1920
+  m_RefResolutionY: 1080
+  m_CropFrame: 0
+  m_GridSnapping: 2
+  m_FilterMode: 0
+  m_UpscaleRT: 0
+  m_PixelSnapping: 0
+  m_CropFrameX: 0
+  m_CropFrameY: 0
+  m_StretchFill: 0
+--- !u!114 &7731805528340754304
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,19 +184,14 @@ MonoBehaviour:
   cameraOffset: {x: 0, y: 0, z: 0}
   followSpeed: 10
   xMin: -500
---- !u!114 &929423107057579111
-MonoBehaviour:
+--- !u!81 &7132135622226639699
+AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3550758136973148999}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ffe7ac8e2ddbf7438ec333f21dff413, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetFrameRate: 72
 --- !u!1 &6211259775281009887
 GameObject:
   m_ObjectHideFlags: 0

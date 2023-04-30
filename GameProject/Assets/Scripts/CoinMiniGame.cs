@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 public class CoinMiniGame : MonoBehaviour
 {
     [SerializeField] private float MaxWidth;
-    public float waitingTime;
+    public float waitingTime = 2.0f;
+    public float waitingTimeAfterCompletion = 2.0f;
 
     public GameObject coin;
 
@@ -22,6 +23,8 @@ public class CoinMiniGame : MonoBehaviour
             Instantiate(coin, spawnPosition, Quaternion.identity);
             yield return new WaitForSeconds(waitingTime);
         }
+        yield return new WaitForSeconds(waitingTimeAfterCompletion);
+
         if(Coin.totalCoins == 15)
         {
             SceneManager.LoadScene("Scenes/Menu/WinScreen");

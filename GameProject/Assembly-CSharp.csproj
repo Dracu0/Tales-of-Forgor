@@ -58,10 +58,15 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.1.0b14\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BGMusicPlayback.cs" />
+    <Compile Include="Assets\Scripts\MusicPlay.cs" />
     <Compile Include="Assets\Scripts\LevelSelection.cs" />
+    <Compile Include="Assets\Scripts\CoinParticleSystem.cs" />
     <Compile Include="Assets\Scripts\CoinCounter.cs" />
     <Compile Include="Assets\Scripts\MiniGame.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\BGMusic.cs" />
+    <Compile Include="Assets\Scripts\HealthCounter.cs" />
     <Compile Include="Assets\Scripts\PlayerMiniGame.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\UI_Appear.cs" />
@@ -71,11 +76,13 @@
     <Compile Include="Assets\Scenes\Menu\UnusedMenus\LevelChanger.cs" />
     <Compile Include="Assets\Scripts\DeathScreen.cs" />
     <Compile Include="Assets\Scripts\LevelLoader.cs" />
-    <Compile Include="Assets\CoinParticleSystem.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Coin.cs" />
     <Compile Include="Assets\Scripts\LimitFps.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
     <Compile Include="Assets\Scripts\CoinMiniGame.cs" />
+    <Compile Include="Assets\Scripts\UnitHealth.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -16,6 +16,11 @@ TagManager:
   - QuitButton
   - TutorialTrigger
   - CoinDestroyer
+  - stopBGMusic
+  - startBGMusic
+  - resumeBGMusic
+  - pauseBGMusic
+  - GameMusic
   layers:
   - Default
   - TransparentFX

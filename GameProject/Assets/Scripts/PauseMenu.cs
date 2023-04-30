@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    [SerializeField] public Canvas pauseMenu;
+    public Canvas pauseMenu;
     public static bool GameIsPaused = false;
+    private AudioSource[] allAudioSources;
 
     private void Start()
     {
@@ -54,6 +54,12 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        foreach (AudioSource audioS in allAudioSources)
+        {
+            audioS.UnPause();
+        }
     }
 
     void Pause()
@@ -64,6 +70,13 @@ public class PauseMenu : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.lockState = CursorLockMode.None;
+
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        foreach (AudioSource audioS in allAudioSources)
+        {
+            audioS.Pause();
+        }
+
     }
 
 }

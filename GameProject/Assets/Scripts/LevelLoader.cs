@@ -15,6 +15,7 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene(SceneName,LoadSceneMode.Single);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     public void GoToMenu()

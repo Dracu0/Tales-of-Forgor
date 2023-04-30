@@ -4,6 +4,8 @@ public class Coin : MonoBehaviour
 {
     //Keep track of total picked coins (Since the value is static, it can be accessed at "Coin.totalCoins" from any script)
     public static int totalCoins = 0;
+    public AudioSource coinSource;
+    public float volume = 0.5f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,11 +18,13 @@ public class Coin : MonoBehaviour
             Debug.Log("You currently have " + Coin.totalCoins + " Coins.");
             //Destroy coin
             Destroy(this.gameObject);
+            coinSource.Play();
         }
 
         if (collision.CompareTag("CoinDestroyer"))
         {
             Destroy(this.gameObject);
+
         }
     }
 

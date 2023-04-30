@@ -23,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
     public int ncoins;
     public LayerMask whatIsGround;
     private bool viradoDireita;
-    private bool crouch;
     public bool running;
     public float JumpHeight;
     private int previousSceneIndex;
@@ -39,7 +38,6 @@ public class PlayerMovement : MonoBehaviour
         bc = GetComponent<CapsuleCollider2D>();
         viradoDireita = true;
         groundRadius = 0.2f;
-        crouch = Input.GetKey(KeyCode.LeftControl);
         previousSceneIndex = PlayerPrefs.GetInt("previousSceneIndex");
         Scene currentScene = SceneManager.GetActiveScene();
         string sceneName = currentScene.name;
@@ -76,15 +74,9 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
 
-        if (Input.GetKey(KeyCode.LeftControl))
-        {
-            crouch = true;
-        }
-
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             anim.SetBool("Crouch", true);
-            crouch = true;
             bc.size = new Vector2(0.15f, 0.10f);
             bc.offset = new Vector2(0.0f, -0.05f);
         }
@@ -92,7 +84,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             anim.SetBool("Crouch", false);
-            crouch = false;
             bc.size = new Vector2(0.2f, 0.3f);
             bc.offset = new Vector2(0.0f, 0.0f);
         }
@@ -145,17 +136,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.name == ("Spikes"))
-        {
-            Destroy(player.gameObject);
-            player.gameObject.GetComponent<PlayerMovement>().enabled = false;
-            SceneManager.LoadScene(sceneName:"DeathScreen", LoadSceneMode.Single);
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.lockState = CursorLockMode.None;
-        }
-
+    {  
         if (collision.gameObject.CompareTag("open"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
@@ -183,6 +164,10 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene("Scenes/Levels/Level_MiniGame", LoadSceneMode.Single);
             Coin.totalCoins = 0;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.lockState = CursorLockMode.Confined;
+            BGMusic.instance.GetComponent<AudioSource>().Stop();
         }
     }
     private void OnDisable()

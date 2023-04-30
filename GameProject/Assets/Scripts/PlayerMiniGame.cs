@@ -24,9 +24,6 @@ public class PlayerMiniGameTest : MonoBehaviour
         viradoDireita = true;
 
         StartCoroutine(StartCursorLock());
-
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Confined;
     }
 
     IEnumerator StartCursorLock()
@@ -38,7 +35,7 @@ public class PlayerMiniGameTest : MonoBehaviour
         //yield on a new YieldInstruction that waits for 5 seconds.
         yield return new WaitForSeconds(1);
         Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Confined;
         //After we have waited 5 seconds print the time again.
         Debug.Log("Finished Coroutine at timestamp : " + Time.time);
     }
@@ -54,7 +51,7 @@ public class PlayerMiniGameTest : MonoBehaviour
          float currentY = transform.position.y; // get the current y-axis position
          mousePosition.y = currentY; // set the y-axis value to the current y-axis position
          rb.velocity = new Vector2(dirX * maxMoveSpeed * Time.fixedDeltaTime, currentY);
-
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

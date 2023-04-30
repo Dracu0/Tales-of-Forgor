@@ -3,11 +3,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    private void Awake()
+    {
+        BGMusic.instance.GetComponent<AudioSource>().Stop();
+    }
+
     private void Start()
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.lockState = CursorLockMode.None;
+        Cursor.lockState = CursorLockMode.Confined;
     }
     public void PlayGame ()
     {
