@@ -58,31 +58,32 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.1.0b14\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BGMusicPlayback.cs" />
-    <Compile Include="Assets\Scripts\MusicPlay.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\UI_Appear.cs" />
+    <Compile Include="Assets\Scripts\Coin Scripts\CoinParticleSystem.cs" />
+    <Compile Include="Assets\Scripts\Camera Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\CoinCounter.cs" />
+    <Compile Include="Assets\Scripts\Coin Scripts\Coin.cs" />
+    <Compile Include="Assets\Scripts\Coin Scripts\CoinMG.cs" />
+    <Compile Include="Assets\Scripts\Music Scripts\BGMusic.cs" />
+    <Compile Include="Assets\Scripts\Menu Scripts\WinScreen.cs" />
     <Compile Include="Assets\Scripts\LevelSelection.cs" />
-    <Compile Include="Assets\Scripts\CoinParticleSystem.cs" />
-    <Compile Include="Assets\Scripts\CoinCounter.cs" />
+    <Compile Include="Assets\Scripts\Music Scripts\MusicPlay.cs" />
     <Compile Include="Assets\Scripts\MiniGame.cs" />
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\BGMusic.cs" />
-    <Compile Include="Assets\Scripts\HealthCounter.cs" />
-    <Compile Include="Assets\Scripts\PlayerMiniGame.cs" />
-    <Compile Include="Assets\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\UI_Appear.cs" />
-    <Compile Include="Assets\Scripts\WinScreen.cs" />
+    <Compile Include="Assets\Scripts\Coin Scripts\CoinMiniGame.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Menu Scripts\DeathScreen.cs" />
+    <Compile Include="Assets\Scripts\Camera Scripts\LimitFps.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\HealthCounter.cs" />
+    <Compile Include="Assets\Scripts\Music Scripts\BGMusicPlayback.cs" />
     <Compile Include="Assets\Scripts\TutorialLevel.cs" />
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scenes\Menu\UnusedMenus\LevelChanger.cs" />
-    <Compile Include="Assets\Scripts\DeathScreen.cs" />
-    <Compile Include="Assets\Scripts\LevelLoader.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Coin.cs" />
-    <Compile Include="Assets\Scripts\LimitFps.cs" />
+    <Compile Include="Assets\Scripts\Menu Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Menu Scripts\LevelLoader.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
-    <Compile Include="Assets\Scripts\CoinMiniGame.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerMiniGame.cs" />
     <Compile Include="Assets\Scripts\UnitHealth.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

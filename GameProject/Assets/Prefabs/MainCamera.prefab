@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 2788375096284452130}
   - component: {fileID: 929423107057579111}
   - component: {fileID: 6167099808084809701}
-  - component: {fileID: 7731805528340754304}
   - component: {fileID: 7132135622226639699}
+  - component: {fileID: 5999676497995807551}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -46,7 +46,7 @@ Camera:
   m_GameObject: {fileID: 3550758136973148999}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -72,7 +72,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.4375
+  orthographic size: 4.21875
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -158,8 +158,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ComponentVersion: 1
   m_AssetsPPU: 64
-  m_RefResolutionX: 1920
-  m_RefResolutionY: 1080
+  m_RefResolutionX: 960
+  m_RefResolutionY: 540
   m_CropFrame: 0
   m_GridSnapping: 2
   m_FilterMode: 0
@@ -168,7 +168,15 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
---- !u!114 &7731805528340754304
+--- !u!81 &7132135622226639699
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550758136973148999}
+  m_Enabled: 1
+--- !u!114 &5999676497995807551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,14 +192,6 @@ MonoBehaviour:
   cameraOffset: {x: 0, y: 0, z: 0}
   followSpeed: 10
   xMin: -500
---- !u!81 &7132135622226639699
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3550758136973148999}
-  m_Enabled: 1
 --- !u!1 &6211259775281009887
 GameObject:
   m_ObjectHideFlags: 0
