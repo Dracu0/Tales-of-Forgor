@@ -8,7 +8,7 @@ public class CoinMiniGame : MonoBehaviour
     public float waitingTime = 2.0f;
     public float timeForWinScreen = 2.0f;
     public float timeForDeathScreen = 2.0f;
-
+    public float timeForPlayerDestroy = 2.0f;
     public GameObject coin;
 
     public void Start()
@@ -40,7 +40,8 @@ public class CoinMiniGame : MonoBehaviour
     }
 
     private IEnumerator Win()
-    {
+    {   
+        yield return new WaitForSeconds(timeForPlayerDestroy);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         //Add a Player Death animation here where the player will be destroyed only after the animation is over
@@ -82,6 +83,6 @@ public class CoinMiniGame : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("previousSceneIndex", currentSceneIndex);
         PlayerPrefs.Save();
-        Debug.Log(currentSceneIndex);
+        //Debug.Log(currentSceneIndex);
     }
 }
