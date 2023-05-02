@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    //this.gameObject.GetComponent<PlayerMovement>().enabled = false;
+    [SerializeField] private int PlayerDamage;
+    [SerializeField] private int PlayerHeal;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.H))
         {
-            PlayerHeal(25);
+            PlayerTakeHeal(PlayerHeal);
             Debug.Log(GameManager.gameManager.playerHealth.Health);
         }
 
@@ -28,7 +29,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if (collision.gameObject.name == "Spikes")
         {
-            PlayerTakeDamage(50);
+            PlayerTakeDamage(PlayerDamage);
             Debug.Log(GameManager.gameManager.playerHealth.Health);
         }
     }
@@ -38,7 +39,7 @@ public class PlayerBehaviour : MonoBehaviour
         GameManager.gameManager.playerHealth.DamageUnit(damage);
     }
 
-    private void PlayerHeal(int healing)
+    private void PlayerTakeHeal(int healing)
     {
         GameManager.gameManager.playerHealth.HealUnit(healing);
     }

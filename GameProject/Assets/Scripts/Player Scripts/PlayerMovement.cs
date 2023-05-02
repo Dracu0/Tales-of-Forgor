@@ -28,6 +28,45 @@ public class PlayerMovement : MonoBehaviour
     private int previousSceneIndex;
     private float dirX;
     public float doubleJumpHeight;
+    private float Xvelocity;
+    private float Yvelocity;
+    PlayerStates currentState;
+
+    public enum PlayerStates
+    {
+        IDLE,
+        WALK,
+       // RUN,
+        JUMP,
+        //CROUCH
+    }
+
+    PlayerStates CurrentState
+    {
+        set
+        {
+            currentState = value;
+
+            switch(currentState)
+            {
+                case PlayerStates.IDLE:
+                    anim.Play("Idle");
+                    break;
+                case PlayerStates.WALK:
+                    anim.Play("Walk");
+                    break;
+                //case PlayerStates.RUN:
+                   // anim.Play("Run");
+                 //   break;
+                 //case PlayerStates.CROUCH:
+                   // anim.Play("Crouch");
+                   // break;
+                case PlayerStates.JUMP:
+                    anim.Play("Jump");
+                    break;
+            }
+        }
+    }
 
     private void Start()
     {
@@ -44,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
-
+    
     private void Update()
     {
         dirX = Input.GetAxisRaw("Horizontal");
@@ -56,6 +95,8 @@ public class PlayerMovement : MonoBehaviour
             doubleJump = false;
         }
         
+       
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if(grounded || doubleJump)
@@ -93,8 +134,31 @@ public class PlayerMovement : MonoBehaviour
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
 
         anim.SetFloat("Speed", Mathf.Abs(dirX));
-        if ((dirX < 0 && viradoDireita) || (dirX > 0 && !viradoDireita)) Flip(); 
+        anim.SetFloat("Yvel", Yvelocity);
+        anim.SetFloat("Xvel", Xvelocity);
+
+        Xvelocity = rb.velocity.x;
+        Yvelocity = rb.velocity.y;
+
+        if ((dirX < 0 && viradoDireita) || (dirX > 0 && !viradoDireita)) Flip();
         
+        if (Xvelocity == 0)
+        {
+            CurrentState = PlayerStates.IDLE;
+        }
+        if (Xvelocity <= 4 || Xvelocity >= -4 && Xvelocity != 0)
+        {
+            CurrentState = PlayerStates.WALK;
+        }
+        /*if (Xvelocity < 4 || Xvelocity > -4)
+        {
+            CurrentState = PlayerStates.RUN;
+        }*/
+        if (Yvelocity != 0)
+        {
+            CurrentState = PlayerStates.JUMP;
+        }
+
         if (Coin.totalCoins == ncoins)
             {
                 closed.SetActive(false);
