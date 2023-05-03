@@ -1,10 +1,12 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class CoinMiniGame : MonoBehaviour
 {
     [SerializeField] private float MaxWidth;
+    private int MiniGameCoins;
     public float waitingTime = 2.0f;
     public float timeForWinScreen = 2.0f;
     public float timeForDeathScreen = 2.0f;
@@ -14,6 +16,7 @@ public class CoinMiniGame : MonoBehaviour
     public void Start()
     {
         StartCoroutine(Spawn());
+        MiniGameCoins = Coin.totalCoins;
     }
 
     private void Update()
@@ -52,6 +55,7 @@ public class CoinMiniGame : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Confined;
         SceneManager.LoadScene("WinScreen", LoadSceneMode.Single);
+        PlayerPrefs.Save();
     }
 
     private IEnumerator Death()
@@ -81,6 +85,7 @@ public class CoinMiniGame : MonoBehaviour
     private void OnDestroy()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("MiniGameCoins", Coin.totalCoins);
         PlayerPrefs.SetInt("previousSceneIndex", currentSceneIndex);
         PlayerPrefs.Save();
         //Debug.Log(currentSceneIndex);

@@ -28,7 +28,6 @@ public class SFXTrigger : MonoBehaviour
                 count -= 1;
             }
         }
-        Debug.Log(isTriggered);
     }
 
     void OnTriggerExit2D(Collider2D col)
@@ -39,8 +38,6 @@ public class SFXTrigger : MonoBehaviour
             Destroy(this.gameObject, soundToTrigger.length);
             count = 0;
         }
-        Debug.Log("Exited");
-        Debug.Log(count);
     }
 
 }

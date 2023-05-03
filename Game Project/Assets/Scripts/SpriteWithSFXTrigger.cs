@@ -1,17 +1,19 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SpriteWithSFXTrigger : MonoBehaviour
 {
     [SerializeField] private AudioSource soundToTriggerSource;
-    [SerializeField] private float SFXTriggerVolume;
     [SerializeField] private SpriteRenderer SpriteOnTrigger;
+    [SerializeField] private float SFXTriggerVolume;
     [SerializeField] private float DelayBetweenClips;
+    [SerializeField] private float DelayBetweenAnimations;
     [SerializeField] private float DelayToDestroy;
     [SerializeField] private bool destroyOnDelay;
-    public AudioClip[] soundToTrigger;
-    private bool isTriggered;
+    [SerializeField] private Animator anim;
+    [SerializeField] private Animation[] FadeAnimationTrigger;
+    [SerializeField] private AudioClip[] soundToTrigger;
+    [SerializeField] private bool isTriggered;
     int count = 1;
 
     private void Start()
@@ -39,14 +41,20 @@ public class SpriteWithSFXTrigger : MonoBehaviour
             if (isTriggered && count == 1)
             {
                 SpriteOnTrigger.enabled = true;
-                StartCoroutine(PlayMultiple());
+                StartCoroutine(PlayMultipleSFX());
                 count -= 1;
             }
         }
-        //Debug.Log(isTriggered);
+    }
+    
+    IEnumerator PlayMultipleAnimations()
+    {
+        anim.Play("Fade_In");
+        yield return new WaitForSeconds(DelayBetweenAnimations);
+        anim.Play("Fade_Out");
     }
 
-    IEnumerator PlayMultiple()
+    IEnumerator PlayMultipleSFX()
     {
         soundToTriggerSource.PlayOneShot(soundToTrigger[0], SFXTriggerVolume);
         yield return new WaitForSeconds(DelayBetweenClips);
@@ -73,8 +81,6 @@ public class SpriteWithSFXTrigger : MonoBehaviour
             Destroy(this.gameObject, soundToTrigger[2].length);
             count = 0;
         }
-        //Debug.Log("Exited");
-        //Debug.Log(count);
     }
 
 }

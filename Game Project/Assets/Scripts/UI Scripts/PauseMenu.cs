@@ -14,6 +14,7 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenu = GetComponent<Canvas>();
         pauseMenu.enabled = false;
+        PlayerPrefs.GetInt("MiniGameCoins");
     }
 
     void Update()
@@ -45,6 +46,13 @@ public class PauseMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 1f;
+    }
+
+    public void ResetCoins()
+    {
+        Coin.totalCoins = 0;
+        PlayerPrefs.SetInt("MiniGameCoins", Coin.totalCoins);
+        Debug.Log(Coin.totalCoins);
     }
 
     void Resume()

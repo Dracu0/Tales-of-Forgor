@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class WinScreen : MonoBehaviour
 {
+    private float MiniGameUnlock;
     private void Start()
     {
         Cursor.visible = true;
@@ -12,7 +13,8 @@ public class WinScreen : MonoBehaviour
     public void QuitToMainMenu()
     {
         SceneManager.LoadScene("Scenes/Menu/Menu");
-        Coin.totalCoins = 0;
+        MiniGameUnlock = PlayerPrefs.GetInt("MiniGameCoins");
+        Debug.Log(MiniGameUnlock);
     }
 
 }

@@ -41,56 +41,15 @@ public class PlayerMiniGame : MonoBehaviour
     private void FixedUpdate()
     {
         float dirX = Input.GetAxisRaw("Mouse X");
-
         if ((dirX < 0 && viradoDireita) || (dirX > 0 && !viradoDireita)) Flip();
-
-        
          Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
          float currentY = transform.position.y; // get the current y-axis position
          mousePosition.y = currentY; // set the y-axis value to the current y-axis position
-         rb.velocity = new Vector2(dirX * maxMoveSpeed, currentY);
-        
+         rb.velocity = new Vector2(dirX * maxMoveSpeed, currentY);  
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        if (collision.gameObject.name == ("Spikes"))
-        {
-            Destroy(player.gameObject);
-            player.gameObject.GetComponent<PlayerMovement>().enabled = false;
-            SceneManager.LoadScene(sceneName: "DeathScreen", LoadSceneMode.Single);
-        }
-
-        if (collision.gameObject.CompareTag("open"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            Coin.totalCoins = 0;
-        }
-
-        if (collision.gameObject.CompareTag("tutorial"))
-        {
-            SceneManager.LoadScene(sceneName: "Level_Tutorial", LoadSceneMode.Single);
-        }
-
-        if (collision.gameObject.CompareTag("GoToMain"))
-        {
-            SceneManager.LoadScene("Scenes/Menu/Menu");
-            Coin.totalCoins = 0;
-        }
-
-        if (collision.gameObject.CompareTag("BackToPreviousLevel"))
-        {
-            SceneManager.LoadScene(previousSceneIndex);
-            Coin.totalCoins = 0;
-        }
-
-        if (collision.gameObject.CompareTag("MiniGame"))
-        {
-            SceneManager.LoadScene("Scenes/Levels/Level_MiniGame");
-            Coin.totalCoins = 0;
-        }
-
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene("Scenes/Menu/Menu", LoadSceneMode.Single);
