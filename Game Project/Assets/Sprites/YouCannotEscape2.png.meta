@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 767a05c274fabf5419ab07d64e8d547e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7738433074407333284
+    second: YouCannotEscape2_0
+  - first:
+      213: 7629111051722641735
+    second: YouCannotEscape2_1
+  - first:
+      213: -3738154314435525173
+    second: YouCannotEscape2_2
+  - first:
+      213: 4588343583820528350
+    second: YouCannotEscape2_3
+  - first:
+      213: -2092392712415709043
+    second: YouCannotEscape2_4
+  - first:
+      213: -2558774073342470300
+    second: YouCannotEscape2_5
+  - first:
+      213: -8723727896640284321
+    second: YouCannotEscape2_6
+  - first:
+      213: 4843370767564350856
+    second: YouCannotEscape2_7
+  - first:
+      213: 4573139961627798575
+    second: YouCannotEscape2_8
+  - first:
+      213: 1374376793427551869
+    second: YouCannotEscape2_9
+  - first:
+      213: 7876669972198882353
+    second: YouCannotEscape2_10
+  - first:
+      213: -8343730026854869015
+    second: YouCannotEscape2_11
+  - first:
+      213: -6226367102771657684
+    second: YouCannotEscape2_12
+  - first:
+      213: 1320321407578754571
+    second: YouCannotEscape2_13
+  - first:
+      213: 3213167157258031295
+    second: YouCannotEscape2_14
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YouCannotEscape2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adde2691ef646b60800000000000000
+      internalID: 7738433074407333284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 21
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7415feda41c00e960800000000000000
+      internalID: 7629111051722641735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 21
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc50a74e4786f1cc0800000000000000
+      internalID: -3738154314435525173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 21
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edab01ded221daf30800000000000000
+      internalID: 4588343583820528350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 21
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8878ddf9e356f2e0800000000000000
+      internalID: -2092392712415709043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 21
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46751f989886d7cd0800000000000000
+      internalID: -2558774073342470300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 21
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f591793c2b71fe680800000000000000
+      internalID: -8723727896640284321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 21
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8852f244d0c173340800000000000000
+      internalID: 4843370767564350856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 21
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ce7f8c09e077f30800000000000000
+      internalID: 4573139961627798575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_9
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 21
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d762acf6964c21310800000000000000
+      internalID: 1374376793427551869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 21
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c76e97b9d8f4d60800000000000000
+      internalID: 7876669972198882353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 21
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e71e8f5fbd153c80800000000000000
+      internalID: -8343730026854869015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_12
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 21
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c240e16db108799a0800000000000000
+      internalID: -6226367102771657684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_13
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 18
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e43182359b25210800000000000000
+      internalID: 1320321407578754571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouCannotEscape2_14
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 21
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb011546186779c20800000000000000
+      internalID: 3213167157258031295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      YouCannotEscape2_0: 7738433074407333284
+      YouCannotEscape2_1: 7629111051722641735
+      YouCannotEscape2_10: 7876669972198882353
+      YouCannotEscape2_11: -8343730026854869015
+      YouCannotEscape2_12: -6226367102771657684
+      YouCannotEscape2_13: 1320321407578754571
+      YouCannotEscape2_14: 3213167157258031295
+      YouCannotEscape2_2: -3738154314435525173
+      YouCannotEscape2_3: 4588343583820528350
+      YouCannotEscape2_4: -2092392712415709043
+      YouCannotEscape2_5: -2558774073342470300
+      YouCannotEscape2_6: -8723727896640284321
+      YouCannotEscape2_7: 4843370767564350856
+      YouCannotEscape2_8: 4573139961627798575
+      YouCannotEscape2_9: 1374376793427551869
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
