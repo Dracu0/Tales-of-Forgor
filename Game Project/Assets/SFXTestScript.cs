@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class SpriteWithSFXTrigger : MonoBehaviour
+public class SFXTestScript : MonoBehaviour
 {
     [SerializeField] private AudioSource soundToTriggerSource;
     [SerializeField] private AudioClip[] soundToTrigger;
@@ -23,15 +23,6 @@ public class SpriteWithSFXTrigger : MonoBehaviour
         SpriteOnTrigger = this.GetComponent<SpriteRenderer>();
         SpriteOnTrigger.enabled = false;
         soundToTriggerSource.volume = SFXTriggerVolume;
-    }
-
-    private void Update()
-    {/*
-        if (isTriggered == true && isReplayable==false && destroyOnDelay == true)
-        {
-            Destroy(this.gameObject, DelayToDestroy);
-            count = 0;
-        }*/  
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -65,21 +56,22 @@ public class SpriteWithSFXTrigger : MonoBehaviour
                 }
             }
         }
-        Debug.Log(soundToTrigger.Length);
+        Debug.Log(count);
     }
 
     IEnumerator PlayMultipleSFX()
     {
-        yield return null;
-
         for (int i = 0; i < soundToTrigger.Length; i++)
         {
-            soundToTriggerSource.clip = soundToTrigger[i];
-            soundToTriggerSource.Play();
-
-            while (soundToTriggerSource.isPlaying)
+            AudioClip clip = soundToTrigger[i];
+            soundToTriggerSource.PlayOneShot(clip, SFXTriggerVolume);
+            if (i == soundToTrigger.Length - 1)
             {
-                yield return null;
+                yield return new WaitForSeconds(clip.length);
+            }
+            else
+            {
+                yield return new WaitForSeconds(DelayBetweenClips);
             }
         }
     }
@@ -88,13 +80,13 @@ public class SpriteWithSFXTrigger : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            if (isReplayable == true)
+            if (isReplayable)
             {
                 SpriteOnTrigger.enabled = false;
                 isTriggered = false;
                 count = 1;
             }
-            if (isReplayable == false)
+            else
             {
                 SpriteOnTrigger.enabled = true;
                 isTriggered = false;

@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,41 +5,45 @@ public class MGPortalUnlock : MonoBehaviour
 {
     [SerializeField] private string sceneName;
     [SerializeField] private bool MGPortalUnlocked;
-    private int MiniGameUnlock;
+    [SerializeField] private int CoinsToUnlock;
+    private int MiniGameCoins;
 
     private void Awake()
     {
-        MiniGameUnlock = PlayerPrefs.GetInt("MiniGameCoins");
-        Debug.Log(MiniGameUnlock);
+        MiniGameCoins = PlayerPrefs.GetInt("MiniGameCoins");
+        Debug.Log(MiniGameCoins);
     }
 
     void Update()
     {
-        if (MiniGameUnlock == 0)
+        if (MiniGameCoins < CoinsToUnlock)
         {
             MGPortalUnlocked = false;
-            this.gameObject.SetActive(false);
+            IsUnlocked();
         }
-
-        if (MiniGameUnlock >= 15)
+        if (MiniGameCoins >= CoinsToUnlock)
         {
             MGPortalUnlocked = true;
-            this.gameObject.SetActive(true);
+            IsUnlocked();
         }
     }
 
-    /*
-    public void SecretPortalUnlocked()
+    public void IsUnlocked()
     {
-
-    }
-    */
-
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if(tag == "Player")
+        if(MGPortalUnlocked == false)
         {
-           SceneManager.LoadScene(sceneName);
+            gameObject.SetActive(false);
+            GetComponent<Collider2D>().isTrigger = false;
         }
+        if (MGPortalUnlocked == true)
+        {
+            gameObject.SetActive(true); 
+            GetComponent<Collider2D>().isTrigger = true;
+        }
+    } 
+
+    void OnTriggerEnter2D()
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }
