@@ -93,10 +93,10 @@ public class PlayerMovement : MonoBehaviour
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
 
         anim.SetFloat("Speed", Mathf.Abs(dirX));
-        if ((dirX < 0 && viradoDireita) || (dirX > 0 && !viradoDireita)) Flip(); 
-        
-        if (Coin.totalCoins == ncoins)
-            {
+        if ((dirX < 0 && viradoDireita) || (dirX > 0 && !viradoDireita)) Flip();
+
+        if (Coin.totalCoins >= ncoins)
+        {
                 closed.SetActive(false);
                 open.SetActive(true);
             }

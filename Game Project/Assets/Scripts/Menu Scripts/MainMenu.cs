@@ -24,6 +24,7 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
+        PlayerPrefs.SetInt("MiniGameCoins", 0);
         Application.Quit();
     }
 }

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AmogusCar_0: 2391739094838222133
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
