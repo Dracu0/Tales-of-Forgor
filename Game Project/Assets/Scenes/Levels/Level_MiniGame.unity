@@ -165,11 +165,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxWidth: 6
-  waitingTime: 0.5
+  CoinsToWin: 30
+  waitingTimeCoin: 2
+  waitingTimeSkull: 3
   timeForWinScreen: 2
   timeForDeathScreen: 2
   timeForPlayerDestroy: 2
-  coin: {fileID: 7249771604009048074, guid: 4b9927b71f35a3f428de427bbc6f069d, type: 3}
+  coin: {fileID: 7249771604009048074, guid: b79fa7340fb50f2459882628a8a90077, type: 3}
+  skull: {fileID: 7249771604009048074, guid: 4b9927b71f35a3f428de427bbc6f069d, type: 3}
 --- !u!1001 &237983357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -941,6 +944,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4827424099038721328, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 5867207888932100569, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
       propertyPath: m_Pivot.x
       value: 0

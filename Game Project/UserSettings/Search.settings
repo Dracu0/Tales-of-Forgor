@@ -8,6 +8,9 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"last_search.98CF4AA6" = "ref:\"Assets/Scripts/Coin Scripts/CoinMG.cs\""
+	"OpenInspectorPreview.98CF4AA6" = "0"
+	"currentGroup.98CF4AA6" = "scene"
 }
 providers = {
 	packages = {

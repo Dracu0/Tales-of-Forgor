@@ -41,6 +41,17 @@ public class PlayerMiniGame : MonoBehaviour
     private void FixedUpdate()
     {
         float dirX = Input.GetAxisRaw("Mouse X");
+        /*float dirXKeyBoard = Input.GetAxisRaw("Horizontal");
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            rb.velocity = new Vector2(dirXKeyBoard * maxMoveSpeed, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            rb.velocity = new Vector2(dirXKeyBoard * maxMoveSpeed, 0);
+        }*/
+
         if ((dirX < 0 && viradoDireita) || (dirX > 0 && !viradoDireita)) Flip();
          Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
          float currentY = transform.position.y; // get the current y-axis position

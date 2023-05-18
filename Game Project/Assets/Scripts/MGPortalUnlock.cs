@@ -11,7 +11,7 @@ public class MGPortalUnlock : MonoBehaviour
     private void Awake()
     {
         MiniGameCoins = PlayerPrefs.GetInt("MiniGameCoins");
-        Debug.Log(MiniGameCoins);
+        //Debug.Log(MiniGameCoins);
     }
 
     void Update()

@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 6071432338116402686}
   - component: {fileID: 4562207127729789347}
   - component: {fileID: 1390082655062452987}
-  - component: {fileID: 9009787629467775402}
+  - component: {fileID: 7092668125896362927}
   m_Layer: 0
   m_Name: CoinMiniGame
   m_TagString: MiniGame
@@ -295,7 +295,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &9009787629467775402
+--- !u!114 &7092668125896362927
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -4,6 +4,7 @@ public class Coin : MonoBehaviour
 {
     //Keep track of total picked coins (Since the value is static, it can be accessed at "Coin.totalCoins" from any script)
     public static int totalCoins = 0;
+    public static int playerScore = 0;
     public AudioSource coinSource;
     public float volume = 0.5f;
 
@@ -15,9 +16,11 @@ public class Coin : MonoBehaviour
         {
             //Add coin to counter
             totalCoins++;
+            playerScore++;
             //Test: Print total number of coins
             //Debug.Log("You currently have " + Coin.totalCoins + " Coins.");
             //Destroy coin
+            PlayerPrefs.SetInt("PlayerScore", playerScore);
             coinSource.Play();
             Destroy(this.gameObject);
         }

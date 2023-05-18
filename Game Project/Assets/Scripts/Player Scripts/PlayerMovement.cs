@@ -119,6 +119,9 @@ public class PlayerMovement : MonoBehaviour
         {
             running = false;
         }
+
+        //Debug.Log(Coin.playerScore);
+
     }
 
     void Flip()
@@ -175,6 +178,7 @@ public class PlayerMovement : MonoBehaviour
         {
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             PlayerPrefs.SetInt("previousSceneIndex", currentSceneIndex);
+            PlayerPrefs.SetInt("PlayerScore", Coin.playerScore);
             PlayerPrefs.Save();
         }
     }
