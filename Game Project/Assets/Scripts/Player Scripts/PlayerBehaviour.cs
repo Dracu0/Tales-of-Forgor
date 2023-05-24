@@ -28,7 +28,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         if (collision.gameObject.name == "Spikes")
         {
-            PlayerTakeDamage(50);
+            PlayerTakeDamage(25);
             Debug.Log(GameManager.gameManager.playerHealth.Health);
         }
     }

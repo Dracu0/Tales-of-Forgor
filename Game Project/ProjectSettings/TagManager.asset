@@ -17,6 +17,7 @@ TagManager:
   - GoToMain
   - stopBGMusic
   - TutorialTrigger
+  - Spikes
   layers:
   - Default
   - TransparentFX

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Spike_2
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -594654179, guid: a9b3ff516c522b04d820e413b340f701, type: 3}
+  m_Sprite: {fileID: 716221828, guid: a9b3ff516c522b04d820e413b340f701, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
