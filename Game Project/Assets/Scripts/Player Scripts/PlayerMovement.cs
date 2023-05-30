@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,8 +7,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
 
     public Transform player;
-   
-    [SerializeField] 
+
+    [SerializeField] private float knockbackForce;
     public float walkspeed;
     public float runspeed;
     public float friction;
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     private int previousSceneIndex;
     private float dirX;
     public float doubleJumpHeight;
+    private bool spikes;
 
     private void Start()
     {
@@ -48,17 +50,17 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         dirX = Input.GetAxisRaw("Horizontal");
-        
-        float forceOfAcceleration = Mathf.Abs(rb.mass*Physics.gravity.y);
+
+        float forceOfAcceleration = Mathf.Abs(rb.mass * Physics.gravity.y);
 
         if (grounded && !Input.GetKey(KeyCode.Space))
         {
             doubleJump = false;
         }
-        
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if(grounded || doubleJump)
+            if (grounded || doubleJump)
             {
                 rb.velocity = new Vector2(rb.velocity.x, doubleJump ? doubleJumpHeight : JumpHeight);
 
@@ -69,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyUp(KeyCode.Space) && rb.velocity.y > 0f)
+        if (Input.GetKeyUp(KeyCode.Space) && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
@@ -97,9 +99,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (Coin.totalCoins >= ncoins)
         {
-                closed.SetActive(false);
-                open.SetActive(true);
-            }
+            closed.SetActive(false);
+            open.SetActive(true);
+        }
     }
 
     private void FixedUpdate()
@@ -122,6 +124,11 @@ public class PlayerMovement : MonoBehaviour
 
         //Debug.Log(Coin.playerScore);
 
+        /*if (spikes ==true)
+        {
+            Vector2 NewPosition = new Vector2(10.0f, 10.0f);
+            player.(NewPosition);
+        }*/
     }
 
     void Flip()
@@ -138,7 +145,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {  
+    {
         if (collision.gameObject.CompareTag("open"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1, LoadSceneMode.Single);
@@ -147,7 +154,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (collision.gameObject.CompareTag("tutorial"))
         {
-            SceneManager.LoadScene(sceneName:"Level_Tutorial",LoadSceneMode.Single);
+            SceneManager.LoadScene(sceneName: "Level_Tutorial", LoadSceneMode.Single);
         }
 
         if (collision.gameObject.CompareTag("GoToMain"))
@@ -171,7 +178,14 @@ public class PlayerMovement : MonoBehaviour
             Cursor.lockState = CursorLockMode.Confined;
             BGMusic.instance.GetComponent<AudioSource>().Stop();
         }
+        if (collision.gameObject.CompareTag("Spikes"))
+        {
+            Vector2 difference = (transform.position - collision.transform.position).normalized;
+            Vector2 force = difference * knockbackForce;
+            rb.AddForce(force, ForceMode2D.Impulse); //if you don't want to take into consideration enemy's mass then use ForceMode.VelocityChange 
+        }
     }
+
     private void OnDisable()
     {
         if (tag == "Player")

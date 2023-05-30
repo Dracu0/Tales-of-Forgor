@@ -234,7 +234,7 @@ Transform:
   - {fileID: 7605789023229316976}
   - {fileID: 3041937666636347668}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4219602989610482163
 SpriteRenderer:
@@ -387,6 +387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2903663233267821890}
+  knockbackForce: 2
   walkspeed: 250
   runspeed: 600
   friction: 0.5

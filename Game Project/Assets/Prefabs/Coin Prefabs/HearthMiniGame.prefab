@@ -48,9 +48,9 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.8
-  m_Color: {r: 1, g: 1, b: 0, a: 1}
-  m_Intensity: 5
-  m_LightVolumeIntensity: 0.3
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Intensity: 3
+  m_LightVolumeIntensity: 0.15
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 21300000, guid: 119f93d0bcbf1e743bf5fcf237507d39, type: 3}
@@ -66,7 +66,7 @@ MonoBehaviour:
   m_ShadowSoftness: 1
   m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
-  m_ShadowVolumeIntensity: 0.75
+  m_ShadowVolumeIntensity: 0.907
   m_Vertices:
   - position: {x: 0.9985302, y: 0.9985302, z: 0}
     color: {r: 0.70710677, g: 0.70710677, b: 0, a: 0}
@@ -125,9 +125,9 @@ GameObject:
   - component: {fileID: 6071432338116402686}
   - component: {fileID: 4562207127729789347}
   - component: {fileID: 1390082655062452987}
-  - component: {fileID: 7092668125896362927}
+  - component: {fileID: -9063931553839287385}
   m_Layer: 0
-  m_Name: CoinMiniGame
+  m_Name: HearthMiniGame
   m_TagString: MiniGame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,7 +159,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4fa4c0994dbbefc4088285360ad8f12c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7c30a04219862144bac43b913ebc97da, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 0.3
@@ -283,7 +283,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 1.5
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -295,7 +295,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &7092668125896362927
+--- !u!114 &-9063931553839287385
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -304,9 +304,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7249771604009048074}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cdd40b287c2ff644afc9d44a1cb9c22, type: 3}
+  m_Script: {fileID: 11500000, guid: 2946e40b85622244a93bc921eeb51648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skullSound: {fileID: 6071432338116402686}
 --- !u!1 &9012936440382904885
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,9 +319,8 @@ GameObject:
   - component: {fileID: 6491489406146251205}
   - component: {fileID: 7695215001457125851}
   - component: {fileID: 3557133728156257416}
-  - component: {fileID: 3440648212086054188}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Hearth
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -384,12 +384,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: da8f872243e6bac47a8b7ddd91344d51, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aee15b757649ff44694c6232dfec7cf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -430,21 +430,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.25
---- !u!114 &3440648212086054188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9012936440382904885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a0a4428cd8c53242830f3e5f6a79d7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coinSource: {fileID: 6071432338116402686}
-  volume: 0.5
+  m_Radius: 0.5
 --- !u!1001 &5612766058379988478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -496,6 +482,22 @@ PrefabInstance:
     - target: {fileID: 5490470773100564778, guid: 8e2dcfa3582a1d94ab8679762c735ff6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840301156102965560, guid: 8e2dcfa3582a1d94ab8679762c735ff6, type: 3}
+      propertyPath: simulationSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840301156102965560, guid: 8e2dcfa3582a1d94ab8679762c735ff6, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840301156102965560, guid: 8e2dcfa3582a1d94ab8679762c735ff6, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.4679786
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840301156102965560, guid: 8e2dcfa3582a1d94ab8679762c735ff6, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9139048957785238897, guid: 8e2dcfa3582a1d94ab8679762c735ff6, type: 3}
       propertyPath: m_Name
