@@ -14,6 +14,6 @@ public class TimeLeftUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeLeft.text = Mathf.RoundToInt(CoinMiniGame.TimeLeft) + "s";
+        timeLeft.text = "Time left: " + Mathf.RoundToInt(CoinMiniGame.TimeLeft) + "s";
     }
 }

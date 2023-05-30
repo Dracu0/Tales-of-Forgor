@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlayerSpriteTest-Sheet_0: 3453939075354812393
+      PlayerSpriteTest-Sheet_1: -7944912515667268335
+      PlayerSpriteTest-Sheet_2: -7422380192371280149
+      PlayerSpriteTest-Sheet_3: -8987788992503819879
+      PlayerSpriteTest-Sheet_4: -6397308787395871798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

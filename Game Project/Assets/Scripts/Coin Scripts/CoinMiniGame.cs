@@ -13,14 +13,19 @@ public class CoinMiniGame : MonoBehaviour
     [SerializeField] private float timeForDeathScreen = 2.0f;
     [SerializeField] private float timeForPlayerDestroy = 2.0f;
     [SerializeField] private float waitingTimeCoin = 2.0f;
+    [SerializeField] private float waitingTimeClock = 10.0f;
     [SerializeField] private float waitingTimeSkull = 5.0f;
     [SerializeField] private float waitingTimeHearth = 6.0f;
     [SerializeField] private Text gameStartText;
+    [SerializeField] private GameObject[] MGobjects;
     private bool isPlaying = false;
     private int MiniGameCoins;
     public GameObject coin;
     public GameObject skull;
     public GameObject heart;
+    public GameObject clock;
+
+    
 
     public void Start()
     {
@@ -82,9 +87,12 @@ public class CoinMiniGame : MonoBehaviour
         gameStartText.enabled = false;
         isPlaying = true;
 
-        StartCoroutine(SpawnCoin());
-        StartCoroutine(SpawnSkull());
-        StartCoroutine(SpawnHeart());
+        StartCoroutine(SpawnMultiple());
+
+        //StartCoroutine(SpawnCoin());
+        //StartCoroutine(SpawnSkull());
+        //StartCoroutine(SpawnHeart());
+        //StartCoroutine(SpawnClock());
 
     }
 
@@ -120,6 +128,17 @@ public class CoinMiniGame : MonoBehaviour
         SceneManager.LoadScene("DeathScreen", LoadSceneMode.Single);
     }
 
+    private IEnumerator SpawnMultiple()
+    {
+        while (TimeLeft > 0)
+        {
+            int randomIndex = Random.Range(0, 4);
+            Vector3 spawnPosition = new Vector3(Random.Range(-MaxWidth, MaxWidth), transform.position.y, 0.0f);
+            Instantiate(MGobjects[randomIndex], spawnPosition, Quaternion.identity);
+            yield return new WaitForSeconds(waitingTimeCoin);
+        }
+    }
+
     private IEnumerator SpawnCoin()
     {
         while (TimeLeft > 0)
@@ -127,6 +146,16 @@ public class CoinMiniGame : MonoBehaviour
             Vector3 spawnPosition = new Vector3(Random.Range(-MaxWidth, MaxWidth), transform.position.y, 0.0f);
             Instantiate(coin, spawnPosition, Quaternion.identity);
             yield return new WaitForSeconds(waitingTimeCoin);
+        }
+    }
+
+    private IEnumerator SpawnClock()
+    {
+        while (TimeLeft > 0)
+        {
+            Vector3 spawnPosition = new Vector3(Random.Range(-MaxWidth, MaxWidth), transform.position.y, 0.0f);
+            Instantiate(clock, spawnPosition, Quaternion.identity);
+            yield return new WaitForSeconds(waitingTimeClock);
         }
     }
 

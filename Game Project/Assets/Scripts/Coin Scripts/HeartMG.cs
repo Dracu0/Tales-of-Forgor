@@ -3,14 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class HeartMG : MonoBehaviour
 {
-    [SerializeField] private AudioSource skullSound;
+    [SerializeField] private AudioSource heartSound;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            skullSound = GetComponent<AudioSource>();
-            skullSound.Play();
-            Destroy(this.gameObject, 2);
+            heartSound = GetComponent<AudioSource>();
+            heartSound.Play();
+            Destroy(this.gameObject, 1);
             PlayerCoinMiniGameHeal(35);
         }
 

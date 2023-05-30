@@ -171,12 +171,19 @@ MonoBehaviour:
   timeForDeathScreen: 2
   timeForPlayerDestroy: 2
   waitingTimeCoin: 1
-  waitingTimeSkull: 4
-  waitingTimeHearth: 5
+  waitingTimeClock: 10
+  waitingTimeSkull: 3
+  waitingTimeHearth: 10
   gameStartText: {fileID: 294235094}
+  MGobjects:
+  - {fileID: 7249771604009048074, guid: b79fa7340fb50f2459882628a8a90077, type: 3}
+  - {fileID: 7249771604009048074, guid: ab44feeb7fa179942852aee19e07a173, type: 3}
+  - {fileID: 7249771604009048074, guid: 5ad56c234ea107d47869874420788193, type: 3}
+  - {fileID: 7249771604009048074, guid: 4b9927b71f35a3f428de427bbc6f069d, type: 3}
   coin: {fileID: 7249771604009048074, guid: b79fa7340fb50f2459882628a8a90077, type: 3}
   skull: {fileID: 7249771604009048074, guid: 4b9927b71f35a3f428de427bbc6f069d, type: 3}
   heart: {fileID: 7249771604009048074, guid: 5ad56c234ea107d47869874420788193, type: 3}
+  clock: {fileID: 7249771604009048074, guid: ab44feeb7fa179942852aee19e07a173, type: 3}
 --- !u!1001 &237983357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -314,7 +321,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f84503bf2b2a30b4080f07afdf1c24b6, type: 3}
-    m_FontSize: 100
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -322,10 +329,10 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: Starting
+    m_LineSpacing: 2
+  m_Text: Collect 30 coins to win
 --- !u!222 &294235095
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -609,6 +616,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 62798101278648105, guid: 198ace1fd5bbe974682a5705091ecb2c, type: 3}
+      propertyPath: orthographic size
+      value: 4.21875
+      objectReference: {fileID: 0}
     - target: {fileID: 4229719394160159192, guid: 198ace1fd5bbe974682a5705091ecb2c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2031,8 +2042,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6503767545824185383, guid: 3360fc59dd81d5b41800c080807fe496, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 630ae2af3e8fb324c93382898c1a01e3, type: 3}
+    - target: {fileID: 6503767545824185383, guid: 3360fc59dd81d5b41800c080807fe496, type: 3}
       propertyPath: m_PlayOnAwake
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2222,7 +2237,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 
 --- !u!222 &1838907301
