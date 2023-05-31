@@ -308,6 +308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skullSound: {fileID: 6071432338116402686}
+  mgSprite: {fileID: 7695215001457125851}
 --- !u!1 &9012936440382904885
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,25 +12,19 @@ public class CoinMiniGame : MonoBehaviour
     [SerializeField] private float timeForWinScreen = 2.0f;
     [SerializeField] private float timeForDeathScreen = 2.0f;
     [SerializeField] private float timeForPlayerDestroy = 2.0f;
-    [SerializeField] private float waitingTimeCoin = 2.0f;
-    [SerializeField] private float waitingTimeClock = 10.0f;
-    [SerializeField] private float waitingTimeSkull = 5.0f;
-    [SerializeField] private float waitingTimeHearth = 6.0f;
+    [SerializeField] private float waitingTimeMultiple = 1.0f;
     [SerializeField] private Text gameStartText;
     [SerializeField] private GameObject[] MGobjects;
     private bool isPlaying = false;
     private int MiniGameCoins;
-    public GameObject coin;
-    public GameObject skull;
-    public GameObject heart;
-    public GameObject clock;
-
-    
 
     public void Start()
     {
-        StartCoroutine(GameStart());
         MiniGameCoins = Coin.totalCoins;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+        StartCoroutine(GameStart());
     }
 
     private void Update()
@@ -60,7 +54,7 @@ public class CoinMiniGame : MonoBehaviour
                 isPlaying=false;
             }
         }
-        Debug.Log(TimeLeft);    
+        //Debug.Log(TimeLeft);    
     }
 
     public void _TimeLeft()
@@ -79,21 +73,22 @@ public class CoinMiniGame : MonoBehaviour
 
     private IEnumerator GameStart()
     {
-        gameStartText.enabled = true;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         isPlaying = false;
 
+        yield return new WaitForSeconds(1);
+
+        gameStartText.enabled = true;
+        
         yield return new WaitForSeconds(timeForStart);
 
         gameStartText.enabled = false;
         isPlaying = true;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
 
         StartCoroutine(SpawnMultiple());
-
-        //StartCoroutine(SpawnCoin());
-        //StartCoroutine(SpawnSkull());
-        //StartCoroutine(SpawnHeart());
-        //StartCoroutine(SpawnClock());
-
     }
 
     private IEnumerator Win()
@@ -132,50 +127,10 @@ public class CoinMiniGame : MonoBehaviour
     {
         while (TimeLeft > 0)
         {
-            int randomIndex = Random.Range(0, 4);
+            int randomIndex = Random.Range(0, MGobjects.Length);
             Vector3 spawnPosition = new Vector3(Random.Range(-MaxWidth, MaxWidth), transform.position.y, 0.0f);
             Instantiate(MGobjects[randomIndex], spawnPosition, Quaternion.identity);
-            yield return new WaitForSeconds(waitingTimeCoin);
-        }
-    }
-
-    private IEnumerator SpawnCoin()
-    {
-        while (TimeLeft > 0)
-        {
-            Vector3 spawnPosition = new Vector3(Random.Range(-MaxWidth, MaxWidth), transform.position.y, 0.0f);
-            Instantiate(coin, spawnPosition, Quaternion.identity);
-            yield return new WaitForSeconds(waitingTimeCoin);
-        }
-    }
-
-    private IEnumerator SpawnClock()
-    {
-        while (TimeLeft > 0)
-        {
-            Vector3 spawnPosition = new Vector3(Random.Range(-MaxWidth, MaxWidth), transform.position.y, 0.0f);
-            Instantiate(clock, spawnPosition, Quaternion.identity);
-            yield return new WaitForSeconds(waitingTimeClock);
-        }
-    }
-
-    private IEnumerator SpawnSkull() 
-    {
-        while (TimeLeft > 0)
-        {
-            Vector3 spawnPosition = new Vector3(Random.Range(-MaxWidth, MaxWidth), transform.position.y, 0.0f);
-            Instantiate(skull, spawnPosition, Quaternion.identity);
-            yield return new WaitForSeconds(waitingTimeSkull);
-        }
-    }
-
-    private IEnumerator SpawnHeart()
-    {
-        while (TimeLeft > 0)
-        {
-            Vector3 spawnPosition = new Vector3(Random.Range(-MaxWidth, MaxWidth), transform.position.y, 0.0f);
-            Instantiate(heart, spawnPosition, Quaternion.identity);
-            yield return new WaitForSeconds(waitingTimeHearth);
+            yield return new WaitForSeconds(waitingTimeMultiple);
         }
     }
 

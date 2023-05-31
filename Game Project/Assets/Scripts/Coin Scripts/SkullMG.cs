@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class SkullMG : MonoBehaviour
 {
     [SerializeField] private AudioSource skullSound;
+    [SerializeField] private SpriteRenderer mgSprite;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -16,6 +17,7 @@ public class SkullMG : MonoBehaviour
 
         if (collision.CompareTag("CoinDestroyer"))
         {
+            mgSprite.enabled = false;
             Destroy(this.gameObject, 2);
         }
     }

@@ -167,23 +167,21 @@ MonoBehaviour:
   MaxWidth: 6
   CoinsToWin: 30
   timeForStart: 2
-  timeForWinScreen: 2
-  timeForDeathScreen: 2
+  timeForWinScreen: 1
+  timeForDeathScreen: 1
   timeForPlayerDestroy: 2
-  waitingTimeCoin: 1
-  waitingTimeClock: 10
-  waitingTimeSkull: 3
-  waitingTimeHearth: 10
+  waitingTimeMultiple: 0.5
   gameStartText: {fileID: 294235094}
   MGobjects:
   - {fileID: 7249771604009048074, guid: b79fa7340fb50f2459882628a8a90077, type: 3}
-  - {fileID: 7249771604009048074, guid: ab44feeb7fa179942852aee19e07a173, type: 3}
-  - {fileID: 7249771604009048074, guid: 5ad56c234ea107d47869874420788193, type: 3}
+  - {fileID: 7249771604009048074, guid: b79fa7340fb50f2459882628a8a90077, type: 3}
+  - {fileID: 7249771604009048074, guid: b79fa7340fb50f2459882628a8a90077, type: 3}
+  - {fileID: 7249771604009048074, guid: b79fa7340fb50f2459882628a8a90077, type: 3}
   - {fileID: 7249771604009048074, guid: 4b9927b71f35a3f428de427bbc6f069d, type: 3}
-  coin: {fileID: 7249771604009048074, guid: b79fa7340fb50f2459882628a8a90077, type: 3}
-  skull: {fileID: 7249771604009048074, guid: 4b9927b71f35a3f428de427bbc6f069d, type: 3}
-  heart: {fileID: 7249771604009048074, guid: 5ad56c234ea107d47869874420788193, type: 3}
-  clock: {fileID: 7249771604009048074, guid: ab44feeb7fa179942852aee19e07a173, type: 3}
+  - {fileID: 7249771604009048074, guid: 4b9927b71f35a3f428de427bbc6f069d, type: 3}
+  - {fileID: 7249771604009048074, guid: 4b9927b71f35a3f428de427bbc6f069d, type: 3}
+  - {fileID: 7249771604009048074, guid: 5ad56c234ea107d47869874420788193, type: 3}
+  - {fileID: 7249771604009048074, guid: ab44feeb7fa179942852aee19e07a173, type: 3}
 --- !u!1001 &237983357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -306,7 +304,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294235091}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -545,7 +543,7 @@ MonoBehaviour:
   m_ShadowIntensity: 0.75
   m_ShadowSoftness: 0.3
   m_ShadowSoftnessFalloffIntensity: 0.5
-  m_ShadowVolumeIntensityEnabled: 1
+  m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_Vertices:
   - position: {x: 0.9985302, y: 0.9985302, z: 0}
@@ -2104,7 +2102,7 @@ MonoBehaviour:
   m_ShadowIntensity: 0.75
   m_ShadowSoftness: 0.3
   m_ShadowSoftnessFalloffIntensity: 0.5
-  m_ShadowVolumeIntensityEnabled: 1
+  m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_Vertices:
   - position: {x: 0.9985302, y: 0.9985302, z: 0}
@@ -2274,8 +2272,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 40290746496020356, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
+      propertyPath: m_ShadowsEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 40290746496020356, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
+      propertyPath: m_LightVolumeEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 40290746496020356, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
       propertyPath: m_LightVolumeIntensity
       value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 40290746496020356, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
+      propertyPath: m_ShadowVolumeIntensityEnabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 842759148781700291, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
       propertyPath: m_Size.x
@@ -2355,11 +2365,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6749724825238424393, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
       propertyPath: m_ShadowsEnabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6749724825238424393, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
       propertyPath: m_LightVolumeEnabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6749724825238424393, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
       propertyPath: m_LightVolumeIntensity
@@ -2368,6 +2378,10 @@ PrefabInstance:
     - target: {fileID: 6749724825238424393, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
       propertyPath: m_ShadowVolumeIntensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6749724825238424393, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
+      propertyPath: m_ShadowVolumeIntensityEnabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7204694186325598517, guid: 2600107d551c44047a49a4bbcaa00e6b, type: 3}
       propertyPath: m_RootOrder

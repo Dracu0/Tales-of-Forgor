@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class HeartMG : MonoBehaviour
 {
     [SerializeField] private AudioSource heartSound;
+    [SerializeField] private SpriteRenderer mgSprite;
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -16,6 +18,7 @@ public class HeartMG : MonoBehaviour
 
         if (collision.CompareTag("CoinDestroyer"))
         {
+            mgSprite.enabled = false;
             Destroy(this.gameObject, 2);
         }
     }
