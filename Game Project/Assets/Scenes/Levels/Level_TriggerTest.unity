@@ -18371,7 +18371,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1049131957194227566, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073955555571321016, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342435946429352333, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2432510236662926282, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -18396,6 +18404,14 @@ PrefabInstance:
     - target: {fileID: 3749797828772355204, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3958620199362100800, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 754692137}
+    - target: {fileID: 3958620199362100800, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: VolumeUpdater
       objectReference: {fileID: 0}
     - target: {fileID: 5867207888932100569, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
       propertyPath: m_Pivot.x
@@ -18492,7 +18508,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
 --- !u!114 &1488181740 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2432510236662926282, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3958620199362100800, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
   m_PrefabInstance: {fileID: 1488181739}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -18503,7 +18519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &1488181741 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7331097925230724106, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6146064307897016558, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
   m_PrefabInstance: {fileID: 1488181739}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}

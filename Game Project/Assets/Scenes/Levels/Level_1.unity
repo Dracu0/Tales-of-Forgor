@@ -345,7 +345,7 @@ PrefabInstance:
     - target: {fileID: 3129023891662444285, guid: 9ef9c1a627fd5a842b219781a61e14a3, type: 3}
       propertyPath: musicSliderText
       value: 
-      objectReference: {fileID: 883160341}
+      objectReference: {fileID: 198942499}
     - target: {fileID: 3782454354707181319, guid: 9ef9c1a627fd5a842b219781a61e14a3, type: 3}
       propertyPath: m_Name
       value: MusicControl
@@ -364,6 +364,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4af86acf72e23540b60f823d8c048c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &198942499 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6146064307897016558, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+  m_PrefabInstance: {fileID: 883160339}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &273230078
@@ -4952,6 +4963,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1073955555571321016, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1878648463825668885, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -4963,6 +4978,10 @@ PrefabInstance:
     - target: {fileID: 1878648463825668885, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342435946429352333, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2432510236662926282, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -4987,6 +5006,14 @@ PrefabInstance:
     - target: {fileID: 3749797828772355204, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
       propertyPath: m_AnchorMin.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3958620199362100800, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 184076736}
+    - target: {fileID: 3958620199362100800, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: VolumeUpdater
       objectReference: {fileID: 0}
     - target: {fileID: 5867207888932100569, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
       propertyPath: m_Pivot.x
@@ -5083,24 +5110,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
 --- !u!114 &883160340 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2432510236662926282, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3958620199362100800, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
   m_PrefabInstance: {fileID: 883160339}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &883160341 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7331097925230724106, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
-  m_PrefabInstance: {fileID: 883160339}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &908581087
@@ -5134,7 +5150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.5529412, b: 0.039215688, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15862,7 +15878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.5529412, b: 0.039215688, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16023,6 +16039,10 @@ PrefabInstance:
     - target: {fileID: 4011292728193154455, guid: 7a8c0b4081ed3634e8066c158754264f, type: 3}
       propertyPath: m_NormalMapQuality
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5354988714606294965, guid: 7a8c0b4081ed3634e8066c158754264f, type: 3}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5867207888932100569, guid: 7a8c0b4081ed3634e8066c158754264f, type: 3}
       propertyPath: m_Pivot.x
@@ -16311,7 +16331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.5529412, b: 0.039215688, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

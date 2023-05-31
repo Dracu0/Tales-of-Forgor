@@ -15,7 +15,7 @@ C:/Users/david/Tales of Forgor/Game Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53076
+54543
 Successfully changed project path to: C:/Users/david/Tales of Forgor/Game Project
 C:/Users/david/Tales of Forgor/Game Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/david/Tales of Forgor/Game Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18744] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 591815392 [EditorId] 591815392 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DAVID) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3968] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3733151941 [EditorId] 3733151941 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DAVID) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18744] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 591815392 [EditorId] 591815392 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DAVID) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3968] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3733151941 [EditorId] 3733151941 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DAVID) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 7.89 ms, found 4 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 11.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.0b17 (b4ceadc1ee4d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.0b17/Editor/Data/Resources/UnitySubsystems
@@ -67,7 +67,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.0b17/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.0b17/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.0b17/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -81,41 +81,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.0b17/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002211 seconds.
-- Loaded All Assemblies, in  0.352 seconds
+Registered in 0.002201 seconds.
+- Loaded All Assemblies, in  0.331 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.284 seconds
-Domain Reload Profiling: 635ms
-	BeginReloadAssembly (111ms)
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 610ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (147ms)
-		LoadAssemblies (109ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (128ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (285ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (281ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (238ms)
+		SetupLoadedEditorAssemblies (237ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (173ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,50 +138,50 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\david\Tales of Forgor\Game Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\david\Tales of Forgor\Game Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.925 seconds
-Refreshing native plugins compatible for Editor in 2.80 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.815 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.687 seconds
-Domain Reload Profiling: 1610ms
-	BeginReloadAssembly (284ms)
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1445ms
+	BeginReloadAssembly (254ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (557ms)
-		LoadAssemblies (308ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (273ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (344ms)
-			TypeCache.Refresh (310ms)
-				TypeCache.ScanAssembly (297ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (261ms)
+				TypeCache.ScanAssembly (249ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
 			ResolveRequiredComponents (11ms)
-	FinalizeReload (688ms)
+	FinalizeReload (633ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (419ms)
+		SetupLoadedEditorAssemblies (369ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (284ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5791 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (1.5 MB). Loaded Objects now: 6330.
-Memory consumption went from 229.8 MB to 228.3 MB.
-Total: 4.817600 ms (FindLiveObjects: 0.405700 ms CreateObjectMapping: 0.251700 ms MarkObjects: 3.805800 ms  DeleteObjects: 0.353000 ms)
+Unloading 5744 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (1.5 MB). Loaded Objects now: 6283.
+Memory consumption went from 225.1 MB to 223.6 MB.
+Total: 4.591600 ms (FindLiveObjects: 0.409300 ms CreateObjectMapping: 0.271400 ms MarkObjects: 3.580100 ms  DeleteObjects: 0.329500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -197,84 +197,853 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 210548.386266 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d797ae08035cd9f92634825654fa3b9') in 0.286873 seconds
+  Time since last request: 224437.502306 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b2b745016e2913e1ead11ba1453d2e') in 0.048824 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 46
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Leak Detected : Persistent allocates 2 individual allocations. To find out more please enable 'Jobs/LeakDetection/Full StackTraces' and reproduce the leak again.
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\david\Tales of Forgor\Game Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\david\Tales of Forgor\Game Project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.782 seconds
-Refreshing native plugins compatible for Editor in 4.11 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.075 seconds
-Domain Reload Profiling: 1854ms
-	BeginReloadAssembly (202ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (505ms)
-		LoadAssemblies (268ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (320ms)
-			TypeCache.Refresh (301ms)
-				TypeCache.ScanAssembly (288ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1075ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (357ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (241ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5583 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 82 unused Assets / (1.5 MB). Loaded Objects now: 6393.
-Memory consumption went from 199.9 MB to 198.5 MB.
-Total: 5.290800 ms (FindLiveObjects: 0.454500 ms CreateObjectMapping: 0.265400 ms MarkObjects: 4.279700 ms  DeleteObjects: 0.289600 ms)
-
-Prepare: number of updated asset objects reloaded= 13
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+Received Import Request.
+  Time since last request: 0.304864 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66e6899b46032e08010bb055d9abdb3') in 0.005430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 2.089184 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19039956807ceb958c9f8efb5264d61d') in 0.003903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 18.567776 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02ef465d458d493de641f1ccc3f1dc9') in 0.004275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 4.225567 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c890a2b65ee5c41c798584db5d349e6') in 0.007298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 13.135748 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5916a9672f1216cfd03da2f77d427998') in 0.004137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 7.964631 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fde03ee658770e916021729e5dcabf') in 0.004515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 2.933889 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918f3994a18c66e7d43d0e0b0e38831e') in 0.003822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 16.055880 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6342f53966139858dbe38c880fe7d9') in 0.004114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 3.617453 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c969e9172e224d6784c4b17d0e6be6a') in 0.005574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 17.185598 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916522fb5cc315c36b5cfe911caa9386') in 0.004233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 32.835741 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9cdb34c4f8701d9e2ecfed0c22d7f1c') in 0.004803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.192793 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b18f4b2d45621555455ef64a9ab32b') in 0.004188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 384.693330 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df2859239679dfed30a18ac2c4daeaf') in 0.006019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 15.335956 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2711e0ca02b78ef0c2316726a00bdbf') in 0.005987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 1.589191 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715c8ecdd99c4de22a7b2e9f92b0e617') in 0.004316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 6.478568 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf72d48816a43b1397bf684452f4682') in 0.003486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 8.939812 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252cef75139f23fba609db04880698a1') in 0.003344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 2.598985 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ce6bf8b4cf9a21ba708e2d6dccf009') in 0.003077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 1.387407 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03c88f6582c34dfe8e2f3d228900536') in 0.003058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 16.539649 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64846de40b2c335c94aac71d4678c4a3') in 0.003541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 5.839989 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a405f03239ff5fcc08182f9340af34e3') in 0.003196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 3.642953 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cf292653e570ea2d5f44acbace87dc') in 0.003050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 5.830615 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983bb6ab35f70b9f460ea129b2092f9e') in 0.003208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 5.841141 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e66e288053d797f31306511310012e') in 0.003410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 5.448759 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65206d2d552f8a36c037efa50ddc768') in 0.003341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 4.008457 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c825b92cef699e390e4b998a7c1a6e') in 0.003042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 2.171773 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab8ec1cc129cbf6af6155ca7b0a3102') in 0.003363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 6.641955 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a4836f2a8dcda1ee0da0e72505af3b') in 0.003376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 7.345161 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19d06ea08cc53fdb78d51680c29cdd9') in 0.003040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 4.342727 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08db4bc84891a419dbb1fba1b06f1da8') in 0.003334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 18.333797 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcf7e430d34f0345b4e345f81a61d5b') in 0.003487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 4.648466 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ccd536bcd21a338f60826e85c50f08') in 0.003131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 2.003338 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef810c9338f88decc0df5af47ae346c') in 0.003387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 13.939099 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c24faabb50f2a17637437253b4d503') in 0.003462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 2.582882 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b29c1ad6f04c588e86fe0a1e7524998') in 0.003367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 6.402825 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a338adddc3a23044178818e71915ca3') in 0.004281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 5.399781 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94dbe6d3aad9db4ed744aa390e14dc4d') in 0.003046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 5.704760 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3466d9fa4bd459fc354412329aab167a') in 0.003148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 15.416177 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d5491182bf23190a80626ecef9b3e8') in 0.002958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 8.028051 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb1871c9e6bb4854c97dde609db38ba') in 0.003549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 5.787966 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac446665f065aeec229812f1bea9aef7') in 0.003636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 4.750475 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9206734b206540b5c4ef6fc1e4e6a02') in 0.002989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 9.832178 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5700b061e30433a461efb38d86e686') in 0.003267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 3.895729 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6144ed95bb3c18351b0c1c1e836f8698') in 0.003029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 6.954564 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe14778c510415e799dd6a7ae336bcf') in 0.003305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 3.425826 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d8c32c1f7f8feddbe3261fa6db6edf') in 0.003307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 4.838390 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03660b0001f5680349fa10982855106') in 0.003130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 5.232604 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7eacfc95290ce9ab7fae67b14decf6') in 0.003021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 7.593824 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31a29171c6dbdead9070a0bef741f55') in 0.003104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 5.900754 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebd361fc085798de7dd9ca3c6b47a70') in 0.003396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 8.923426 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca11787cd1a4da9fecf3887d8ad29a5') in 0.003288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 6.321953 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9c5ccdc96044a99e3f94aca7d7b2a7') in 0.003275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 7.862002 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e5f54f983046b4b5c7469ac10fd3c1') in 0.003100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 4.828415 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7b34f251a0dc682befbcb4ae9d0446') in 0.003005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 7.256852 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69719a70047e7246520813e3f8fe588a') in 0.003712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 2.814610 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc2a4746d6a1f6569ba9cb8973da35b') in 0.003024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.796001 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b28ef69be73c812f36a5a2918c60723') in 0.003055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 1.202730 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c877bb352a275a76e2db245bb6b715c') in 0.002899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 13.329128 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cd16a4f3aeab4ac66607ea2e23ca4e') in 0.003266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 3.395934 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9b6b5d0f76c5e9d803c6dcc79bc8f3') in 0.002904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 3.811521 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e91dc7727ab607ee9298cb5540eec7d') in 0.003170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 6.346856 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa573ccb8663b5d2a20013ee92887f2d') in 0.003163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 9.262305 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1877014645e835ea9a81d87a7110af91') in 0.002987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 11.752845 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005df79927bb0eba1d8a8d144fc13a8a') in 0.002974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 9.060514 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f919bccfbb67bbcf6056923cea4277e') in 0.003142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 6.629848 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464d4ef33aecefd0af06c393d2150db2') in 0.002858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 4.878345 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75321c9f2a16fab05e431f6b42fefd99') in 0.003236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 4.028570 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec0291f55018df7dcb96de5b7fc0ae2') in 0.003005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 1.810292 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2705f6d34d59c38772ab9c37f7b2a808') in 0.003036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 6.659566 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2f6dd78f5fd4a09117fd787058187d') in 0.002985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 2.624766 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeccaac63ab821db13fa645b2c2d67a8') in 0.003281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 1.800381 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61b7477820086bb187450b7538ee51b') in 0.003166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 2.222050 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca2f8422dd4f70833fc9c96e06566ff') in 0.003233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 4.234146 seconds.
+  path: Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab
+  artifactKey: Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/CoinCounterUI.prefab using Guid(7a8c0b4081ed3634e8066c158754264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e0eff2fcde32b3551309ede8f5f433') in 0.003574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 110.558224 seconds.
+  path: Assets/Scenes/Levels/Level_MiniGame.unity
+  artifactKey: Guid(904130fcb1a7cb749bc1165827318b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_MiniGame.unity using Guid(904130fcb1a7cb749bc1165827318b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c21207ddab64653a491c7bb20e8eee7') in 0.000705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 206.693645 seconds.
+  path: Assets/Scenes/Levels/Level_Tutorial.unity
+  artifactKey: Guid(5eccf83f6698d1d4db0c571acd1fa216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_Tutorial.unity using Guid(5eccf83f6698d1d4db0c571acd1fa216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96611ec4cfbe024599343c362a7fd45e') in 0.000829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 77.417835 seconds.
+  path: Assets/Scenes/Menu/Menu.unity
+  artifactKey: Guid(de7a44bde8eb23447af0d6ecf0c7ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu/Menu.unity using Guid(de7a44bde8eb23447af0d6ecf0c7ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe442687f2cd3d4c0957921b4456e41') in 0.000862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 151.782387 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babe71acbc7558142049f2109809a947') in 0.005267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 16.426922 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6eb66b97325a64156a5f5c3e1adb6f1') in 0.003874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 14.603913 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dedf498f5b1fb0cc4b178fe7d7e7cc') in 0.003479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 94.169706 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07b61ed5aae9b5ad0c84518c0dcfdb2') in 0.003955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 1.594825 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b2394bed457bf71e5306579051208b') in 0.004763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 1.205171 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08a6ef197d6b0e376289b59bf27fad6') in 0.004569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 1.205804 seconds.
+  path: Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab
+  artifactKey: Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI Prefabs/PauseMenuUI.prefab using Guid(b0afbd61b281fa7408c7890df247a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5bd133b5618c7e644125f40e3508f9') in 0.004248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 15.219103 seconds.
+  path: Assets/Scenes/Levels/Level_MiniGame.unity
+  artifactKey: Guid(904130fcb1a7cb749bc1165827318b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_MiniGame.unity using Guid(904130fcb1a7cb749bc1165827318b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc6c39b468c431c12ff86cc57928d69') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 365.997438 seconds.
+  path: Assets/Scenes/Levels/Level_1.unity
+  artifactKey: Guid(5d7c4cfbe90e50c41b4d63621851fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_1.unity using Guid(5d7c4cfbe90e50c41b4d63621851fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3d96476251390ab24ab6c3d3f7c9b4') in 0.001193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 118.806741 seconds.
+  path: Assets/Scenes/Menu/Menu.unity
+  artifactKey: Guid(de7a44bde8eb23447af0d6ecf0c7ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu/Menu.unity using Guid(de7a44bde8eb23447af0d6ecf0c7ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f55a2fa0672febc282dbcb297f3b3a') in 0.000758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 62.254608 seconds.
+  path: Assets/Scenes/Levels/Level_2.unity
+  artifactKey: Guid(e8c39f6baccd65148b50aa66298ca095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_2.unity using Guid(e8c39f6baccd65148b50aa66298ca095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbbde580ac0b49746c927442c82732c') in 0.000636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.732011 seconds.
+  path: Assets/Scenes/Levels/Level_TriggerTest.unity
+  artifactKey: Guid(de7e53d2b27fada4e90246330d692cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_TriggerTest.unity using Guid(de7e53d2b27fada4e90246330d692cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef7463127c7e91e0e4cf4ee4d3474bc') in 0.000666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.494070 seconds.
+  path: Assets/Scenes/Levels/Level_TriggerTest.unity
+  artifactKey: Guid(de7e53d2b27fada4e90246330d692cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_TriggerTest.unity using Guid(de7e53d2b27fada4e90246330d692cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b490df5f1aff648c720d0797c53722') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.017689 seconds.
+  path: Assets/Scenes/Levels/Level_Tutorial.unity
+  artifactKey: Guid(5eccf83f6698d1d4db0c571acd1fa216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_Tutorial.unity using Guid(5eccf83f6698d1d4db0c571acd1fa216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935bc96680e340629a3804664d5c9988') in 0.000562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.497293 seconds.
+  path: Assets/Scenes/Levels/Level_1.unity
+  artifactKey: Guid(5d7c4cfbe90e50c41b4d63621851fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_1.unity using Guid(5d7c4cfbe90e50c41b4d63621851fa5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cabc8d708e96710f2e323b1f5753b5f') in 0.000798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 103.883632 seconds.
+  path: Assets/Scenes/Levels/Level_2.unity
+  artifactKey: Guid(e8c39f6baccd65148b50aa66298ca095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_2.unity using Guid(e8c39f6baccd65148b50aa66298ca095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e7317ea0c49ed6870dcd6de97d47c9') in 0.000707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.646999 seconds.
+  path: Assets/Scenes/Levels/Level_MiniGame.unity
+  artifactKey: Guid(904130fcb1a7cb749bc1165827318b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_MiniGame.unity using Guid(904130fcb1a7cb749bc1165827318b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166ec99ad52ad7b29bcc981d111c5234') in 0.000728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.365192 seconds.
+  path: Assets/Scenes/Levels/Level_MiniGame.unity
+  artifactKey: Guid(904130fcb1a7cb749bc1165827318b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_MiniGame.unity using Guid(904130fcb1a7cb749bc1165827318b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28dca3f3c1bd7b67689deaf08a3e73d') in 0.000564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.017003 seconds.
+  path: Assets/Scenes/Levels/Level_Tutorial.unity
+  artifactKey: Guid(5eccf83f6698d1d4db0c571acd1fa216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level_Tutorial.unity using Guid(5eccf83f6698d1d4db0c571acd1fa216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984c027878c69fefb672ac9f8540e99f') in 0.000648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 117.335553 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph
+  artifactKey: Guid(9b4e681081e2b4c469111bb649e2f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph using Guid(9b4e681081e2b4c469111bb649e2f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779a745127e0ec3df8bf246988239a7b') in 0.371033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5638b92f1958abaf16ada03c8cf05d') in 0.020433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph
+  artifactKey: Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph using Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca509dbde7407c10ddaaefe85a7c9cb6') in 0.602091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3257e743a70d178a3fea87952f2d8b52') in 0.202401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaa226f36242661b1344ec0495612f6') in 0.226638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-red.mat
+  artifactKey: Guid(4459fff084dd84526ab8fd5082d2eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-red.mat using Guid(4459fff084dd84526ab8fd5082d2eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78c23b411383d463fa00439182461ff') in 0.009459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph
+  artifactKey: Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph using Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69dbcb3ef7600cd56f49e3399f170186') in 0.551926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph
+  artifactKey: Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph using Guid(9920c1f1781549a46ba081a2a15a16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dac9621e1654fb2552f8d6bacf30ae') in 0.970087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.619384 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd98397cbe473cbe4e3cbd62617443b') in 0.016101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
