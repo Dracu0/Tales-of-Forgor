@@ -17937,7 +17937,7 @@ GameObject:
   - component: {fileID: 1235737263}
   - component: {fileID: 1235737265}
   - component: {fileID: 1235737267}
-  - component: {fileID: 1235737266}
+  - component: {fileID: 1235737269}
   m_Layer: 0
   m_Name: Triger_CantEscape
   m_TagString: Untagged
@@ -18108,31 +18108,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1235737266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235737262}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b936a43b09ae2564d8e709dca4076e84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundToTriggerSource: {fileID: 1235737265}
-  soundToTrigger:
-  - {fileID: 8300000, guid: 297b730850c047e458c831c2189bb5f2, type: 3}
-  SpriteOnTrigger: {fileID: 1235737263}
-  anim: {fileID: 0}
-  FadeAnimationTrigger: []
-  SFXTriggerVolume: 0.2
-  DelayBetweenClips: 0.5
-  DelayBetweenAnimations: 0
-  DelayToDestroy: 6
-  destroyOnDelay: 0
-  isTriggered: 0
-  isReplayable: 0
 --- !u!164 &1235737267
 AudioReverbFilter:
   m_ObjectHideFlags: 0
@@ -18202,6 +18177,31 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1235737269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235737262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06739c24c9dd7674a9065688f968236b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToTriggerSource: {fileID: 1235737265}
+  soundToTrigger:
+  - {fileID: 8300000, guid: ba593e982cca4c84fbcbfda75ff3149e, type: 3}
+  SpriteOnTrigger: {fileID: 1235737263}
+  anim: {fileID: 0}
+  FadeAnimationTrigger: []
+  SFXTriggerVolume: 0.2
+  DelayBetweenClips: 0.5
+  DelayBetweenAnimations: 0
+  DelayToDestroy: 6
+  destroyOnDelay: 0
+  isTriggered: 0
+  isReplayable: 0
 --- !u!1 &1298354171
 GameObject:
   m_ObjectHideFlags: 0
@@ -18737,7 +18737,7 @@ GameObject:
   - component: {fileID: 1770557790}
   - component: {fileID: 1770557789}
   - component: {fileID: 1770557788}
-  - component: {fileID: 1770557793}
+  - component: {fileID: 1770557794}
   m_Layer: 0
   m_Name: Trigger_2 Text
   m_TagString: Untagged
@@ -18977,7 +18977,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1770557793
+--- !u!114 &1770557794
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18986,20 +18986,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1770557786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b936a43b09ae2564d8e709dca4076e84, type: 3}
+  m_Script: {fileID: 11500000, guid: 06739c24c9dd7674a9065688f968236b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   soundToTriggerSource: {fileID: 1770557789}
   soundToTrigger:
-  - {fileID: 8300000, guid: 10cb89bb8cd14874c8970f39072943d9, type: 3}
-  - {fileID: 8300000, guid: 10cb89bb8cd14874c8970f39072943d9, type: 3}
+  - {fileID: 8300000, guid: 7c30a04219862144bac43b913ebc97da, type: 3}
+  - {fileID: 8300000, guid: 7c30a04219862144bac43b913ebc97da, type: 3}
   SpriteOnTrigger: {fileID: 1770557790}
   anim: {fileID: 0}
   FadeAnimationTrigger: []
-  SFXTriggerVolume: 0.5
+  SFXTriggerVolume: 0.2
   DelayBetweenClips: 0.5
   DelayBetweenAnimations: 0
-  DelayToDestroy: 0
+  DelayToDestroy: 6
   destroyOnDelay: 0
   isTriggered: 0
   isReplayable: 0

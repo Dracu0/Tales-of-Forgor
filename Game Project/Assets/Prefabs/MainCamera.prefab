@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1922729678425059751}
   - component: {fileID: 8691417452180691730}
   - component: {fileID: 5394444657728653152}
+  - component: {fileID: 772128076091088210}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -35,7 +36,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &62798101278648105
 Camera:
@@ -118,6 +119,7 @@ MonoBehaviour:
   m_Dithering: 0
   m_ClearDepth: 1
   m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
   m_UseScreenCoordOverride: 0
   m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
@@ -192,4 +194,16 @@ MonoBehaviour:
   cameraOffset: {x: 0, y: 0, z: 0}
   followSpeed: 10
   xMin: -500
-  cam: {fileID: 0}
+--- !u!114 &772128076091088210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211259775281009887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ffe7ac8e2ddbf7438ec333f21dff413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetFrameRate: 144
