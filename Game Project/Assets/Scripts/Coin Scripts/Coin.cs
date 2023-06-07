@@ -4,10 +4,14 @@ public class Coin : MonoBehaviour
 {
     //Keep track of total picked coins (Since the value is static, it can be accessed at "Coin.totalCoins" from any script)
     public static int totalCoins = 0;
-    public static int playerScore = 0;
+    public static int playerScore;
     public AudioSource coinSource;
     public float volume = 0.5f;
 
+    private void Start()
+    {
+        playerScore = PlayerPrefs.GetInt("PlayerScore", playerScore);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

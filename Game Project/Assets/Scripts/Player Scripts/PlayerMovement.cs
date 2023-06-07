@@ -20,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
     private CapsuleCollider2D bc;
     public GameObject open;
     public GameObject closed;
-    //public GameObject tutorialText;
     public int ncoins;
     public LayerMask whatIsGround;
     private bool viradoDireita;
@@ -136,14 +135,6 @@ public class PlayerMovement : MonoBehaviour
         {
             running = false;
         }
-
-        //Debug.Log(Coin.playerScore);
-
-        /*if (spikes ==true)
-        {
-            Vector2 NewPosition = new Vector2(10.0f, 10.0f);
-            player.(NewPosition);
-        }*/
     }
 
     void Flip()
@@ -197,7 +188,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector2 difference = (transform.position - collision.transform.position).normalized;
             Vector2 force = difference * knockbackForce;
-            rb.AddForce(force, ForceMode2D.Impulse); //if you don't want to take into consideration enemy's mass then use ForceMode.VelocityChange 
+            rb.AddForce(force, ForceMode2D.Impulse);
         }
     }
 

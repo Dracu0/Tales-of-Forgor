@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 1390082655062452987}
   - component: {fileID: 5860306989469955345}
   m_Layer: 0
-  m_Name: ClockMiniGame
+  m_Name: ClockMG
   m_TagString: MiniGame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,10 +1,10 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class ClockMG : MonoBehaviour
 {
     [SerializeField] private AudioSource clockSound;
     [SerializeField] private SpriteRenderer mgSprite;
+    [SerializeField] private float extraTime = 8.0f;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -12,7 +12,7 @@ public class ClockMG : MonoBehaviour
             clockSound = GetComponent<AudioSource>();
             clockSound.Play();
             Destroy(this.gameObject, 1);
-            CoinMiniGame.TimeLeft += 5.0f; 
+            CoinMiniGame.TimeLeft += extraTime;
         }
 
         if (collision.CompareTag("CoinDestroyer"))

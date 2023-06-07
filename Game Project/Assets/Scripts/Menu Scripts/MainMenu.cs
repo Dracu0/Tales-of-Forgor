@@ -5,6 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     private void Start()
     {
+        PlayerPrefs.GetInt("PlayerScore", Coin.playerScore);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.lockState = CursorLockMode.Confined;
@@ -25,6 +26,7 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         PlayerPrefs.SetInt("MiniGameCoins", 0);
+        PlayerPrefs.SetInt("PlayerScore", Coin.playerScore);
         Application.Quit();
     }
 }

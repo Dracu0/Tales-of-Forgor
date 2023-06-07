@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerScore : MonoBehaviour
 {
-    [SerializeField]public static int playerScore = 0;
+    public static int playerScore;
 
     private void Update()
     {

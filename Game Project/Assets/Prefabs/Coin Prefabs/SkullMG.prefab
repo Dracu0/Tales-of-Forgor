@@ -47,11 +47,11 @@ MonoBehaviour:
   m_ComponentVersion: 2
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.8
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 3
+  m_FalloffIntensity: 1
+  m_Color: {r: 1, g: 0.5686275, b: 0, a: 1}
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.15
-  m_LightVolumeEnabled: 0
+  m_LightVolumeEnabled: 1
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 21300000, guid: 119f93d0bcbf1e743bf5fcf237507d39, type: 3}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 5
+  m_PointLightOuterRadius: 10
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -125,9 +125,9 @@ GameObject:
   - component: {fileID: 6071432338116402686}
   - component: {fileID: 4562207127729789347}
   - component: {fileID: 1390082655062452987}
-  - component: {fileID: -9063931553839287385}
+  - component: {fileID: 6325174921336502795}
   m_Layer: 0
-  m_Name: HearthMiniGame
+  m_Name: SkullMG
   m_TagString: MiniGame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,7 +159,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7c30a04219862144bac43b913ebc97da, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 84f12ae4f0c2b404e8f94d2f6fbf591c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 0.3
@@ -283,7 +283,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 1.5
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -295,7 +295,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &-9063931553839287385
+--- !u!114 &6325174921336502795
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -304,10 +304,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7249771604009048074}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2946e40b85622244a93bc921eeb51648, type: 3}
+  m_Script: {fileID: 11500000, guid: 7473cec8246707742b0aac6db37deedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartSound: {fileID: 6071432338116402686}
+  skullSound: {fileID: 6071432338116402686}
   mgSprite: {fileID: 7695215001457125851}
 --- !u!1 &9012936440382904885
 GameObject:
@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 7695215001457125851}
   - component: {fileID: 3557133728156257416}
   m_Layer: 0
-  m_Name: Hearth
+  m_Name: Skull
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -385,7 +385,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: aee15b757649ff44694c6232dfec7cf9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 263219c35c4f7be4db8ec60255deee1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
