@@ -14,8 +14,8 @@ public class SoundTriggerWithSprite : MonoBehaviour
     [SerializeField] private float DelayBetweenAnimations;
     [SerializeField] private float DelayToDestroy;
     [SerializeField] private bool destroyOnDelay;
-    [SerializeField] private bool isTriggered;
     [SerializeField] private bool isReplayable;
+    private bool isTriggered;
     int count = 1;
 
     private void Start()
@@ -57,7 +57,7 @@ public class SoundTriggerWithSprite : MonoBehaviour
                 }
             }
         }
-        Debug.Log(count);
+        //Debug.Log(count);
     }
 
     IEnumerator PlayMultipleSFX()

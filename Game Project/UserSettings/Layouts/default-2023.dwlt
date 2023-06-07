@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 86
+  controlID: 129
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -484,10 +484,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 66.79999}
-      m_SelectedIDs: 780af8ff
-      m_LastClickedID: -521608
-      m_ExpandedIDs: 9e04f8ffd004f8ff4e0bf8ffa211f8ff4e12f8ff7615f8ff0417f8ff1218f8ff2c18f8ff3c18f8ff4e18f8fff019f8ff541cf8ff861cf8fffe92f8fff299f8ffee9af8ff109ef8ff989ff8ffa0a0f8ffb6a0f8ffc2a0f8ffcea0f8ff6aa2f8ffc8a4f8fff4a4f8ff70c7f8ff1cc8f8ff6ecbf8ff00cdf8ff12cef8ff30cef8ff44cef8ff5acef8ff00d0f8ff68d2f8ff9ed2f8fffad5f8ffa4d7f8ff6cd9f8ffd2dbf8fffe42f9ff0043f9ff56f7f9ff02f8f9ff2efbf9ffd0fcf9fff2fdf9ff10fef9ff24fef9ff3afef9fff0fff9ff6802faff9e02faff360bfaff3a0ffaff9e19faff0824faffc026faffa82afaffc030faff6e3bfaffd63ffaffd0b4faff7eb5faffa6b8faff44bafaff62bbfaff7cbbfaff8cbbfaff9ebbfaff50bdfaffc4bffafff6bffaffcec7faff00c8faffccc8faff2ecbfaff60cbfaff80cbfaff14d0faff1ad5faff4cd5faff96d5faff1cd8faff4ed8faffdad8fafffe28fbffac29fbffd42cfbff722efbff902ffbffaa2ffbffba2ffbffcc2ffbff7e31fbfff233fbff2434fbfff642fbffde4afbff8c4bfbffb44efbff5250fbff7051fbff8a51fbff9a51fbffac51fbff5e53fbffd255fbff0456fbff585dfbff8a5dfbff745efbff9c61fbffce61fbff2262fbffa464fbffd664fbff2065fbffb868fbffea68fbfffa68fbff906ffbffc26ffbffdc6ffbff0088fbff3088fbff8089fbff908afbffba8efbff4ea1fbff7ea1fbff1ea3fbff98b1fbff86b7fbff10b8fbff6ed4fbff1cd5fbff48d8fbffead9fbff0cdbfbff26dbfbff36dbfbff48dbfbfffedcfbff76dffbffa8dffbffeaa6fcff98a7fcffc4aafcff66acfcff88adfcffa2adfcffb2adfcffc4adfcff7aaffcfff2b1fcff24b2fcff16bcfcff68bcfcff68c0fcff9cc0fcff30c3fcff7ec3fcff92c5fcff4ad0fcffaad4fcffe6d4fcff2edafcfff4e2fcff30e3fcffd4acfdff80adfdffd4b0fdff78b2fdff9cb3fdffb6b3fdffc6b3fdffd8b3fdff90b5fdff08b8fdff3ab8fdff78e5fdff92e5fdff00eafdff5aedfdff2aeffdffc20efeff1c47fefffc48feff5af1ffff34f2fffff4f2ffff04fbffff887100009c710000f0750000fa7500001e7600004aac000054ac000016b100002ab100009eb70000bab70000dab70000f8d1000014000100fc010100160201002a02010078020100f00401000a150100461d0100ae1d01000e2e0100144201008c63010096630100
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: f2faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1000,9 +1000,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.9164598, y: 1.4919742, z: 402.51263}
+    m_Target: {x: 5.8621316, y: -2.6541371, z: -1.5202641}
     speed: 2
-    m_Value: {x: -2.709949, y: 1.4225011, z: 381.64728}
+    m_Value: {x: 5.8621316, y: -2.6541371, z: -1.5202641}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1052,9 +1052,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.396263
+    m_Target: 20.154873
     speed: 2
-    m_Value: 8.991639
+    m_Value: 20.154873
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1268,7 +1268,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 29362
+  m_LastSelectedObjectID: -1300
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1318,7 +1318,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/UI Prefabs
+    - Assets/Scripts/Sound Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1328,16 +1328,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Prefabs/UI Prefabs
+  - Assets/Scripts/Sound Scripts
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\david\Tales of Forgor\Game Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 217.40002}
-    m_SelectedIDs: 88740000
-    m_LastClickedID: 29832
-    m_ExpandedIDs: 00000000d8720000da720000dc720000de720000e2720000e4720000e6720000e8720000ea720000ec720000ee720000f0720000f2720000f4720000f67200000833010000ca9a3b
+    scrollPos: {x: 0, y: 253.40002}
+    m_SelectedIDs: 48760000
+    m_LastClickedID: 30280
+    m_ExpandedIDs: 00000000727400007474000076740000787400007a7400007c7400007e74000080740000827400008474000086740000887400008a7400008c7400008e740000907400003676000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1365,7 +1365,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d8720000da720000dc720000de720000e0720000e2720000e4720000e6720000e8720000ea720000ec720000ee720000f0720000f2720000f4720000f6720000
+    m_ExpandedIDs: 00000000727400007474000076740000787400007a7400007c7400007e74000080740000827400008474000086740000887400008a7400008c7400008e74000090740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1409,7 +1409,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0

@@ -95,7 +95,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: ae49a6529c99b074fb0b3e27cdaa97b2, type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 239b52c751cb1e44d9e9f59131ee6a7b, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: b7686b7cdf674eb4fbd7d824274c806a, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -208,6 +208,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 1121443553
       objectReference: {fileID: 0}
+    - target: {fileID: 6963282307843659419, guid: 0a0eacaa9d04191468c2bb64ba5dd58a, type: 3}
+      propertyPath: m_GravityScale
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7971416658914121270, guid: 0a0eacaa9d04191468c2bb64ba5dd58a, type: 3}
       propertyPath: open
       value: 
@@ -221,8 +225,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7971416658914121270, guid: 0a0eacaa9d04191468c2bb64ba5dd58a, type: 3}
+      propertyPath: walkspeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7971416658914121270, guid: 0a0eacaa9d04191468c2bb64ba5dd58a, type: 3}
       propertyPath: JumpHeight
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7971416658914121270, guid: 0a0eacaa9d04191468c2bb64ba5dd58a, type: 3}
       propertyPath: knockbackForce
@@ -230,7 +238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7971416658914121270, guid: 0a0eacaa9d04191468c2bb64ba5dd58a, type: 3}
       propertyPath: doubleJumpHeight
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8883885851329395155, guid: 0a0eacaa9d04191468c2bb64ba5dd58a, type: 3}
       propertyPath: m_Name
@@ -871,7 +879,6 @@ MonoBehaviour:
   DelayBetweenAnimations: 0
   DelayToDestroy: 5
   destroyOnDelay: 0
-  isTriggered: 0
   isReplayable: 0
 --- !u!1 &726162145
 GameObject:
@@ -18200,7 +18207,6 @@ MonoBehaviour:
   DelayBetweenAnimations: 0
   DelayToDestroy: 6
   destroyOnDelay: 0
-  isTriggered: 0
   isReplayable: 0
 --- !u!1 &1298354171
 GameObject:
@@ -19001,7 +19007,6 @@ MonoBehaviour:
   DelayBetweenAnimations: 0
   DelayToDestroy: 6
   destroyOnDelay: 0
-  isTriggered: 0
   isReplayable: 0
 --- !u!1 &2027429889
 GameObject:

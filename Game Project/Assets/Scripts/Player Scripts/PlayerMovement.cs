@@ -33,7 +33,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        open.SetActive(false);
         rb = GetComponent<Rigidbody2D>();
         player = player.transform;
         anim = GetComponent<Animator>();
@@ -45,6 +44,15 @@ public class PlayerMovement : MonoBehaviour
         string sceneName = currentScene.name;
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
+        if (closed != null && open != null)
+        {
+            open.SetActive(false);
+        }
+        else
+        { 
+            return;
+        }
     }
 
     private void Update()
@@ -97,10 +105,17 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(dirX));
         if ((dirX < 0 && viradoDireita) || (dirX > 0 && !viradoDireita)) Flip();
 
-        if (Coin.totalCoins >= ncoins)
+        if (closed != null && open != null)
         {
-            closed.SetActive(false);
-            open.SetActive(true);
+            if (Coin.totalCoins >= ncoins)
+            {
+                closed.SetActive(false);
+                open.SetActive(true);
+            }
+        }
+        else
+        {
+            return;
         }
     }
 
