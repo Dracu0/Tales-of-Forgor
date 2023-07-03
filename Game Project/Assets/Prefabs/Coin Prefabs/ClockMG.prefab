@@ -309,6 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clockSound: {fileID: 6071432338116402686}
   mgSprite: {fileID: 7695215001457125851}
+  extraTime: 5
 --- !u!1 &9012936440382904885
 GameObject:
   m_ObjectHideFlags: 0

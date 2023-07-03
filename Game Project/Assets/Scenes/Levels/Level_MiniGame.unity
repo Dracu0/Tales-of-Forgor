@@ -185,6 +185,7 @@ MonoBehaviour:
   - {fileID: 7249771604009048074, guid: 4b9927b71f35a3f428de427bbc6f069d, type: 3}
   - {fileID: 7249771604009048074, guid: 4b9927b71f35a3f428de427bbc6f069d, type: 3}
   - {fileID: 7249771604009048074, guid: ab44feeb7fa179942852aee19e07a173, type: 3}
+  - {fileID: 7249771604009048074, guid: ab44feeb7fa179942852aee19e07a173, type: 3}
 --- !u!1 &294235091
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,7 +1925,7 @@ PrefabInstance:
     - target: {fileID: 6503767545824185383, guid: 3360fc59dd81d5b41800c080807fe496, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 630ae2af3e8fb324c93382898c1a01e3, type: 3}
+      objectReference: {fileID: 8300000, guid: 49c5e2807da593d4483b0ea41e4c9912, type: 3}
     - target: {fileID: 6503767545824185383, guid: 3360fc59dd81d5b41800c080807fe496, type: 3}
       propertyPath: m_PlayOnAwake
       value: 1
