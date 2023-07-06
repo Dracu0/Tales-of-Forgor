@@ -21767,7 +21767,8 @@ PrefabInstance:
       value: PauseMenuUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2580828276267322341, guid: b0afbd61b281fa7408c7890df247a381, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0afbd61b281fa7408c7890df247a381, type: 3}

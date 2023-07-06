@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level_Tutorial.unity
     guid: 5eccf83f6698d1d4db0c571acd1fa216
   - enabled: 1
-    path: Assets/Scenes/Levels/Level_TriggerTest.unity
+    path: Assets/Scenes/Levels/Level_Secret.unity
     guid: de7e53d2b27fada4e90246330d692cfa
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

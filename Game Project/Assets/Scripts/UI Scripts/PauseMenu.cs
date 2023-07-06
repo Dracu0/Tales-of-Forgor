@@ -14,6 +14,7 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenu = GetComponent<Canvas>();
         pauseMenu.enabled = false;
+        GameIsPaused = false;
         PlayerPrefs.GetInt("MiniGameCoins");
     }
 
